@@ -1,0 +1,125 @@
+{
+  "event_id": "ls-20260901T213217Z-002",
+  "receipt_id": "lsr-20260901T213217Z-002",
+  "executed_at_utc": "2026-09-01T21:32:17Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor receipt. This run applied the existing program-surface, eligibility, magnitude-recovery, displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-01T111111Z.json",
+  "previous_hash": "4a4909c65bcd41e9ad74eaf720aa6ee9123ebdb54e08595c915f38454de03aaa",
+  "output_digest": "b14942b58e7735c0fea42589c0414df65dd29d6b25fad3ad21f33c2819ac3d69",
+  "output_digest_scope": "SHA-256 of canonical JSON for the report object: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-01T21:32:17Z",
+    "previous_run_delta": "New: Cloudflare's current program page confirms its bootstrapped entry tier doubled from $5,000 to $10,000; AMD's individual developer program was recovered and its $100 MI300X credit is now paired with a challenge launched September 1; OpenAI announced Astra and a future Daybreak Blue access path today. Closing: WebMCP is now under 48 hours from its September 3 deadline. Unchanged/not recycled: Tencent Hy4, OpenCode Zen, the rejected free-hosted GLM 5.2 claim, and the corrected Devin benchmark.",
+    "signals": [
+      {
+        "signal_id": "cloudflare-startups-tier3-10k-delta",
+        "classification": "CONFIRMED FACT with ELIGIBILITY AMBIGUITY",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "Cloudflare says it recently doubled its bootstrapped Tier 3 allocation from $5,000 to $10,000.",
+        "free_value": "$10,000 of one-year usage credits; Tier 3 Workers AI is capped at $2,500 and R2 at $10,000; core security/networking and three Enterprise domains are listed as included. AI Gateway is excluded.",
+        "fit": "Potentially aligned with LEVERAGEδ's planned Cloudflare edge surface, but only if an existing incorporated product company already meets the live-site, domain-email, public-presence, and first-application gates.",
+        "catch": "The same page says all applicants must have been funded within the last 12 months, which conflicts with its bootstrapped/self-funded Tier 3 language. Eligibility must be clarified; do not form a company or delay shipping merely to chase credits.",
+        "sources": [
+          "https://www.cloudflare.com/startups/"
+        ]
+      },
+      {
+        "signal_id": "amd-ai-developer-cloud-100",
+        "classification": "CONFIRMED FACT",
+        "score": 83,
+        "displacement": "TEST",
+        "changed": "Recovered a still-actionable individual-developer program: approved members can select $100 AMD Developer Cloud credit (about 50 hours) or $50 Fireworks AI credit. The AMD/Lablab Academy Challenge opened September 1.",
+        "free_value": "$100 of AMD Developer Cloud access to Instinct GPUs, approximately 50 hours; AMD states the credit expires 30 days after activation. The alternative Fireworks credit is $50 for 90 days.",
+        "fit": "Strong fit for a solo builder without local GPU hardware; application asks for affiliation, intended use, and a public LinkedIn/GitHub profile.",
+        "catch": "Program approval is required. AMD's FAQ indicates choosing either AMD Developer Cloud or Fireworks; a payment-card requirement for promotional redemption was not established. Activate only when a bounded workload is ready.",
+        "sources": [
+          "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-claim-amd-cloud-credits.html",
+          "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+          "https://www.amd.com/en/developer/resources/technical-articles/2026/openclaw-on-amd-developer-cloud-qwen-3-5-and-sglang.html",
+          "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge"
+        ]
+      },
+      {
+        "signal_id": "openai-astra-daybreak-access",
+        "classification": "CONFIRMED FACT; ECONOMIC TERMS UNKNOWN",
+        "score": 67,
+        "displacement": "WATCH",
+        "changed": "OpenAI announced September 1 that Astra crossed its critical cyber-capability threshold and will be available soon, with its most advanced cyber capabilities restricted and later accessible through Daybreak Blue.",
+        "free_value": "No free quota, credit amount, or zero-cost access was confirmed.",
+        "fit": "Potential step-change for authorized defensive security, secure code review, and vulnerability triage; current project fit is insufficient to justify an application sprint.",
+        "catch": "Approval, identity verification, account security, monitoring, legal attestations, and authorized-use restrictions apply. Pricing and release timing are not yet stated.",
+        "sources": [
+          "https://openai.com/index/path-to-astra/",
+          "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+          "https://openai.com/daybreak/"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "GitHub code search did not return the predecessor; the public repository directory and raw receipt were read instead.",
+      "Cloudflare does not publish an exact date for the recent tier increase.",
+      "AMD promotional-credit payment-card requirements were not established from the primary sources reviewed.",
+      "Fresh hackathons without guaranteed participant capacity were omitted as workload-generating prize competitions rather than leverage."
+    ],
+    "source_manifest": [
+      "https://www.cloudflare.com/startups/",
+      "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-claim-amd-cloud-credits.html",
+      "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+      "https://www.amd.com/en/developer/resources/technical-articles/2026/openclaw-on-amd-developer-cloud-qwen-3-5-and-sglang.html",
+      "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge",
+      "https://openai.com/index/path-to-astra/",
+      "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+      "https://openai.com/daybreak/",
+      "https://openai.com/webmcp-challenge/",
+      "https://webmcp.devpost.com/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-startups-tier3-10k-delta",
+      "amd-ai-developer-cloud-100",
+      "openai-astra-daybreak-access"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-startups-tier3-10k-delta",
+        "class": "CONFIRMED FACT with ELIGIBILITY AMBIGUITY"
+      },
+      {
+        "signal_id": "amd-ai-developer-cloud-100",
+        "class": "CONFIRMED FACT"
+      },
+      {
+        "signal_id": "openai-astra-daybreak-access",
+        "class": "CONFIRMED FACT; ECONOMIC TERMS UNKNOWN"
+      }
+    ],
+    "omissions_errors": [
+      "GitHub code search did not return the predecessor; the public repository directory and raw receipt were read instead.",
+      "Cloudflare does not publish an exact date for the recent tier increase.",
+      "AMD promotional-credit payment-card requirements were not established from the primary sources reviewed.",
+      "Fresh hackathons without guaranteed participant capacity were omitted as workload-generating prize competitions rather than leverage."
+    ]
+  },
+  "canonical_sources": [
+    "https://www.cloudflare.com/startups/",
+    "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-claim-amd-cloud-credits.html",
+    "https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html",
+    "https://www.amd.com/en/developer/resources/technical-articles/2026/openclaw-on-amd-developer-cloud-qwen-3-5-and-sglang.html",
+    "https://lablab.ai/ai-hackathons/amd-lablab-ai-academy-challenge",
+    "https://openai.com/index/path-to-astra/",
+    "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+    "https://openai.com/daybreak/",
+    "https://openai.com/webmcp-challenge/",
+    "https://webmcp.devpost.com/"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "UNANCHORED CANDIDATE until this exact JSON file is committed to the append-only GitHub path.",
+  "content_hash_scope": "SHA-256 of canonical JSON for this receipt excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "3052e6d3e652a641e52e3dbb43d300efc5716e2a9da2e0c958c53a157f81ebf1",
+  "signature": "UNSIGNED"
+}
