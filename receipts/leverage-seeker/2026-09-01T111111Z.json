@@ -1,0 +1,139 @@
+{
+  "action": "leverage-seeker-edge-scout/manual-dispatch",
+  "agent": {
+    "id": "codex://leverage-seeker-daily",
+    "metadata": {
+      "automation_id": "6a91f93f61848191bfb62b35f07b9df4",
+      "execution_authority": "user-directed manual dispatch",
+      "task_policy": "Leverage Seeker Daily",
+      "task_policy_version": "2026-09-01.ice-receipt-v0"
+    },
+    "type": "llm-agent"
+  },
+  "extensions": {
+    "content_hash_scope": "UTF-8 bytes of JSON.stringify(content_hash_preimage), excluding both content_hash and signature because self-inclusion is not hashable.",
+    "integrity_state": "PROVISIONAL: self-attested; unsigned; GitHub publication is an append-only-by-policy anchor, not an independent cryptographic timestamp service.",
+    "policy_change": "The daily automation was updated before this dispatch to require an ICE RUN RECEIPT and prohibit fabricated hashes, signatures, anchors, or prior references.",
+    "raw_source_capture": "Not exported in this v0 manual run; source URLs and contemporaneous report are retained.",
+    "receipt_profile": "leverage-seeker-v0.1-provisional",
+    "report": {
+      "executed_at_utc": "2026-09-01T11:11:11Z",
+      "previous_run_delta": "First receipt-bearing run; no prior ICE receipt exists. WebMCP is now a deadline/offer-decay alert rather than a newly discovered program.",
+      "rejected_by_eligibility": [
+        {
+          "program": "Google Cloud AI startup program",
+          "reason": "The advertised up-to-$350,000 tier is for VC-funded startups and specified funding windows; not an appropriate zero-capital recommendation."
+        },
+        {
+          "program": "Claude for Startups credits",
+          "reason": "Credits/extras require institutional equity funding, even though general program participation is broader."
+        }
+      ],
+      "report_schema": "leverage-seeker.report/v1",
+      "run_id": "ls-20260901T111111Z-001",
+      "signals": [
+        {
+          "catch": "High execution burden in roughly two days; this is not a passive credit capture.",
+          "changed": "The WebMCP Challenge submission deadline is September 3, 2026 at 1:00 p.m. PDT.",
+          "classification": "CONFIRMED FACT",
+          "displacement": "TEST",
+          "fit": "US independent builders are eligible subject to rules. A working live WebMCP app, public open-source repo, and sub-three-minute public demo video are required.",
+          "free_value": "Top 10 receive $3,000 cash, one year of ChatGPT Pro, and sponsor prizes; winner credits include $10,000 Cloudflare, $4,200 Vercel/Gateway over 12 months, and $300 Render.",
+          "immediate_exploit": "Only test if a deployable one-surface concept and demo can be completed without displacing the revenue work already in flight.",
+          "score": 83,
+          "signal_id": "webmcp-closing-window",
+          "sources": [
+            "https://openai.com/webmcp-challenge/",
+            "https://webmcp.devpost.com/"
+          ]
+        },
+        {
+          "catch": "No published free-use quota in the announcement; use non-sensitive work until data and account terms are checked.",
+          "changed": "Tencent released/open-sourced Hy4 preview on August 28, 2026 and says it is free in WorkBuddy and CodeBuddy for two weeks.",
+          "classification": "CONFIRMED FACT",
+          "displacement": "TEST",
+          "fit": "Officially stated as globally accessible through the named applications; API access is separately paid.",
+          "free_value": "Temporary no-price access to a 770B-total-parameter, 49B-active, 1M+ context productivity model through named applications.",
+          "immediate_exploit": "Run one bounded coding or research benchmark through WorkBuddy or CodeBuddy before September 11; compare usable output to the current stack.",
+          "score": 76,
+          "signal_id": "tencent-hy4-two-week-free-access",
+          "sources": [
+            "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/"
+          ]
+        },
+        {
+          "catch": "The free period is explicitly limited-time, quotas are not published in the cited page, and OpenCode says data from several free models may be used for model improvement.",
+          "changed": "OpenCode Zen's official documentation currently lists six named models as free, including Nemotron 3 Ultra and Nemotron 3.5 Lightning.",
+          "classification": "CONFIRMED FACT",
+          "displacement": "TEST",
+          "fit": "Useful as a non-sensitive, swappable agent-routing/test surface.",
+          "free_value": "Zero listed token price through OpenCode's OpenAI-compatible endpoints for the listed temporary models.",
+          "immediate_exploit": "Run a 15-minute disposable benchmark against one current agent task; do not submit private repositories, credentials, customer data, or unreleased IP.",
+          "score": 74,
+          "signal_id": "opencode-zen-free-model-surface",
+          "sources": [
+            "https://dev.opencode.ai/docs/zen/"
+          ]
+        },
+        {
+          "catch": "Do not revive solely because of headline size.",
+          "changed": "The official current page confirms the program is live but corrects the headline interpretation: $15,000 is free on approval; the additional $50,000 is a 1:1 matching grant that requires $50,000 in reload spend.",
+          "classification": "CONFIRMED FACT",
+          "displacement": "WATCH",
+          "fit": "Keep as LEVERAGE SEEKER benchmark #001 only; it does not fit the present workload and cash constraint.",
+          "free_value": "$15,000 free credits for accepted startups; not $65,000 in unconditional credits.",
+          "immediate_exploit": "None.",
+          "score": 0,
+          "signal_id": "devin-startups-benchmark-correction",
+          "sources": [
+            "https://devin.ai/startups"
+          ]
+        },
+        {
+          "catch": "Aggregator listings can lag provider pricing and endpoint changes.",
+          "changed": "Primary sources support MIT-licensed open weights, but not an unrestricted free hosted API. NVIDIA labels its free endpoint deprecated; OpenCode lists GLM 5.2 as paid.",
+          "classification": "CONFIRMED FACT",
+          "displacement": "DROP",
+          "fit": "Do not base an automation or budget on a claim of unlimited/free GLM 5.2 API access.",
+          "free_value": "Open weights only; no verified free hosted endpoint in the primary sources reviewed.",
+          "immediate_exploit": "Remove it from the zero-cost inference assumption until a primary provider terms page proves otherwise.",
+          "score": 0,
+          "signal_id": "glm-5-2-free-hosted-api-claim-rejected",
+          "sources": [
+            "https://z.ai/blog/glm-5.2",
+            "https://build.nvidia.com/z-ai/glm-5.2",
+            "https://dev.opencode.ai/docs/zen/"
+          ]
+        }
+      ],
+      "today_asymmetric_move": {
+        "action": "Do one 15-minute OpenCode Zen benchmark on non-sensitive material, then decide whether to use it only as a disposable routing layer.",
+        "cash_required": "$0 listed token price; account/payment requirements not independently verified.",
+        "why_now": "The offer is explicitly limited-time and carries a data-use caveat, so the low-risk test either captures optional capacity or eliminates the surface quickly."
+      }
+    },
+    "source_manifest": [
+      "https://openai.com/webmcp-challenge/",
+      "https://webmcp.devpost.com/",
+      "https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview/",
+      "https://dev.opencode.ai/docs/zen/",
+      "https://devin.ai/startups",
+      "https://z.ai/blog/glm-5.2",
+      "https://build.nvidia.com/z-ai/glm-5.2",
+      "https://cloud.google.com/startup/ai",
+      "https://claude.com/programs/startups"
+    ]
+  },
+  "previous_hash": "GENESIS",
+  "receipt_id": "b72f1382-47ee-49c3-9e48-bada846973e4",
+  "result_hash": "72e0fd59af137db4d4e15eda7685b340afb3f4c67fd78047135bdec4bb19113c",
+  "result_summary": "First receipt-bearing LEVERAGE SEEKER run. Two bounded TEST surfaces were confirmed (Tencent Hy4 temporary free application access; OpenCode Zen temporary zero-priced model surface). WebMCP is a closing-window TEST, not an automatic priority override. The Devin $65K headline was corrected to $15K free plus a conditional $50K matching grant. The claim of a verified unrestricted free GLM 5.2 hosted API was rejected.",
+  "target": {
+    "surface": "public-web",
+    "url": "https://openai.com/webmcp-challenge/"
+  },
+  "timestamp": "2026-09-01T11:11:11Z",
+  "version": "0.1",
+  "content_hash": "4a4909c65bcd41e9ad74eaf720aa6ee9123ebdb54e08595c915f38454de03aaa",
+  "signature": "UNSIGNED: no policy-issued signing key is available to this task runner"
+}
