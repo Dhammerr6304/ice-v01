@@ -1,0 +1,128 @@
+{
+  "event_id": "ls-20260902T212614Z-003",
+  "receipt_id": "lsr-20260902T212614Z-003",
+  "executed_at_utc": "2026-09-02T21:26:14Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor receipt. This run applied the existing fresh-signal, program-surface, eligibility, magnitude-recovery, displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-01T213217Z-lsr-20260901T213217Z-002.json",
+  "previous_hash": "3052e6d3e652a641e52e3dbb43d300efc5716e2a9da2e0c958c53a157f81ebf1",
+  "output_digest": "f6cf4f98d207b0de1a1cd161452e770038b5e228f25ee2f787ae8c69b3a56993",
+  "output_digest_scope": "SHA-256 of canonical JSON for the report object: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-02T21:26:14Z",
+    "previous_run_delta": "New: Zoho launched Catalyst 3.0 on September 2 with an agent-ready full-stack platform, a recurring monthly free tier, and an optional $250 six-month credit requiring a payment method. Recovered: Deepgram combines $200 no-card signup credit with an application-only startup program advertising up to $100,000; Flux TTS is free through September 12. Recovered: AssemblyAI offers $50 non-expiring signup credits and a bootstrapped-friendly startup program with 12 months of recurring credits, but does not disclose the amount. Closing: WebMCP submissions are due September 3 at 1 p.m. PT. Unchanged/not recycled: Cloudflare's $10,000 Tier 3, AMD Developer Cloud, and Astra/Daybreak.",
+    "signals": [
+      {
+        "signal_id": "deepgram-voice-stack-200-100k-flux-window",
+        "classification": "CONFIRMED FACT; PROGRAM AWARD DISCRETIONARY",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "Recovered a layered voice-infrastructure subsidy: $200 standard signup credit without a card, Flux TTS free through September 12, and an application-only startup path advertising up to $100,000 for 12 months.",
+        "free_value": "$200 standard credit; at the current $0.0043/min Nova-3 pre-recorded rate this is roughly 775 hours. Flux TTS is free until September 12. Accepted startup applicants may receive up to $100,000, but Deepgram controls the amount and timing.",
+        "fit": "Zero-card entry is solo-builder accessible. The startup program requires an AI builder or early-stage startup in production or launching within six months and active community participation.",
+        "catch": "Startup approval and award size are discretionary; credits expire 12 months after issue, work only on Pay As You Go, follow the standard signup credits, are project-tied, and exclude competitor research. Do not start the one-year clock without a plausible voice workload.",
+        "sources": [
+          "https://deepgram.com/pricing",
+          "https://deepgram.com/startup-program",
+          "https://deepgram.com/startup-program-terms-of-service"
+        ]
+      },
+      {
+        "signal_id": "zoho-catalyst-3-agent-ready-launch",
+        "classification": "CONFIRMED FACT; FRESH LAUNCH",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "Zoho launched Catalyst 3.0 on September 2 with MCP, agent skills, AI-IDE integration, scoped agent permissions, audit trails, and a full-stack cloud surface.",
+        "free_value": "An auto-renewing monthly free tier across functions, database, object storage, CDN hosting, SmartBrowz, and other components. Current examples include 25,000 function GB-seconds, 500 PDF conversions, 5 GB Data Store, 5 GB object storage, and 300,000 frontend CDN requests per month. A separate one-time $250 credit lasts six months.",
+        "fit": "Account-level free tier is accessible without an incorporation or funding gate found on the pricing surface. It can host bounded experiments and agent-built applications.",
+        "catch": "A payment method is required to claim the $250 credit, after which normal billing applies at expiry. Free quotas are shared across usage dimensions and do not justify migrating the current Cloudflare plan or delaying the WebMCP submission.",
+        "sources": [
+          "https://catalyst.zoho.com/",
+          "https://catalyst.zoho.com/pricing.html",
+          "https://docs.catalyst.zoho.com/en/deployment-and-billing/billing/avail-250-credit/",
+          "https://www.businesswire.com/news/home/20260902731383/en/Catalyst-by-Zoho-Solves-The-Shortfalls-of-Moving-from-Coding-to-Production-With-an-Agent-Ready-Full-Stack-Cloud-and-Built-In-Governance"
+        ]
+      },
+      {
+        "signal_id": "assemblyai-startup-recurring-credits",
+        "classification": "CONFIRMED FACT; AWARD AMOUNT UNDISCLOSED",
+        "score": 76,
+        "displacement": "WATCH",
+        "changed": "Recovered a second voice-program surface: new accounts receive non-expiring credits, and bootstrapped through Series A startups can apply for 12 months of recurring credits and engineering guidance.",
+        "free_value": "$50 of non-expiring signup credits for STT, streaming STT, Voice Agent API, Speech Understanding, and Guardrails; startup-program amount is not public.",
+        "fit": "Bootstrapped teams are explicitly welcome, but the product must center voice/audio and be in production or launching within six months. A work email and company name are requested.",
+        "catch": "LLM Gateway is excluded. The undisclosed startup amount prevents magnitude verification, and there is no reason to divert work absent a real voice product.",
+        "sources": [
+          "https://www.assemblyai.com/docs/billing-and-pricing",
+          "https://www.assemblyai.com/contact/startup-program"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Deepgram does not guarantee a particular startup-program award below its advertised up-to amount.",
+      "AssemblyAI does not publicly disclose its recurring startup-credit amount.",
+      "Zoho requires a payment method for the separate $250 credit; only the recurring monthly free tier was treated as zero-card infrastructure.",
+      "Fresh model launches without verified free access or credits were excluded.",
+      "No authenticated partner-benefit inventories were accessible in this run."
+    ],
+    "source_manifest": [
+      "https://deepgram.com/pricing",
+      "https://deepgram.com/startup-program",
+      "https://deepgram.com/startup-program-terms-of-service",
+      "https://catalyst.zoho.com/",
+      "https://catalyst.zoho.com/pricing.html",
+      "https://docs.catalyst.zoho.com/en/deployment-and-billing/billing/avail-250-credit/",
+      "https://www.businesswire.com/news/home/20260902731383/en/Catalyst-by-Zoho-Solves-The-Shortfalls-of-Moving-from-Coding-to-Production-With-an-Agent-Ready-Full-Stack-Cloud-and-Built-In-Governance",
+      "https://www.assemblyai.com/docs/billing-and-pricing",
+      "https://www.assemblyai.com/contact/startup-program",
+      "https://openai.com/webmcp-challenge/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "deepgram-voice-stack-200-100k-flux-window",
+      "zoho-catalyst-3-agent-ready-launch",
+      "assemblyai-startup-recurring-credits"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "deepgram-voice-stack-200-100k-flux-window",
+        "class": "CONFIRMED FACT; PROGRAM AWARD DISCRETIONARY"
+      },
+      {
+        "signal_id": "zoho-catalyst-3-agent-ready-launch",
+        "class": "CONFIRMED FACT; FRESH LAUNCH"
+      },
+      {
+        "signal_id": "assemblyai-startup-recurring-credits",
+        "class": "CONFIRMED FACT; AWARD AMOUNT UNDISCLOSED"
+      }
+    ],
+    "omissions_errors": [
+      "Deepgram does not guarantee a particular startup-program award below its advertised up-to amount.",
+      "AssemblyAI does not publicly disclose its recurring startup-credit amount.",
+      "Zoho requires a payment method for the separate $250 credit; only the recurring monthly free tier was treated as zero-card infrastructure.",
+      "Fresh model launches without verified free access or credits were excluded.",
+      "No authenticated partner-benefit inventories were accessible in this run."
+    ]
+  },
+  "canonical_sources": [
+    "https://deepgram.com/pricing",
+    "https://deepgram.com/startup-program",
+    "https://deepgram.com/startup-program-terms-of-service",
+    "https://catalyst.zoho.com/",
+    "https://catalyst.zoho.com/pricing.html",
+    "https://docs.catalyst.zoho.com/en/deployment-and-billing/billing/avail-250-credit/",
+    "https://www.businesswire.com/news/home/20260902731383/en/Catalyst-by-Zoho-Solves-The-Shortfalls-of-Moving-from-Coding-to-Production-With-an-Agent-Ready-Full-Stack-Cloud-and-Built-In-Governance",
+    "https://www.assemblyai.com/docs/billing-and-pricing",
+    "https://www.assemblyai.com/contact/startup-program",
+    "https://openai.com/webmcp-challenge/"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "UNANCHORED CANDIDATE until this exact JSON file is committed to the append-only GitHub path.",
+  "content_hash_scope": "SHA-256 of canonical JSON for this receipt excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "5fa2ea1d53ef28df34e8d99ef99799b1c09466b48f0529cfc18e398875151ab3",
+  "signature": "UNSIGNED"
+}
