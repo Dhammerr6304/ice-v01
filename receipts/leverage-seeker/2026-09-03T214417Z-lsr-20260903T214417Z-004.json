@@ -1,0 +1,177 @@
+{
+  "event_id": "ls-20260903T214417Z-004",
+  "receipt_id": "lsr-20260903T214417Z-004",
+  "executed_at_utc": "2026-09-03T21:44:17Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor receipt. This run applied the existing fresh-signal, separate program-surface, eligibility, magnitude-recovery, displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-02T212614Z-lsr-20260902T212614Z-003.json",
+  "previous_hash": "5fa2ea1d53ef28df34e8d99ef99799b1c09466b48f0529cfc18e398875151ab3",
+  "output_digest": "de88da6963c6c1e130cc45e01f1b2041bf2b32d12f240904bad94b65f7cb6511",
+  "output_digest_scope": "SHA-256 of canonical JSON for the report object: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-03T21:44:17Z",
+    "previous_run_delta": "New: OpenAI committed $1B to subsidized Daybreak access for frontline defenders, but the individual award and solo-builder fit are unquantified. Recovered: AWS Activate Founders offers a direct $1,000 bootstrap tier with conditional top-up to $5,000, and its sequencing conflict with Kiro is now explicit. New: AREX-Skill/DisCo makes verified operational knowledge portable across agents. Strengthening: Astra moved from announced-soon to a live API release. New but currently mismatched: NVIDIA PAIR. Closed: WebMCP submissions passed their September 3 1 p.m. PT deadline. Deepgram, Zoho, AssemblyAI, Cloudflare, and AMD were unchanged and not recycled.",
+    "signals": [
+      {
+        "signal_id": "openai-daybreak-frontline-defenders-1b",
+        "classification": "CONFIRMED FACT; INDIVIDUAL AWARD AND FIT UNDETERMINED",
+        "score": 82,
+        "displacement": "WATCH",
+        "changed": "OpenAI announced a $1B global commitment on September 3 for subsidized Daybreak access, training, technical support, and partnerships, targeted for consumption over six months.",
+        "free_value": "Subsidized frontier cyber-model access and support; prior affected water-system support reached up to $1M in no-cost API credits, but no standard per-applicant amount is published.",
+        "fit": "Prioritizes U.S. essential-service operators, state/local government, community banks, nonprofits, open-source maintainers, and supporting organizations with constrained security resources.",
+        "catch": "The aggregate $1B headline is not an applicant entitlement. A new small open-source repository alone is not evidence of frontline-defender fit, and Daybreak requires verified, authorized defensive use.",
+        "sources": [
+          "https://openai.com/index/daybreak-for-frontline-defenders/",
+          "https://openai.com/daybreak/"
+        ]
+      },
+      {
+        "signal_id": "aws-activate-founders-1k-5k-sequencing",
+        "classification": "CONFIRMED FACT; CONDITIONAL TOP-UP",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "Recovered and resolved the bootstrap tier and sequencing conflict: self-funded founders start with $1,000 in AWS credits and select participants may reach $5,000; active Activate users are excluded from Kiro startup credits, while Kiro recipients may apply to Activate afterward.",
+        "free_value": "$1,000 initial AWS Activate Founders credits; up to $5,000 conditional total.",
+        "fit": "Direct application is available to self-funded, pre-Series-B companies founded within ten years. No investor Org ID is required.",
+        "catch": "Requires an AWS Paid Tier account and professional email; overages are billable. Kiro's separate offer requires VC backing, matching domain email/AWS account, IAM Identity Center, activates immediately, and auto-switches to paid billing.",
+        "sources": [
+          "https://aws.amazon.com/startups/credits/",
+          "https://kiro.dev/startups/",
+          "https://kiro.dev/pricing/"
+        ]
+      },
+      {
+        "signal_id": "arex-skill-disco-operational-library",
+        "classification": "CONFIRMED OPEN-SOURCE RELEASE; BENCHMARKS AUTHOR-REPORTED",
+        "score": 85,
+        "displacement": "TEST",
+        "changed": "A September 2 paper formalized DisCo and the AREX-Skill library: 5,000+ verified operational skills distilled from 1,000 repositories, compatible with Codex and other coding agents.",
+        "free_value": "Apache-2.0 repository-level library and MIT DisCo CLI; selective skill import and refresh workflows are available without software fees.",
+        "fit": "Directly tests ICE's thesis that timestamped provenance and reusable operating knowledge can compound agent capability.",
+        "catch": "Model-provider inference can cost money; Node 22.19+ is required; each skill has its own authoritative license; imported skills and scripts create supply-chain and instruction-trust risk.",
+        "sources": [
+          "https://arxiv.org/abs/2609.02749",
+          "https://github.com/VectorSpaceLab/AREX-Skill"
+        ]
+      },
+      {
+        "signal_id": "openai-gpt6-astra-api-launch",
+        "classification": "CONFIRMED FRESH API LAUNCH; NO FREE API SUBSIDY",
+        "score": 79,
+        "displacement": "WATCH",
+        "changed": "GPT-6 Astra moved from announced-soon to released in the API on September 3, with long-running-work controls including asynchronous tool calling and mid-turn steering.",
+        "free_value": "No free API allocation was verified. Access through an existing paid ChatGPT plan was not directly observed.",
+        "fit": "Potential labor replacement for difficult end-to-end coding, research, computer-use, and document workflows.",
+        "catch": "API pricing is $10 input/$50 output per million short-context tokens on the model page; long context is more expensive. Production monitoring can pause or stop work, and high-authority tasks still require scoped permissions and review.",
+        "sources": [
+          "https://developers.openai.com/api/docs/changelog",
+          "https://developers.openai.com/api/docs/models/gpt-6-astra",
+          "https://deploymentsafety.openai.com/gpt-6-astra"
+        ]
+      },
+      {
+        "signal_id": "nvidia-pair-local-inference-router",
+        "classification": "CONFIRMED FRESH OPEN-SOURCE RELEASE; CURRENT HARDWARE MISMATCH",
+        "score": 68,
+        "displacement": "WATCH",
+        "changed": "NVIDIA released PAIR on September 3, an Apache-2.0 local router that discovers LAN nodes and exposes Ollama/OpenAI-compatible endpoints for independent inference requests.",
+        "free_value": "Router software for Windows, Linux, and macOS; prompts can remain local when every client, model source, engine, and node is local.",
+        "fit": "Could coordinate future RTX/Apple-silicon devices for multi-agent workloads.",
+        "catch": "It does not pool VRAM, shard models, or create compute. The user's present single non-RTX machine does not gain useful capacity from it, and LAN endpoints/security need review.",
+        "sources": [
+          "https://github.com/NVIDIA/Personal-AI-Router",
+          "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Daybreak does not publish individual subsidy amounts or guarantee acceptance; the $1B figure is a global commitment, not a per-applicant entitlement.",
+      "The user's actual AWS Activate/Kiro application and credit state was not observable.",
+      "AREX benchmark improvements are author-reported and were not independently reproduced in this run.",
+      "GPT-6 Astra API availability was verified, but availability in the user's ChatGPT account was not observed.",
+      "PAIR is free software but does not create compute and is poorly matched to the user's present non-RTX single-device hardware.",
+      "Authenticated partner-benefit inventories were unavailable.",
+      "Google Agents for Impact was inspected but omitted from recommendations because the near-term events require travel and no program-specific infrastructure grant was verified."
+    ],
+    "source_manifest": [
+      "https://openai.com/index/daybreak-for-frontline-defenders/",
+      "https://openai.com/daybreak/",
+      "https://aws.amazon.com/startups/credits/",
+      "https://kiro.dev/startups/",
+      "https://kiro.dev/pricing/",
+      "https://arxiv.org/abs/2609.02749",
+      "https://github.com/VectorSpaceLab/AREX-Skill",
+      "https://developers.openai.com/api/docs/changelog",
+      "https://developers.openai.com/api/docs/models/gpt-6-astra",
+      "https://deploymentsafety.openai.com/gpt-6-astra",
+      "https://github.com/NVIDIA/Personal-AI-Router",
+      "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+      "https://openai.com/webmcp-challenge/",
+      "https://cloud.google.com/resources/agents-for-impact-2026"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "openai-daybreak-frontline-defenders-1b",
+      "aws-activate-founders-1k-5k-sequencing",
+      "arex-skill-disco-operational-library",
+      "openai-gpt6-astra-api-launch",
+      "nvidia-pair-local-inference-router"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "openai-daybreak-frontline-defenders-1b",
+        "class": "CONFIRMED FACT; INDIVIDUAL AWARD AND FIT UNDETERMINED"
+      },
+      {
+        "signal_id": "aws-activate-founders-1k-5k-sequencing",
+        "class": "CONFIRMED FACT; CONDITIONAL TOP-UP"
+      },
+      {
+        "signal_id": "arex-skill-disco-operational-library",
+        "class": "CONFIRMED OPEN-SOURCE RELEASE; BENCHMARKS AUTHOR-REPORTED"
+      },
+      {
+        "signal_id": "openai-gpt6-astra-api-launch",
+        "class": "CONFIRMED FRESH API LAUNCH; NO FREE API SUBSIDY"
+      },
+      {
+        "signal_id": "nvidia-pair-local-inference-router",
+        "class": "CONFIRMED FRESH OPEN-SOURCE RELEASE; CURRENT HARDWARE MISMATCH"
+      }
+    ],
+    "omissions_errors": [
+      "Daybreak does not publish individual subsidy amounts or guarantee acceptance; the $1B figure is a global commitment, not a per-applicant entitlement.",
+      "The user's actual AWS Activate/Kiro application and credit state was not observable.",
+      "AREX benchmark improvements are author-reported and were not independently reproduced in this run.",
+      "GPT-6 Astra API availability was verified, but availability in the user's ChatGPT account was not observed.",
+      "PAIR is free software but does not create compute and is poorly matched to the user's present non-RTX single-device hardware.",
+      "Authenticated partner-benefit inventories were unavailable.",
+      "Google Agents for Impact was inspected but omitted from recommendations because the near-term events require travel and no program-specific infrastructure grant was verified."
+    ]
+  },
+  "canonical_sources": [
+    "https://openai.com/index/daybreak-for-frontline-defenders/",
+    "https://openai.com/daybreak/",
+    "https://aws.amazon.com/startups/credits/",
+    "https://kiro.dev/startups/",
+    "https://kiro.dev/pricing/",
+    "https://arxiv.org/abs/2609.02749",
+    "https://github.com/VectorSpaceLab/AREX-Skill",
+    "https://developers.openai.com/api/docs/changelog",
+    "https://developers.openai.com/api/docs/models/gpt-6-astra",
+    "https://deploymentsafety.openai.com/gpt-6-astra",
+    "https://github.com/NVIDIA/Personal-AI-Router",
+    "https://blogs.nvidia.com/blog/local-ai-ifa-next-gen-agents-nv-pair-rtx-spark/",
+    "https://openai.com/webmcp-challenge/",
+    "https://cloud.google.com/resources/agents-for-impact-2026"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "UNANCHORED CANDIDATE until this exact JSON file is committed to the append-only GitHub path.",
+  "content_hash_scope": "SHA-256 of canonical JSON for this receipt excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "74398fee25748280136fac30ada2cf615d3154aa49639de1d1336b6f63bc7231",
+  "signature": "UNSIGNED"
+}
