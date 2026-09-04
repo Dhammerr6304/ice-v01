@@ -1,0 +1,142 @@
+{
+  "event_id": "ls-20260904T212214Z-005",
+  "receipt_id": "lsr-20260904T212214Z-005",
+  "executed_at_utc": "2026-09-04T21:22:14Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor. This run applied fresh-signal discovery, a separate program-surface scan, 60–90 day magnitude recovery, eligibility reality checks, project displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-03T214417Z-lsr-20260903T214417Z-004.json",
+  "previous_hash": "74398fee25748280136fac30ada2cf615d3154aa49639de1d1336b6f63bc7231",
+  "output_digest": "cff0b3583c30d05504a70544c5a5bc7d60eb764bc57013eeabcd11e28aa2b067",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-04T21:22:14Z",
+    "previous_run_delta": "New/direct fit: Mireye launched with 5,000 recurring no-card credits and cited physical-world data that can cover a 155-parcel enrichment pass. Recovered/magnitude: Scaleway plus NVIDIA Inception advertises up to €42,000, but the practical bootstrap path begins at €1,000 and higher tiers require consumption, incorporation, card registration, and dual approval. New: K2 Horizon released a fully open six-model training lifecycle. Emerging watch: Tenable Exchange Inspector is expected later in September but has no published access economics. Yesterday's AWS, AREX, Daybreak, Astra, and PAIR signals were unchanged and not recycled.",
+    "signals": [
+      {
+        "signal_id": "mireye-physical-world-api-5k-monthly",
+        "classification": "CONFIRMED FRESH LAUNCH; PRIMARY PRICING VERIFIED",
+        "score": 90,
+        "displacement": "TEST",
+        "changed": "Mireye launched publicly with a US physical-world API and MCP server returning cited, timestamped, confidence-scored fields, typed absence, geocoding, parcel lookup, proximity calculations, and field requests.",
+        "free_value": "5,000 credits every month, no card, 20 requests/minute, no overage billing, and one field request at signup. Geocoding costs 1 credit; fields cost 1 per field/location; natural-language Ask costs 10; parcel lookup costs 300.",
+        "approximate_value": "Enough for about 238 addresses with geocoding plus 20 fields, or all 155 existing candidate parcels for about 3,255 credits if parcel lookup is unnecessary.",
+        "fit": "Directly applicable to the Bemidji/Beltrami property-intelligence corpus and ICE because each result carries source, fetched timestamp, confidence, and ok/absent/failed state.",
+        "catch": "US catalog only; source freshness varies; full parcel/owner lookup would exhaust the free tier quickly; county-specific accuracy remains untested.",
+        "sources": [
+          "https://www.mireye.com/",
+          "https://www.mireye.com/pricing",
+          "https://news.ycombinator.com/item?id=49552616"
+        ]
+      },
+      {
+        "signal_id": "scaleway-nvidia-inception-up-to-42k",
+        "classification": "CONFIRMED PROGRAM SURFACE; HEADLINE VALUE HEAVILY CONDITIONAL",
+        "score": 81,
+        "displacement": "QUEUE",
+        "changed": "Recovered a partner-layer cloud program offering up to €42,000 for startups that qualify for both NVIDIA Inception and Scaleway Startup Program membership.",
+        "free_value": "The ordinary path begins with a one-time €1,000 Founders voucher for 12 months; Early Stage offers up to €9,000 over six months; Growth offers up to €36,000 over twelve months; qualifying Inception members are advertised up to €42,000.",
+        "approximate_value": "€1,000 plausibly accessible first-stage value; €9,000–€42,000 conditional on approval, product maturity, membership, and consumption.",
+        "fit": "Scaleway requires a company under five years old, fewer than 50 employees, and no previous Scaleway client relationship. NVIDIA Inception separately requires an incorporated product company, working site, and developer.",
+        "catch": "A valid card and €1 authorization are required to order resources. Progression beyond Founders expects at least €500/month Early Stage or €1,500/month Growth consumption. Overages are billable and the full headline is not bootstrap-immediate.",
+        "sources": [
+          "https://www.scaleway.com/en/scaleway-startup-program-for-nvidia-inception-members/",
+          "https://www.scaleway.com/en/startup-program/",
+          "https://www.scaleway.com/en/docs/account/how-to/create-an-account/",
+          "https://www.nvidia.com/en-us/startups/"
+        ]
+      },
+      {
+        "signal_id": "ifm-k2-horizon-fully-open-model-fleet",
+        "classification": "CONFIRMED FRESH OPEN RELEASE; PERFORMANCE PUBLISHER-REPORTED",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "IFM released six K2 Horizon models from 0.9B to 375B-A23B with final weights, intermediate checkpoints, training code, data or recipes, configurations, logs, evaluation results, and agentic post-training artifacts.",
+        "free_value": "Apache-2.0 model weights and code, with dataset-specific licenses; day-zero support for Ollama, vLLM, and SGLang.",
+        "approximate_value": "The 0.9B and quantized 3.7B models provide locally testable agent/tool-use capability without per-token API charges; the larger models require hardware or cloud credits.",
+        "fit": "The small models may run on the current 16GB EliteBook for bounded local classification, extraction, and routing; the open training history is unusually useful for ICE-style capability-delta research.",
+        "catch": "CPU-only performance may be slow, published benchmarks require independent validation, and this release supplies weights rather than free hosted inference.",
+        "sources": [
+          "https://ifm.ai/blog/k2/",
+          "https://ifm.ai/k2/",
+          "https://huggingface.co/IFM"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Mireye coverage and field freshness for Beltrami County were not independently tested; the 155-parcel capacity estimate assumes one geocode plus 20 fields per parcel and excludes 300-credit parcel lookups.",
+      "Scaleway does not guarantee a particular award; the €42,000 figure is an up-to amount for startups satisfying both NVIDIA Inception and Scaleway requirements.",
+      "Scaleway progression beyond the €1,000 Founders voucher requires meaningful monthly consumption and a valid payment card; the user's incorporation status is not known.",
+      "K2 Horizon performance claims are publisher-reported and were not independently benchmarked in this run; no free hosted inference endpoint was verified.",
+      "Tenable Exchange Inspector was excluded as a headline signal because availability is expected later in September and pricing/access terms are not yet published.",
+      "Authenticated startup-benefit inventories were unavailable."
+    ],
+    "source_manifest": [
+      "https://www.mireye.com/",
+      "https://www.mireye.com/pricing",
+      "https://news.ycombinator.com/item?id=49552616",
+      "https://www.scaleway.com/en/scaleway-startup-program-for-nvidia-inception-members/",
+      "https://www.scaleway.com/en/startup-program/",
+      "https://www.scaleway.com/en/docs/account/how-to/create-an-account/",
+      "https://www.nvidia.com/en-us/startups/",
+      "https://ifm.ai/blog/k2/",
+      "https://ifm.ai/k2/",
+      "https://huggingface.co/IFM",
+      "https://www.tenable.com/press-releases/tenable-uses-openai-gpt-cyber-models-to-help-defenders-inspect-community-built-ai-components",
+      "https://exchange.tenable.com/",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "mireye-physical-world-api-5k-monthly",
+      "scaleway-nvidia-inception-up-to-42k",
+      "ifm-k2-horizon-fully-open-model-fleet"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "mireye-physical-world-api-5k-monthly",
+        "class": "CONFIRMED FRESH LAUNCH; PRIMARY PRICING VERIFIED"
+      },
+      {
+        "signal_id": "scaleway-nvidia-inception-up-to-42k",
+        "class": "CONFIRMED PROGRAM SURFACE; HEADLINE VALUE HEAVILY CONDITIONAL"
+      },
+      {
+        "signal_id": "ifm-k2-horizon-fully-open-model-fleet",
+        "class": "CONFIRMED FRESH OPEN RELEASE; PERFORMANCE PUBLISHER-REPORTED"
+      }
+    ],
+    "omissions_errors": [
+      "Mireye coverage and field freshness for Beltrami County were not independently tested; the 155-parcel capacity estimate assumes one geocode plus 20 fields per parcel and excludes 300-credit parcel lookups.",
+      "Scaleway does not guarantee a particular award; the €42,000 figure is an up-to amount for startups satisfying both NVIDIA Inception and Scaleway requirements.",
+      "Scaleway progression beyond the €1,000 Founders voucher requires meaningful monthly consumption and a valid payment card; the user's incorporation status is not known.",
+      "K2 Horizon performance claims are publisher-reported and were not independently benchmarked in this run; no free hosted inference endpoint was verified.",
+      "Tenable Exchange Inspector was excluded as a headline signal because availability is expected later in September and pricing/access terms are not yet published.",
+      "Authenticated startup-benefit inventories were unavailable."
+    ]
+  },
+  "canonical_sources": [
+    "https://www.mireye.com/",
+    "https://www.mireye.com/pricing",
+    "https://news.ycombinator.com/item?id=49552616",
+    "https://www.scaleway.com/en/scaleway-startup-program-for-nvidia-inception-members/",
+    "https://www.scaleway.com/en/startup-program/",
+    "https://www.scaleway.com/en/docs/account/how-to/create-an-account/",
+    "https://www.nvidia.com/en-us/startups/",
+    "https://ifm.ai/blog/k2/",
+    "https://ifm.ai/k2/",
+    "https://huggingface.co/IFM",
+    "https://www.tenable.com/press-releases/tenable-uses-openai-gpt-cyber-models-to-help-defenders-inspect-community-built-ai-components",
+    "https://exchange.tenable.com/",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "UNANCHORED CANDIDATE until this exact JSON file is committed to the append-only GitHub path.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "57fe067f68e69c4fb0a019525ba4f44d7de94324067598841ddea580e99a436f",
+  "signature": "UNSIGNED"
+}
