@@ -1,0 +1,121 @@
+{
+  "event_id": "ls-20260905T215357Z-006",
+  "receipt_id": "lsr-20260905T215357Z-006",
+  "executed_at_utc": "2026-09-05T21:53:57Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor. This run applied fresh-signal discovery, a separate program-surface scan, 60–90 day magnitude recovery, eligibility reality checks, project displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-04T212214Z-lsr-20260904T212214Z-005.json",
+  "previous_hash": "57fe067f68e69c4fb0a019525ba4f44d7de94324067598841ddea580e99a436f",
+  "output_digest": "037971cd3021fa33f720177bd28eff4020fec3b721105f481806c6f651f06508",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-05T21:53:57Z",
+    "previous_run_delta": "New: Vercel made Ling 3.0 Flash Sante free through October 4 with a charge-safe -free model identifier. Recovered/closing: MiniMax M3 and M2.7 remain free through September 6, leaving roughly one day to benchmark the 1M-context coding/agent model. Program-surface scan rejected Runway Builders and Ultralytics for present use because their valuable tiers require funded startups and workload-specific product fit. Mireye, K2 Horizon, and Scaleway were unchanged and not recycled.",
+    "signals": [
+      {
+        "signal_id": "vercel-minimax-m3-free-closing-20260906",
+        "classification": "CONFIRMED CLOSING WINDOW; PRIMARY PRICING VERIFIED",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "Recovered before expiry: Vercel AI Gateway is serving MiniMax M3 and M2.7 through GMI Cloud at zero inference price through September 6. The dedicated -free model IDs stop serving after the promotion rather than converting to paid traffic.",
+        "free_value": "MiniMax M3 API access with a 1M-token context window, coding and agentic capability, native multimodality, and OpenAI/AI-SDK-compatible access; M2.7 offers a 197K context route focused on software engineering.",
+        "approximate_value": "Usage limits are not publicly quantified, so the dollar value cannot be verified. The value is a bounded, no-inference-cost benchmark of a frontier-class long-context model on an existing repository.",
+        "cash_required": "$0 for promotional inference; a Vercel account and API key are required. No payment is needed for the dedicated -free route.",
+        "catch": "Promotion ends September 6; provider capacity may constrain throughput; model/provider terms apply; no published quota supports an unlimited-use claim.",
+        "sources": [
+          "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+          "https://vercel.com/ai-gateway/models/minimax-m3-free",
+          "https://vercel.com/ai-gateway/models/minimax-m2.7-free"
+        ]
+      },
+      {
+        "signal_id": "vercel-ling-3-flash-sante-free-until-20261004",
+        "classification": "CONFIRMED FRESH LAUNCH; PRIMARY PRICING VERIFIED",
+        "score": 82,
+        "displacement": "WATCH",
+        "changed": "On September 4, Vercel added Ling 3.0 Flash Sante to AI Gateway and made it free through October 4, including a dedicated -free ID that hard-stops at expiry.",
+        "free_value": "A 124B-total/5.1B-active mixture-of-experts model with a 256K context window, up to 32K output, function calling, medical reasoning, evidence-based retrieval, and retained general coding/agent capability.",
+        "approximate_value": "Unquantified promotional inference. Free Vercel users also receive $5 of gateway credits every 30 days, but the promotional route itself is priced at zero through October 4.",
+        "cash_required": "$0 using inclusionai/ling-3.0-flash-sante-free.",
+        "catch": "No public promotional quota was found; provider privacy terms apply; the model page does not establish zero-data-retention or no-training guarantees; it must not be used as clinical authority or with private health data.",
+        "sources": [
+          "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+          "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante-free",
+          "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Runway Builders advertises up to 500,000 API credits and Tier 5 limits, but targets Seed-to-Series-C startups and asks for funding stage plus a Runway Characters use case; it was excluded as a poor current fit.",
+      "Ultralytics advertises up to $10,000, but explicitly requires institutional Seed-or-later funding, a central computer-vision product, and a use case within 90 days; it was excluded.",
+      "Google Agents for Impact currently offers future event/hackathon access rather than guaranteed operating credits and would introduce travel or a future build commitment; it was excluded."
+    ],
+    "omissions_errors": [
+      "Vercel does not publish promotional request or token quotas for the MiniMax or Ling free routes; no unlimited-use claim is made.",
+      "MiniMax M3 capability descriptions are provider/publisher claims and were not independently benchmarked in this run.",
+      "Ling Sante was not clinically evaluated in this run and is not recommended for private health data or medical decision-making.",
+      "Authenticated startup-benefit inventories were unavailable.",
+      "No new bootstrapped-fit program at Devin-class magnitude survived verification."
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+      "https://vercel.com/ai-gateway/models/minimax-m3-free",
+      "https://vercel.com/ai-gateway/models/minimax-m2.7-free",
+      "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante-free",
+      "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante",
+      "https://runwayml.com/product/builders",
+      "https://runwayml.com/news/introducing-runway-builders",
+      "https://www.ultralytics.com/startups",
+      "https://cloud.google.com/resources/agents-for-impact-2026",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-minimax-m3-free-closing-20260906",
+      "vercel-ling-3-flash-sante-free-until-20261004"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-minimax-m3-free-closing-20260906",
+        "class": "CONFIRMED CLOSING WINDOW; PRIMARY PRICING VERIFIED"
+      },
+      {
+        "signal_id": "vercel-ling-3-flash-sante-free-until-20261004",
+        "class": "CONFIRMED FRESH LAUNCH; PRIMARY PRICING VERIFIED"
+      }
+    ],
+    "omissions_errors": [
+      "Vercel does not publish promotional request or token quotas for the MiniMax or Ling free routes; no unlimited-use claim is made.",
+      "MiniMax M3 capability descriptions are provider/publisher claims and were not independently benchmarked in this run.",
+      "Ling Sante was not clinically evaluated in this run and is not recommended for private health data or medical decision-making.",
+      "Authenticated startup-benefit inventories were unavailable.",
+      "No new bootstrapped-fit program at Devin-class magnitude survived verification."
+    ]
+  },
+  "canonical_sources": [
+    "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+    "https://vercel.com/ai-gateway/models/minimax-m3-free",
+    "https://vercel.com/ai-gateway/models/minimax-m2.7-free",
+    "https://vercel.com/changelog/ling-3-0-flash-sante-is-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante-free",
+    "https://vercel.com/ai-gateway/models/ling-3.0-flash-sante",
+    "https://runwayml.com/product/builders",
+    "https://runwayml.com/news/introducing-runway-builders",
+    "https://www.ultralytics.com/startups",
+    "https://cloud.google.com/resources/agents-for-impact-2026",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "UNANCHORED CANDIDATE until this exact JSON file is committed to the append-only GitHub path.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "e76128bbdd5b12db3a6cdc85ecb4cec23583e43c8c99e9073af5d39265741a97",
+  "signature": "UNSIGNED"
+}
