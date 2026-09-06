@@ -1,0 +1,113 @@
+{
+  "event_id": "ls-20260906T213957Z-007",
+  "receipt_id": "lsr-20260906T213957Z-007",
+  "executed_at_utc": "2026-09-06T21:39:57Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change since the predecessor. This run applied fresh-signal discovery, a separate program-surface scan, 60–90 day magnitude recovery, eligibility reality checks, project displacement, and append-only receipt rules.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-05T215357Z-lsr-20260905T215357Z-006.json",
+  "previous_hash": "e76128bbdd5b12db3a6cdc85ecb4cec23583e43c8c99e9073af5d39265741a97",
+  "output_digest": "71489871d5111a9f4776e4f1088e76addd2fad061befe522d3f2153a4dfacae9",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-06T21:39:57Z",
+    "previous_run_delta": "Recovered/newly actionable: Anna AI OS's Founding Builder qualification window is active through November 30, with a September-only launch boost, recurring cash grants tied to verified MAU, and bundled app infrastructure. Recovered: Vercel's Ling 3.0 Flash Fin remains free through September 25 via a charge-safe model ID. Closing today: MiniMax M3/M2.7 free routes end September 6 at an unpublished time. OrcaRouter voucher claims were excluded because the primary offer page could not be fetched; other prior signals were unchanged and not recycled.",
+    "signals": [
+      {
+        "signal_id": "anna-ai-os-founding-builder-2026",
+        "classification": "CONFIRMED PROGRAM SURFACE; CASH AWARDS CONDITIONAL ON VERIFIED USAGE",
+        "score": 89,
+        "displacement": "TEST",
+        "changed": "The September 1-November 30 qualification window is live. September is the one boosted measurement month: an approved app reaching 200/500/1,000/4,000/10,000/20,000 qualified MAU earns $80/$200/$400/$1,600/$4,000/$6,000; later recurring awards are $50/$100/$200/$1,000/$2,500/$5,000 per month. Anna states an $80,000 monthly program budget and says existing qualified apps are protected if admissions later pause.",
+        "free_value": "Self-serve developer access plus a platform layer for app UI, hosting, sandboxed execution, user accounts, persistent memory, LLM orchestration, native components, marketplace distribution, free-user credits, and BYOK support. Exact per-builder free quotas were not published in the primary program rules.",
+        "approximate_value": "$80-$6,000 for September and $50-$5,000 in later qualifying months, conditional on real signed-in users completing meaningful runs; plus unpriced hosted infrastructure and distribution.",
+        "cash_required": "$0 program fee and no card requirement was identified in public developer onboarding. External APIs, paid model usage, taxes, and any optional promotion can create costs.",
+        "fit": "Indie hackers and solo developers are explicitly targeted. No incorporation, funding, company-age, revenue, geography, or team-size gate is stated, but identity/payment compliance applies before payout.",
+        "catch": "A complete independently usable AI-native app with UI and backend must pass review; bare scripts/MCP servers do not qualify. Developer/test traffic is excluded. At least 200 genuine signed-in MAU is required, maintenance is monthly, payouts follow audit, and platform lock-in/distribution uncertainty are real.",
+        "sources": [
+          "https://forum.anna.partners/t/turn-your-ai-agents-apps-into-recurring-monthly-grants-join-the-anna-ai-os-founding-builder-program-up-to-80k-month-pool/205",
+          "https://anna.partners/developers",
+          "https://anna.partners/",
+          "https://luma.com/kmc1ddf9"
+        ]
+      },
+      {
+        "signal_id": "vercel-ling-3-flash-fin-free-until-20260925",
+        "classification": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; PRIMARY PRICING VERIFIED",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "Recovered while still actionable: Vercel made Inclusion AI's finance-focused Ling 3.0 Flash Fin free through September 25, including a dedicated -free identifier that returns an error after expiry instead of billing.",
+        "free_value": "Zero-priced API inference for a 256K-context, 32K-output model supporting reasoning, function calling, and multi-step financial research/tool workflows.",
+        "approximate_value": "Unquantified because no promotional token/request quota is published. The useful value is a bounded comparison on public financial or property-underwriting evidence.",
+        "cash_required": "$0 using inclusionai/ling-3.0-flash-fin-free.",
+        "fit": "No startup, incorporation, funding, domain-email, or team-size gate is stated for the promotional route; a Vercel account/API key is required.",
+        "catch": "Capability claims are publisher/provider claims and were not independently reproduced. Privacy guarantees were not established for sensitive financial data; only public or sanitized inputs should be used.",
+        "sources": [
+          "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Anna AI OS survived verification because its official program rules explicitly target indie hackers, publish MAU thresholds and payout tiers, permit porting existing apps/agents/MCP-backed products, and state a live qualification window.",
+      "Google Cloud's up-to-$350,000 AI startup tier was not escalated because the high-value path remains tied to equity funding and is not a new bootstrap-access delta.",
+      "Hackathons with prizes but no guaranteed material operating capacity were excluded."
+    ],
+    "omissions_errors": [
+      "Anna's exact free compute, storage, model-token, and sandbox quotas were not published in the primary program rules.",
+      "No independent Anna payout history or current marketplace MAU distribution was verified.",
+      "OrcaRouter's offer page timed out, so secondary claims about free frontier-model vouchers were excluded.",
+      "Ling Flash Fin benchmarks and privacy posture were not independently verified.",
+      "Authenticated partner-benefit inventories were unavailable."
+    ],
+    "source_manifest": [
+      "https://forum.anna.partners/t/turn-your-ai-agents-apps-into-recurring-monthly-grants-join-the-anna-ai-os-founding-builder-program-up-to-80k-month-pool/205",
+      "https://anna.partners/developers",
+      "https://anna.partners/",
+      "https://luma.com/kmc1ddf9",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "anna-ai-os-founding-builder-2026",
+      "vercel-ling-3-flash-fin-free-until-20260925"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "anna-ai-os-founding-builder-2026",
+        "class": "CONFIRMED PROGRAM SURFACE; CASH AWARDS CONDITIONAL ON VERIFIED USAGE"
+      },
+      {
+        "signal_id": "vercel-ling-3-flash-fin-free-until-20260925",
+        "class": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; PRIMARY PRICING VERIFIED"
+      }
+    ],
+    "omissions_errors": [
+      "Anna's exact free compute, storage, model-token, and sandbox quotas were not published in the primary program rules.",
+      "No independent Anna payout history or current marketplace MAU distribution was verified.",
+      "OrcaRouter's offer page timed out, so secondary claims about free frontier-model vouchers were excluded.",
+      "Ling Flash Fin benchmarks and privacy posture were not independently verified.",
+      "Authenticated partner-benefit inventories were unavailable."
+    ]
+  },
+  "canonical_sources": [
+    "https://forum.anna.partners/t/turn-your-ai-agents-apps-into-recurring-monthly-grants-join-the-anna-ai-os-founding-builder-program-u{"output_digest":"71489871d5111a9f4776e4f1088e76addd2fad061befe522d3f2153a4dfacae9","content_hash":"452171d09b2558cb04c4569df376713dc6633f5c719bbb9b076e7feccb82082c"}
+p-to-80k-month-pool/205",
+    "https://anna.partners/developers",
+    "https://anna.partners/",
+    "https://luma.com/kmc1ddf9",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash": "452171d09b2558cb04c4569df376713dc6633f5c719bbb9b076e7feccb82082c",
+  "signature": "UNSIGNED"
+}
