@@ -1,0 +1,125 @@
+{
+  "event_id": "ls-20260907T214938Z-008",
+  "receipt_id": "lsr-20260907T214938Z-008",
+  "executed_at_utc": "2026-09-07T21:49:38Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change. Search policy corrected after discovering the closed GMI SCALE Cohort 2 benefit surface: future program scans must query upcoming cohort calendars and partner-benefit pages before application deadlines, not only on cohort announcements.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-06T213957Z-lsr-20260906T213957Z-007.json",
+  "previous_hash": "452171d09b2558cb04c4569df376713dc6633f5c719bbb9b076e7feccb82082c",
+  "output_digest": "3296d503c96f493e6e441ab3c0574dbb3dd60b979faf5182d2f45f6d87e80e6f",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-07T21:49:38Z",
+    "previous_run_delta": "New/direct-fit: Cloudflare raised the Workers bundle ceiling to 64 MiB on Free and Paid plans, removing the former 3 MB compressed Free-plan constraint. Newly enforced/capability boundary: D1 Free now fails requests after its daily row limits, creating a spend-safe but availability-sensitive limit. Recovered/magnitude: Open Yap 1K makes 1,000 hours of full-duplex natural English conversation available on request for commercial and research use. Closed: MiniMax M3/M2.7 free routes passed their September 6 endpoint date. Detector failure: GMI SCALE Cohort 2 disclosed a $40K+ partner-credit surface, but the August 21 application deadline was missed; it is not presented as actionable.",
+    "signals": [
+      {
+        "signal_id": "cloudflare-workers-64mib-d1-hard-cap-delta-202609",
+        "classification": "CONFIRMED INFRASTRUCTURE DELTA; FREE-TIER CAPABILITY STRENGTHENING WITH ENFORCED DATABASE LIMIT",
+        "score": 86,
+        "displacement": "TEST",
+        "changed": "On September 4 Cloudflare replaced the former 3 MB compressed Workers Free bundle limit (10 MB Paid) with a 64 MiB uncompressed limit on every plan. Separately, from September 1 D1 Free queries fail after daily row-read or row-write limits are reached until 00:00 UTC.",
+        "free_value": "Workers Free can deploy bundles up to 64 MiB. D1 Free includes 5 million rows read/day, 100,000 rows written/day, 5 GB total storage, and no D1 egress charge.",
+        "approximate_value": "Not meaningfully priced as credits; it removes framework/dependency trimming and permits a more capable edge application at $0 while retaining hard usage stops.",
+        "cash_required": "$0 on Workers Free. The cited D1 limit behavior fails closed rather than generating usage charges.",
+        "fit": "Direct fit for the planned Cloudflare-based LEVERAGEdelta public projection; no startup-program qualification is required for the ordinary Free plan.",
+        "catch": "A larger bundle does not increase CPU or request quotas. D1 outages become possible at the daily account-wide caps, and full table scans consume row-read allowance quickly; indexes add write counts.",
+        "window": "The 64 MiB limit is live with no announced expiry. D1 enforcement is already active.",
+        "immediate_exploit": "Run wrangler deploy --outdir bundled/ --dry-run on LEVERAGEdelta, record Total Upload, then audit D1 queries for indexes and add a graceful cached/read-only state for limit errors. Stop after two hours.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-04-increased-worker-size-limit/",
+          "https://developers.cloudflare.com/changelog/post/2026-09-01-d1-free-tier-limit-enforcement/",
+          "https://developers.cloudflare.com/d1/platform/pricing/",
+          "https://developers.cloudflare.com/workers/platform/pricing/"
+        ]
+      },
+      {
+        "signal_id": "open-yap-1k-full-duplex-commercial-dataset",
+        "classification": "CONFIRMED DATASET RELEASE; FULL CORPUS APPROVAL AND CUSTOM AGREEMENT REQUIRED",
+        "score": 82,
+        "displacement": "QUEUE",
+        "changed": "Open Yap 1K released September 3 with 1,000 hours across 1,602 dual-channel natural English conversations, recorded at 48 kHz and available free on request for commercial and research use.",
+        "free_value": "An immediate 8.9-hour CC-BY-4.0 sample plus, after review and a recipient-specific agreement, the 1,000-hour corpus with separate speaker tracks, shared timing, word-level machine transcripts, and audio/device metadata.",
+        "approximate_value": "Unpriced but plausibly substantial labor/data replacement: the publisher positions it as the largest commercially usable natural two-speaker English corpus and roughly 3.5 times the next-largest comparable wideband corpus.",
+        "cash_required": "$0 dataset license and access fee. Storage, transfer into the recipient S3 bucket, preprocessing, and model training compute are not free.",
+        "fit": "Individuals or companies may request access by identifying themselves and describing the intended use; no funding, incorporation, team-size, or revenue gate is stated.",
+        "catch": "The full corpus is not open-download CC-BY; it uses a separate data-use agreement and approval. Redistribution, speaker identification, and identifiable voice cloning are prohibited. Transcripts are machine-generated and not human-verified; the sample is hand-picked, and training 1,000 hours is compute-intensive.",
+        "window": "No application deadline or expiry is published.",
+        "immediate_exploit": "Do not download the full corpus speculatively. Inspect the 8.9-hour sample against one existing interruption, diarization, or voice-agent evaluation need; request the full set only if a concrete experiment passes.",
+        "sources": [
+          "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k",
+          "https://theagenticdatacompany.com/open-yap-1k"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "GMI Cloud SCALE Cohort 2 is a confirmed equity-free six-week program advertising $500 MaaS credit on acceptance, 1:1 matching up to $4,500, and up to $40,000 in partner credits. Its published application deadline was August 21 and cohort announcement date September 7, so it is closed rather than actionable.",
+      "The GMI page also displays a $125,000 MaaS/compute figure without enough context to treat it as a per-startup entitlement; it was excluded from valuation.",
+      "This is a Golden Signal detector failure: the application-only partner-benefit page should have been escalated before August 21. Future scans must search upcoming cohort calendars and partner-benefit pages before cohort-announcement dates, not only at launch or announcement."
+    ],
+    "omissions_errors": [
+      "Open Yap full-corpus agreement text and approval outcome were not available without submitting a request.",
+      "Open Yap quality and publisher comparison claims were not independently reproduced.",
+      "Cloudflare account/card state was not observed; analysis uses published Free-plan behavior.",
+      "GMI late-application acceptance was not established, so the closed cohort was not recommended.",
+      "Authenticated partner-benefit inventories remained unavailable."
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-04-increased-worker-size-limit/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-01-d1-free-tier-limit-enforcement/",
+      "https://developers.cloudflare.com/d1/platform/pricing/",
+      "https://developers.cloudflare.com/workers/platform/pricing/",
+      "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k",
+      "https://theagenticdatacompany.com/open-yap-1k",
+      "https://www.gmicloud.ai/en/company/scale",
+      "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-workers-64mib-d1-hard-cap-delta-202609",
+      "open-yap-1k-full-duplex-commercial-dataset"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-workers-64mib-d1-hard-cap-delta-202609",
+        "class": "CONFIRMED INFRASTRUCTURE DELTA; FREE-TIER CAPABILITY STRENGTHENING WITH ENFORCED DATABASE LIMIT"
+      },
+      {
+        "signal_id": "open-yap-1k-full-duplex-commercial-dataset",
+        "class": "CONFIRMED DATASET RELEASE; FULL CORPUS APPROVAL AND CUSTOM AGREEMENT REQUIRED"
+      }
+    ],
+    "omissions_errors": [
+      "Open Yap full-corpus agreement text and approval outcome were not available without submitting a request.",
+      "Open Yap quality and publisher comparison claims were not independently reproduced.",
+      "Cloudflare account/card state was not observed; analysis uses published Free-plan behavior.",
+      "GMI late-application acceptance was not established, so the closed cohort was not recommended.",
+      "Authenticated partner-benefit inventories remained unavailable."
+    ]
+  },
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-04-increased-worker-size-limit/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-01-d1-free-tier-limit-enforcement/",
+    "https://developers.cloudflare.com/d1/platform/pricing/",
+    "https://developers.cloudflare.com/workers/platform/pricing/",
+    "https://huggingface.co/datasets/TheAgenticDataCompany/open-yap-1k",
+    "https://theagenticdatacompany.com/open-yap-1k",
+    "https://www.gmicloud.ai/en/company/scale",
+    "https://vercel.com/changelog/minimax-m3-and-m2-7-are-free-on-ai-gateway",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "19f969952042b2005fd3b8fcf2878e13434f3cf8a0823b1a4ebe52a0c8faa43c"
+}
