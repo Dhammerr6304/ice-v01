@@ -1,0 +1,161 @@
+{
+  "event_id": "ls-20260908T214005Z-009",
+  "receipt_id": "lsr-20260908T214005Z-009",
+  "executed_at_utc": "2026-09-08T21:40:05Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change. The prior cohort-calendar correction was retained; today the separate program-surface scan added explicit vendor-handbook and benefit-expiry searches, recovering PostHog before its September 14 AI-credit contraction.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-07T214938Z-lsr-20260907T214938Z-008.json",
+  "previous_hash": "19f969952042b2005fd3b8fcf2878e13434f3cf8a0823b1a4ebe52a0c8faa43c",
+  "output_digest": "5baa1f2616061e42baf53d5b0e52c1593bcac34411c88f82ed8bd03e423d251a",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-08T21:40:05Z",
+    "previous_run_delta": "Recovered/magnitude/direct fit: PostHog for Startups currently advertises $50,000 of 12-month platform credit and $12,000+ of partner benefits, with automatic initial approval and a September 14 contraction of AI-tool coverage. Recovered: NVIDIA hosts Moonshot Kimi K3 behind a free development endpoint with 1M context. Recovered/stack-strengthening: Gemini 3.5 Transcribe and Transcribe Live have a recurring free API tier. Fresh watch: NVIDIA added a downloadable 0.6B multilingual Parakeet ASR model on September 8, but local execution fit is unverified. Closing: NVIDIA lists its MiniMax M3 free endpoint as deprecating in one day. Prior Cloudflare and Open Yap signals are unchanged and not recycled.",
+    "signals": [
+      {
+        "signal_id": "posthog-startups-50k-plus-12k-benefits-ai-cutoff-20260914",
+        "classification": "CONFIRMED PROGRAM SURFACE; MAGNITUDE OVERRIDE; ELIGIBILITY PLAUSIBLE BUT USER ACCOUNT STATE UNOBSERVED",
+        "score": 94,
+        "displacement": "DISPLACE",
+        "changed": "The current PostHog startup offer provides $50,000 in platform credits for 12 months and advertises $12,000+ in partner benefits. PostHog also states that, from September 14, startup credits cannot pay for PostHog Desktop, the Slack app, Replay Vision, PostHog AI, or Inbox; usage incurred before the cutoff can still be covered.",
+        "free_value": "$50,000 applicable across core PostHog products including product/web analytics, session replay, feature flags, experiments, error tracking, LLM analytics, surveys, heatmaps, CDP, and context warehouse. Partner benefits include $5,000 Chroma credit, $5,000 Depot credit, $1,500 off Incident.io, and 50% off Speakeasy for six months.",
+        "approximate_value": "$50,000 core credit plus $10,000 in unconditional partner credits and discount benefits marketed above $12,000. Discounts are not equivalent to cash and should only be valued if the underlying paid product is needed.",
+        "cash_required": "$0 program fee, but PostHog requires billing details. After credit expiry or exhaustion, the organization is automatically moved to standard paid billing.",
+        "eligibility_reality_check": "Company under two years old, under $5 million raised, not acquired, and applying from a PostHog account using its own company email domain. Free/disposable addresses are rejected. Applications are initially approved automatically and then manually reviewed. No VC, accelerator, minimum revenue, or team-size requirement is stated.",
+        "why_asymmetric": "This is a Devin-class program topology with much cleaner bootstrap fit, and it directly subsidizes the analytics, observability, experimentation, LLM tracing, and feedback layer already intended for LEVERAGEdelta.",
+        "catch": "The 12-month clock begins at application. Credits are nontransferable, do not become cash, exclude a BAA for non-YC startups, and stop covering named AI tools after September 14. Automatic paid conversion creates overage risk. HAMMER OPS age, domain-email readiness, prior PostHog credits, and billing setup were not observable.",
+        "window": "Core startup program has no published application deadline. AI-tool credit eligibility ends September 14, 2026; only usage incurred before then can be covered.",
+        "immediate_exploit": "Displace the next noncritical 30-minute block: verify HAMMER OPS is under two years old, use a hammerops.com email, inspect billing controls, and apply. Immediately set conservative project billing limits. Do not manufacture AI usage merely to consume credits before September 14.",
+        "sources": [
+          "https://posthog.com/startups",
+          "https://posthog.com/handbook/marketing/startups"
+        ]
+      },
+      {
+        "signal_id": "nvidia-nim-kimi-k3-free-endpoint-1m-context",
+        "classification": "CONFIRMED FREE DEVELOPMENT ENDPOINT; CAPABILITY CLAIMS NOT INDEPENDENTLY BENCHMARKED",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "Moonshot Kimi K3 appeared in NVIDIA build on August 27 and remains available through a free API endpoint. It was not present in prior ICE reports.",
+        "free_value": "Rate-limited hosted inference through NVIDIA's OpenAI-compatible endpoint for a multimodal coding and agent model with a one-million-token context window. The model accepts text and images and supports reasoning/tool workflows.",
+        "approximate_value": "Unquantified because NVIDIA publishes no guaranteed promotional token allocation or duration. It temporarily substitutes for paid long-context multimodal inference during development.",
+        "cash_required": "$0 for the free development endpoint; an NVIDIA account and API key are required.",
+        "eligibility_reality_check": "Public developer-account flow; no startup, funding, incorporation, company-age, or domain-email gate is shown on the model page. Account verification may be required.",
+        "why_asymmetric": "The user already has familiarity with NVIDIA NIM, so a one-million-context K3 benchmark requires little integration work and no new provider architecture.",
+        "catch": "The free API is for development, may be throttled, has no service-level guarantee, and should not be treated as durable production capacity. Model specifications and capability claims were not independently reproduced.",
+        "window": "Available now; no endpoint expiration is published.",
+        "immediate_exploit": "Run one sanitized repository architecture or multimodal document task against moonshotai/kimi-k3 using the existing NVIDIA endpoint. Record latency, throttling, correctness, and context retention; stop within 60 minutes.",
+        "sources": [
+          "https://build.nvidia.com/moonshotai/kimi-k3",
+          "https://build.nvidia.com/models"
+        ]
+      },
+      {
+        "signal_id": "gemini-3-5-transcribe-free-tier-20260826",
+        "classification": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; FREE-TIER QUOTA VARIES BY PROJECT",
+        "score": 86,
+        "displacement": "TEST",
+        "changed": "Google released Gemini 3.5 Transcribe and Transcribe Live on August 26. Both currently show free-of-charge input and output on the Gemini Developer API Free tier.",
+        "free_value": "Batch/non-streaming transcription with automatic language detection across 85+ languages, speaker diarization, word timestamps, and up to 1,000 custom vocabulary terms; plus WebSocket streaming transcription with interim/final events and configurable VAD.",
+        "approximate_value": "At paid reference pricing, about $0.005 per prerecorded minute and $0.009 per live minute. The direct cash value depends on the project-specific free quota, which Google does not guarantee publicly.",
+        "cash_required": "$0 on the unpaid Gemini API tier; an active project and current authorization key are required.",
+        "eligibility_reality_check": "Available to adult developers in supported regions. It is not a startup program and has no funding or incorporation requirement. Published limits vary by model, project, and account and must be read in AI Studio.",
+        "why_asymmetric": "It adds a recurring speech-to-text fallback just as Deepgram's launch subsidy approaches expiry and Open Yap creates a new evaluation corpus.",
+        "catch": "Google may use unpaid-service inputs and outputs to improve products, and human reviewers may process them. Sensitive, confidential, personal, health, customer, or private conversation audio must not be submitted. Free quotas and capacity are not guaranteed.",
+        "window": "Recurring free tier with no announced end date.",
+        "immediate_exploit": "Transcribe one public or synthetic five-minute sample and compare diarization, timestamps, proper nouns, latency, and failures against Deepgram or AssemblyAI. Do not upload private recordings.",
+        "sources": [
+          "https://ai.google.dev/gemini-api/docs/changelog",
+          "https://ai.google.dev/gemini-api/docs/models",
+          "https://ai.google.dev/gemini-api/docs/pricing",
+          "https://ai.google.dev/gemini-api/docs/rate-limits",
+          "https://ai.google.dev/gemini-api/terms"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "PostHog survived the magnitude and eligibility screens: its under-two-year, under-$5M, company-domain requirements are compatible with a genuinely new bootstrapped product company, and the program is automatically approved before manual review.",
+      "The attractive $62,000+ headline was decomposed: $50,000 is PostHog credit, $10,000 is Chroma/Depot credit, and the remainder includes discounts rather than cash-equivalent value.",
+      "AWS hackathon credits and OpenCV compute grants were not elevated because they add build obligations and offer only $100-$150 of capacity.",
+      "NVIDIA Inception remains valuable but unchanged; it was not recycled as a new signal."
+    ],
+    "omissions_errors": [
+      "HAMMER OPS legal formation date, matching-domain email, PostHog account history, prior credits, and billing controls were not observable.",
+      "PostHog did not publish a special grandfathered AI entitlement after September 14; only pre-cutoff usage remains credit-eligible.",
+      "NVIDIA NIM free-endpoint quotas, rate limits, retention, and duration are unpublished or account-dependent.",
+      "Kimi K3 and Gemini transcription quality were not independently benchmarked.",
+      "Gemini Free-tier quota values were not publicly enumerated and must be inspected per project in AI Studio.",
+      "Authenticated partner inventories remained unavailable."
+    ],
+    "source_manifest": [
+      "https://posthog.com/startups",
+      "https://posthog.com/handbook/marketing/startups",
+      "https://build.nvidia.com/moonshotai/kimi-k3",
+      "https://build.nvidia.com/models",
+      "https://build.nvidia.com/minimaxai/minimax-m3",
+      "https://build.nvidia.com/nvidia/parakeet-tdt-0_6b",
+      "https://ai.google.dev/gemini-api/docs/changelog",
+      "https://ai.google.dev/gemini-api/docs/models",
+      "https://ai.google.dev/gemini-api/docs/pricing",
+      "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "https://ai.google.dev/gemini-api/terms",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "posthog-startups-50k-plus-12k-benefits-ai-cutoff-20260914",
+      "nvidia-nim-kimi-k3-free-endpoint-1m-context",
+      "gemini-3-5-transcribe-free-tier-20260826"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "posthog-startups-50k-plus-12k-benefits-ai-cutoff-20260914",
+        "class": "CONFIRMED PROGRAM SURFACE; MAGNITUDE OVERRIDE; ELIGIBILITY PLAUSIBLE BUT USER ACCOUNT STATE UNOBSERVED"
+      },
+      {
+        "signal_id": "nvidia-nim-kimi-k3-free-endpoint-1m-context",
+        "class": "CONFIRMED FREE DEVELOPMENT ENDPOINT; CAPABILITY CLAIMS NOT INDEPENDENTLY BENCHMARKED"
+      },
+      {
+        "signal_id": "gemini-3-5-transcribe-free-tier-20260826",
+        "class": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; FREE-TIER QUOTA VARIES BY PROJECT"
+      }
+    ],
+    "omissions_errors": [
+      "HAMMER OPS legal formation date, matching-domain email, PostHog account history, prior credits, and billing controls were not observable.",
+      "PostHog did not publish a special grandfathered AI entitlement after September 14; only pre-cutoff usage remains credit-eligible.",
+      "NVIDIA NIM free-endpoint quotas, rate limits, retention, and duration are unpublished or account-dependent.",
+      "Kimi K3 and Gemini transcription quality were not independently benchmarked.",
+      "Gemini Free-tier quota values were not publicly enumerated and must be inspected per project in AI Studio.",
+      "Authenticated partner inventories remained unavailable."
+    ]
+  },
+  "canonical_sources": [
+    "https://posthog.com/startups",
+    "https://posthog.com/handbook/marketing/startups",
+    "https://build.nvidia.com/moonshotai/kimi-k3",
+    "https://build.nvidia.com/models",
+    "https://build.nvidia.com/minimaxai/minimax-m3",
+    "https://build.nvidia.com/nvidia/parakeet-tdt-0_6b",
+    "https://ai.google.dev/gemini-api/docs/changelog",
+    "https://ai.google.dev/gemini-api/docs/models",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "https://ai.google.dev/gemini-api/terms",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "8cc4957cedaf40003f7ce4fe8304795f7d4b4194b3dd9c6d57d2fe8f408a5bd6"
+}
