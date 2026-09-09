@@ -1,0 +1,152 @@
+{
+  "event_id": "ls-20260909T212702Z-010",
+  "receipt_id": "lsr-20260909T212702Z-010",
+  "executed_at_utc": "2026-09-09T21:27:02Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change. Vendor-handbook, benefit-expiry, cohort-calendar, and partner-catalog scans were retained. The prior receipt's overstatement of PostHog partner-credit certainty is explicitly corrected in this delta.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-08T214005Z-lsr-20260908T214005Z-009.json",
+  "previous_hash": "8cc4957cedaf40003f7ce4fe8304795f7d4b4194b3dd9c6d57d2fe8f408a5bd6",
+  "output_digest": "42dfa1b54b6fc98b8358956ca9fcdd1609480d9ec4b5f31c00c7adf5c3a08e71",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-09T21:27:02Z",
+    "previous_run_delta": "New/magnitude/closing: Vercel Open Source Program summer-cohort applications close September 13 and combine $3,600 of Vercel credit with a large OSS partner pack. Recovered/program surface: Google Cloud Start tier offers eligible pre-funded startups $2,000 cloud credit, $200 learning credit, and 12 months of Workspace Business Plus. New: Vercel made production deployment protection free on every plan. Closed: NVIDIA MiniMax M3 free endpoint is now deprecated. Correction carried forward: the September 8 receipt incorrectly characterized PostHog Chroma and Depot benefits as unconditional; PostHog states partner offers are ultimately at partner discretion, and its current handbook partner list omits Depot even though the public offer page displays it.",
+    "signals": [
+      {
+        "signal_id": "vercel-oss-summer-2026-credits-pack-deadline-20260913",
+        "classification": "CONFIRMED PROGRAM SURFACE; MAGNITUDE OVERRIDE; SELECTION AND PARTNER REDEMPTION CONDITIONAL",
+        "score": 94,
+        "displacement": "DISPLACE",
+        "changed": "Vercel is accepting applications for its Summer 2026 open-source cohort through September 13.",
+        "free_value": "$3,600 of Vercel platform credit over three years plus an OSS Starter Pack. Explicit face-value partner credits total at least $13,100 across Agora, Daytona, Langfuse, Mux, Neon, PlanetScale, Prisma Postgres, Resend, Supabase, and Tembo, plus multiple paid-plan benefits whose value was not added.",
+        "approximate_value": "At least $16,700 in stated platform and partner credit face value, conditional on program selection and each vendor redemption. Paid-plan discounts and accounts are excluded from this minimum.",
+        "cash_required": "$0 application/program fee found. Individual partner services may require new-user status, billing details, paid-plan activation, or create overage exposure; only Daytona explicitly states new-user eligibility on the public pack page.",
+        "eligibility_reality_check": "Project must be actively developed open source, hosted on or intended for Vercel, show measurable impact or growth potential, follow a Code of Conduct, and use credits exclusively for the OSS project. No funding, incorporation, revenue, geography, or team-size gate is published. Selection is discretionary.",
+        "why_asymmetric": "An existing public ICE or LEVERAGEdelta repository may qualify without creating a new company or product, while the benefit stack covers hosting, sandboxes, databases, observability, email, auth, docs, and agent infrastructure.",
+        "catch": "Credits are not cash. The $3,600 is spread across three years. Partner redemptions can carry separate eligibility, activation, expiry, card, and overage conditions not exposed on the catalog page. Project impact and Code of Conduct readiness are unobserved.",
+        "window": "Applications close September 13, 2026; no cutoff time is published.",
+        "immediate_exploit": "Use one 45-minute block to audit an existing OSS repository for active maintenance, public impact evidence, Vercel hosting intent, and a Code of Conduct; apply only with truthful project metrics and an explicit zero-overage adoption plan.",
+        "sources": [
+          "https://vercel.com/open-source-program",
+          "https://oss-starter-pack.vercel.com/"
+        ]
+      },
+      {
+        "signal_id": "google-cloud-start-tier-prefunded-2000-2026",
+        "classification": "CONFIRMED PROGRAM SURFACE; BOOTSTRAP-FIT CONDITIONAL ON FUNDRAISING INTENT",
+        "score": 82,
+        "displacement": "TEST",
+        "changed": "Google currently exposes a direct Start tier for pre-funded startups rather than requiring VC or accelerator sponsorship.",
+        "free_value": "$2,000 of Google Cloud credit valid for 12 months, $200 of Google Skills credit, 12 months of Workspace Business Plus subject to domain conditions, free-tier AI Studio access, and partner perks. Cloud credits cover proprietary Google models but not third-party models.",
+        "approximate_value": "$2,200 in explicit credits plus one year of Workspace Business Plus and unpriced perks.",
+        "cash_required": "$0 program fee, but an active 18-character Cloud Billing account is required. A self-serve billing account must retain a valid payment method and overages can be charged.",
+        "eligibility_reality_check": "Digital-native product startup with a working MVP, clear business model, plans to seek venture funding soon, founded within 24 months, no Google Cloud credits beyond the free trial, matching website/email/billing domains. Agencies, consultancies, traditional small businesses, nonprofits, education, government, and acquired or public companies are excluded.",
+        "why_asymmetric": "It is a directly accessible pre-funding path to broadly composable compute, storage, BigQuery, Cloud Run, and Gemini capacity without an investor Org ID.",
+        "catch": "The published fundraising-intent test is a real mismatch for a founder committed to permanent bootstrapping. Card-backed billing makes this less spend-safe than no-card programs. Acceptance and tier assignment are discretionary, and Workspace has a domain-subscription timing condition.",
+        "window": "No application deadline published; credits last 12 months after award.",
+        "immediate_exploit": "Spend no more than 15 minutes checking company age, product-versus-services status, prior-credit history, domain alignment, and genuine near-term fundraising intent. Apply only if all five are true, then create budgets and hard service limits.",
+        "sources": [
+          "https://cloud.google.com/startup/pre-funded",
+          "https://cloud.google.com/startup/faq",
+          "https://docs.cloud.google.com/billing/docs/how-to/payment-methods"
+        ]
+      },
+      {
+        "signal_id": "vercel-production-deployment-protection-free-20260909",
+        "classification": "CONFIRMED FRESH PRICING/CAPABILITY DELTA",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "On September 9 Vercel made its account-based authentication protection available for production deployments at no additional cost on every plan; this previously required the $150-per-month Advanced Deployment Protection add-on.",
+        "free_value": "Production and preview deployment protection, team-wide defaults, and protection exceptions using Vercel-account sign-in.",
+        "approximate_value": "Avoids a previously required $150 monthly add-on, or $1,800 per year, for the narrow Vercel Authentication use case.",
+        "cash_required": "$0 incremental charge on any plan.",
+        "eligibility_reality_check": "Available across Vercel plans. Visitors must have a Vercel account and project access, so it is suitable for internal tools, private dashboards, and prelaunch environments rather than general customer authentication.",
+        "why_asymmetric": "It removes the need to build or buy access control for private operational dashboards while a public-facing application is still being validated.",
+        "catch": "This is project-member access, not arbitrary end-user identity. It does not replace Clerk, Auth0, or application-level authorization for public customers.",
+        "window": "Active with no announced expiry.",
+        "immediate_exploit": "Enable it on one private production dashboard or staging project, confirm unauthorized access fails, and add only the collaborators who need access. Time-box to 20 minutes.",
+        "sources": [
+          "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Vercel OSS passed the Devin-style detector: a cohort deadline and partner-benefit catalog revealed substantially more value than the ordinary hosting page.",
+      "Google Start tier passed bootstrap accessibility but was downgraded because the applicant must genuinely plan to seek venture funding soon and maintain card-backed billing.",
+      "Vercel for Startups advertises up to $30,000 but foregrounds investor partners and does not publish enough self-serve eligibility detail to recommend it for the current bootstrapped profile.",
+      "The September 8 PostHog receipt wording was corrected prospectively: Chroma/Depot benefits are not unconditional, and all partner offers are discretionary."
+    ],
+    "omissions_errors": [
+      "Vercel OSS application-review timing and acceptance probability are unpublished.",
+      "Most OSS Starter Pack redemption terms, card requirements, overage behavior, and prior-account exclusions are hidden behind sign-in or vendor-specific flows.",
+      "Existing ICE/LEVERAGEdelta repository impact metrics and Code of Conduct status were not observed.",
+      "Google Start-tier award and Workspace eligibility depend on discretionary review and account state.",
+      "No model or infrastructure benchmark was executed.",
+      "Authenticated partner inventories remained unavailable."
+    ],
+    "source_manifest": [
+      "https://vercel.com/open-source-program",
+      "https://oss-starter-pack.vercel.com/",
+      "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+      "https://cloud.google.com/startup/pre-funded",
+      "https://cloud.google.com/startup/faq",
+      "https://docs.cloud.google.com/billing/docs/how-to/payment-methods",
+      "https://vercel.com/startups",
+      "https://posthog.com/startups",
+      "https://posthog.com/handbook/marketing/startups",
+      "https://build.nvidia.com/minimaxai/minimax-m3",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-oss-summer-2026-credits-pack-deadline-20260913",
+      "google-cloud-start-tier-prefunded-2000-2026",
+      "vercel-production-deployment-protection-free-20260909"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-oss-summer-2026-credits-pack-deadline-20260913",
+        "class": "CONFIRMED PROGRAM SURFACE; MAGNITUDE OVERRIDE; SELECTION AND PARTNER REDEMPTION CONDITIONAL"
+      },
+      {
+        "signal_id": "google-cloud-start-tier-prefunded-2000-2026",
+        "class": "CONFIRMED PROGRAM SURFACE; BOOTSTRAP-FIT CONDITIONAL ON FUNDRAISING INTENT"
+      },
+      {
+        "signal_id": "vercel-production-deployment-protection-free-20260909",
+        "class": "CONFIRMED FRESH PRICING/CAPABILITY DELTA"
+      }
+    ],
+    "omissions_errors": [
+      "Vercel OSS application-review timing and acceptance probability are unpublished.",
+      "Most OSS Starter Pack redemption terms, card requirements, overage behavior, and prior-account exclusions are hidden behind sign-in or vendor-specific flows.",
+      "Existing ICE/LEVERAGEdelta repository impact metrics and Code of Conduct status were not observed.",
+      "Google Start-tier award and Workspace eligibility depend on discretionary review and account state.",
+      "No model or infrastructure benchmark was executed.",
+      "Authenticated partner inventories remained unavailable."
+    ]
+  },
+  "canonical_sources": [
+    "https://vercel.com/open-source-program",
+    "https://oss-starter-pack.vercel.com/",
+    "https://vercel.com/changelog/protect-production-deployments-for-free-on-every-plan",
+    "https://cloud.google.com/startup/pre-funded",
+    "https://cloud.google.com/startup/faq",
+    "https://docs.cloud.google.com/billing/docs/how-to/payment-methods",
+    "https://vercel.com/startups",
+    "https://posthog.com/startups",
+    "https://posthog.com/handbook/marketing/startups",
+    "https://build.nvidia.com/minimaxai/minimax-m3",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently anchored; UNSIGNED until a policy-issued signing key exists.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "1aa88ea9d43674a5b5b0694e9bcb65d8037a9558632b554146bc5a265ac9d2c8"
+}
