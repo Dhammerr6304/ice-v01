@@ -1,0 +1,99 @@
+{
+  "event_id": "ls-20260910T221014Z-011",
+  "receipt_id": "lsr-20260910T221014Z-011",
+  "executed_at_utc": "2026-09-10T22:10:14Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No user policy change. Cohort-calendar, vendor-handbook, benefit-expiry, partner-catalog, and separate program-surface scans were retained.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-09T212702Z-lsr-20260909T212702Z-010.json",
+  "previous_hash": "1aa88ea9d43674a5b5b0694e9bcb65d8037a9558632b554146bc5a265ac9d2c8",
+  "output_digest": "b8fbeb1a53f120aa66038e5f49e360c06635d5b411f5112279fe242c5baee0c8",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-10T22:10:14Z",
+    "previous_run_delta": "New: Tako Search launched as a model-agnostic, structured-data-plus-live-web tool and is free on Vercel AI Gateway through September 30. Closing: AWS Agents for Humans credit requests close September 11 at noon PT; Vercel Open Source Program applications close September 13. Unchanged/not recycled: Vercel OSS, PostHog, Cloudflare Startup Program, Google Start, Kimi K3, Gemini Transcribe, and prior free-model promotions. No new Devin-class, bootstrapped-fit program survived the separate program scan.",
+    "signals": [
+      {
+        "signal_id": "vercel-tako-search-free-through-20260930",
+        "classification": "CONFIRMED FRESH TEMPORARY FREE SEARCH API; POST-PROMOTION BILLING RISK",
+        "score": 86,
+        "displacement": "TEST",
+        "changed": "On September 10, Vercel made Tako Search available as a built-in AI Gateway tool and zero-priced its request fee through September 30.",
+        "free_value": "Model-agnostic web and curated knowledge-graph search with citations, structured data cards, visualizations, domain/date filters, and up to 20 free underlying data rows per returned card when raw data export is not requested.",
+        "approximate_value": "Normal pricing is $7 per 1,000 instant/fast searches and $12 per 1,000 deep searches. The direct dollar subsidy is modest; the leverage is a no-cost evaluation of one search integration across multiple models and structured data domains.",
+        "cash_required": "$0 for Tako request charges through September 30. Model inference remains separately priced unless a free model route or existing Vercel credit is used. Raw structured-data exports beyond the included rows can add variable charges.",
+        "eligibility_reality_check": "Requires a Vercel AI Gateway account and API key; no funding, incorporation, company-age, geography, domain-email, or team-size gate is published. Free users receive $5 of AI Gateway credits every 30 days, but account and billing configuration were not observed.",
+        "why_asymmetric": "It can add current, cited web and structured finance, weather, sports, macroeconomic, and political data to any gateway model without a separate Tako account or key, making it unusually composable with the existing evidence pipeline.",
+        "catch": "The same tool identifier becomes paid after September 30 rather than failing closed. Deep requests cost more after the promotion; raw data export can carry per-row surcharges; ZDR and no-training guarantees are not shown on the model page. Model-token charges are separate.",
+        "window": "Free request pricing ends September 30, 2026. No cutoff time is published.",
+        "immediate_exploit": "Run a maximum 60-minute comparison on five existing LEVERAGEdelta research questions. Use fast effort, two web and two data results, no raw data export, and public inputs only. Compare citation precision, freshness, structured fields, latency, and hallucinated joins; set a September 29 kill switch or budget cap before any production use.",
+        "sources": [
+          "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+          "https://vercel.com/docs/ai-gateway/models-and-providers/web-search",
+          "https://vercel.com/ai-gateway/models/tako-search"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "No newly actionable, Devin-class program for a bootstrapped solo founder survived primary-source verification.",
+      "Cloudflare currently advertises up to $350,000, but the bootstrap/self-funded tier is $10,000; $100,000 and $350,000 require affiliated-partner funding, and the top tier requires at least $5 million raised. This was previously known and was not recycled.",
+      "The Cloudflare program also requires incorporation, a matching business-domain email, a live site, public social presence, a valid payment method, and automatic overage billing; AI Gateway is excluded from its credits.",
+      "Google Scale and AI tiers remain magnitude-level but require recent institutional equity funding; Google Start remains conditional on genuine near-term fundraising intent."
+    ],
+    "omissions_errors": [
+      "Tako promotion quotas and a hard usage ceiling are not published.",
+      "Tako search quality, data-card coverage, and citation accuracy were not independently benchmarked.",
+      "The account-specific Vercel billing and budget configuration was not observable.",
+      "Authenticated partner-program inventories remained unavailable.",
+      "DeepSeek V4.1 Flash was announced today, but primary pricing, licensing, and free-access terms were not verified, so it was excluded.",
+      "The NASA-IBM Lunar Foundation Model is open source, but its specialist lunar-imagery scope did not clear the present solo-builder workload-change threshold."
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://vercel.com/docs/ai-gateway/models-and-providers/web-search",
+      "https://vercel.com/ai-gateway/models/tako-search",
+      "https://www.cloudflare.com/startups/",
+      "https://agentsforhumans.devpost.com/",
+      "https://vercel.com/open-source-program",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-tako-search-free-through-20260930"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-tako-search-free-through-20260930",
+        "class": "CONFIRMED FRESH TEMPORARY FREE SEARCH API; POST-PROMOTION BILLING RISK"
+      }
+    ],
+    "omissions_errors": [
+      "Tako promotion quotas and a hard usage ceiling are not published.",
+      "Tako search quality, data-card coverage, and citation accuracy were not independently benchmarked.",
+      "The account-specific Vercel billing and budget configuration was not observable.",
+      "Authenticated partner-program inventories remained unavailable.",
+      "DeepSeek V4.1 Flash was announced today, but primary pricing, licensing, and free-access terms were not verified, so it was excluded.",
+      "The NASA-IBM Lunar Foundation Model is open source, but its specialist lunar-imagery scope did not clear the present solo-builder workload-change threshold."
+    ]
+  },
+  "canonical_sources": [
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://vercel.com/docs/ai-gateway/models-and-providers/web-search",
+    "https://vercel.com/ai-gateway/models/tako-search",
+    "https://www.cloudflare.com/startups/",
+    "https://agentsforhumans.devpost.com/",
+    "https://vercel.com/open-source-program",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "6965358a6b922c9c03842b25a5fa5e4606269fb95d33265f23b08042eced82d1"
+}
