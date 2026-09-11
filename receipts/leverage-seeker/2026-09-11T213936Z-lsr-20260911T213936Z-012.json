@@ -1,0 +1,126 @@
+{
+  "event_id": "ls-20260911T213936Z-012",
+  "receipt_id": "lsr-20260911T213936Z-012",
+  "executed_at_utc": "2026-09-11T21:39:36Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No user policy change. Separate program, cohort-calendar, vendor-handbook, benefit-expiry and partner-catalog scans were retained.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-10T221014Z-lsr-20260910T221014Z-011.json",
+  "previous_hash": "6965358a6b922c9c03842b25a5fa5e4606269fb95d33265f23b08042eced82d1",
+  "output_digest": "df1d7901173954b5271820277f2501ed9a6a3cf925cf09844905821e755769e2",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-11T21:39:36Z",
+    "previous_run_delta": "New: Vercel doubled every Sandbox filesystem from 32 GB to 64 GB, strengthening the still-open Vercel Open Source Program value. New: Cloudflare voice v0.4.0 added typed per-turn latency and outcome metrics. Closed: AWS Agents for Humans credit requests passed the September 11 noon PT deadline. Still closing: Deepgram Flux free access ends September 12 and Vercel Open Source Program applications close September 13. Tenable CyberAgents Exchange is live, but its announced AI Inspector remains expected in September rather than verifiably available.",
+    "signals": [
+      {
+        "signal_id": "vercel-sandbox-64gb-storage-20260911",
+        "classification": "CONFIRMED FRESH CAPABILITY DELTA; COMPUTE REMAINS METERED",
+        "score": 85,
+        "displacement": "TEST",
+        "changed": "On September 11, Vercel increased the filesystem of every Sandbox from 32 GB to 64 GB for managed images, custom images, the latest SDK and CLI.",
+        "free_value": "The additional 32 GB of ephemeral disk capacity carries no separately announced storage surcharge. Downloads into a sandbox, including packages, repositories, artifacts and datasets, are free. Hobby users can create sandboxes with up to 4 vCPU, 8 GB RAM and 45-minute continuous sessions.",
+        "approximate_value": "Unquantified as a standalone dollar amount. The leverage is avoiding storage-driven task splitting for dependency-heavy repositories, Docker images, datasets and build artifacts. For an accepted Vercel OSS applicant, the previously verified $3,600 Vercel allocation can now buy metered execution against twice the disk ceiling.",
+        "cash_required": "$0 only while activity remains inside an existing plan allowance or awarded credits. Active CPU, provisioned memory, outbound traffic and exposed-port traffic remain usage-billed.",
+        "eligibility_reality_check": "Sandbox is available on Hobby, Pro and Enterprise. No startup, funding, incorporation or domain-email gate applies to the product. The separate Vercel Open Source Program remains selection-based and requires an actively maintained qualifying open-source project; applications close September 13.",
+        "why_asymmetric": "A 64 GB Firecracker microVM with sudo, Docker, FUSE, custom images, snapshots and agent tooling can execute substantially heavier untrusted-code and repository-analysis jobs without a self-managed VM. The timing materially strengthens the closing OSS application rather than creating a new project.",
+        "catch": "This is storage capacity, not 64 GB RAM or free compute. Sandboxes are usage-priced and ephemeral; Hobby sessions cap at 45 continuous minutes. Resuming resets the continuous limit but not costs. Egress and public-port traffic can bill.",
+        "window": "The 64 GB limit is active with no announced expiry. Vercel Open Source Program applications close September 13, 2026; cutoff time is unpublished.",
+        "immediate_exploit": "If the OSS application is not yet submitted, add one truthful sentence describing how 64 GB sandboxes would support repository tests or agent isolation, then submit. Separately run one 20-minute Hobby sandbox test that clones the largest relevant repository, installs dependencies and records peak disk, CPU time and outbound bytes.",
+        "sources": [
+          "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+          "https://vercel.com/sandbox",
+          "https://vercel.com/open-source-program"
+        ]
+      },
+      {
+        "signal_id": "cloudflare-voice-turn-metrics-v040-20260911",
+        "classification": "CONFIRMED FRESH OPEN-SOURCE OBSERVABILITY DELTA",
+        "score": 80,
+        "displacement": "WATCH",
+        "changed": "Cloudflare voice v0.4.0 added typed per-turn outcome and timing metrics plus local browser diagnostics.",
+        "free_value": "The SDK now exposes terminal outcomes such as completed, no output, output limit, content filtering, model error, TTS error and abort, alongside speech-to-final-transcript, model-to-first-text, TTS-to-first-audio and total-turn timing. Local diagnostics are off by default.",
+        "approximate_value": "No credible cash equivalent. It replaces custom instrumentation work and makes STT, model and TTS bottlenecks separately measurable.",
+        "cash_required": "$0 for the SDK instrumentation. The voice pipeline, Workers, transcription, model inference and speech synthesis may still incur their normal charges.",
+        "eligibility_reality_check": "No founder, company, funding, geography or application gate applies to the package. Existing Cloudflare and provider accounts are required for the services used underneath it.",
+        "why_asymmetric": "It turns voice-agent behavior into typed evidence suitable for ICE rather than a single undifferentiated latency number, and composes with the previously recovered Open Yap sample and Gemini transcription tier.",
+        "catch": "This does not improve model quality or grant free inference. It only matters if voice work is already active; starting a voice product to exploit it would be negative leverage. Browser diagnostics are local, not a hosted monitoring service.",
+        "window": "Available now with no announced expiry.",
+        "immediate_exploit": "Do not interrupt current work. When the next voice-agent test occurs, upgrade the package and capture one synthetic five-minute run, preserving outcome classes and stage timings in ICE.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-11-voice-diagnostics-turn-metrics/"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "No newly actionable Devin-class program suitable for a cash-constrained solo founder survived primary-source verification.",
+      "Vercel Open Source Program remains the near-term program priority because it closes September 13 and the fresh 64 GB Sandbox change increases the utility of its $3,600 Vercel allocation.",
+      "The live AssemblyAI Voice Agent Hackathon has a $10,000 combined cash-and-credit prize pool, but it requires a new competition build and uncertain selection; it does not displace an existing project.",
+      "Tenable CyberAgents Exchange is publicly browsable and lists agents, skills and MCP servers, but Tenable still describes the AI Inspector as expected during September. No public inspection result or zero-cost eligibility could be verified today."
+    ],
+    "omissions_errors": [
+      "Vercel Sandbox account-specific included usage, budgets and effective per-run cost were not observable.",
+      "The 64 GB filesystem was not independently benchmarked.",
+      "Cloudflare voice metrics were not exercised against a live pipeline.",
+      "Tenable AI Inspector public availability and pricing remain unverified.",
+      "Authenticated partner-benefit redemption terms remained unavailable.",
+      "No new bootstrapped-fit magnitude program survived the separate program scan."
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+      "https://vercel.com/sandbox",
+      "https://vercel.com/open-source-program",
+      "https://developers.cloudflare.com/changelog/post/2026-09-11-voice-diagnostics-turn-metrics/",
+      "https://exchange.tenable.com/",
+      "https://www.tenable.com/press-releases/tenable-uses-openai-gpt-cyber-models-to-help-defenders-inspect-community-built-ai-components",
+      "https://agentsforhumans.devpost.com/",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-sandbox-64gb-storage-20260911",
+      "cloudflare-voice-turn-metrics-v040-20260911"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-sandbox-64gb-storage-20260911",
+        "class": "CONFIRMED FRESH CAPABILITY DELTA; COMPUTE REMAINS METERED"
+      },
+      {
+        "signal_id": "cloudflare-voice-turn-metrics-v040-20260911",
+        "class": "CONFIRMED FRESH OPEN-SOURCE OBSERVABILITY DELTA"
+      }
+    ],
+    "omissions_errors": [
+      "Vercel Sandbox account-specific included usage, budgets and effective per-run cost were not observable.",
+      "The 64 GB filesystem was not independently benchmarked.",
+      "Cloudflare voice metrics were not exercised against a live pipeline.",
+      "Tenable AI Inspector public availability and pricing remain unverified.",
+      "Authenticated partner-benefit redemption terms remained unavailable.",
+      "No new bootstrapped-fit magnitude program survived the separate program scan."
+    ]
+  },
+  "canonical_sources": [
+    "https://vercel.com/changelog/vercel-sandbox-64-gb-storage",
+    "https://vercel.com/sandbox",
+    "https://vercel.com/open-source-program",
+    "https://developers.cloudflare.com/changelog/post/2026-09-11-voice-diagnostics-turn-metrics/",
+    "https://exchange.tenable.com/",
+    "https://www.tenable.com/press-releases/tenable-uses-openai-gpt-cyber-models-to-help-defenders-inspect-community-built-ai-components",
+    "https://agentsforhumans.devpost.com/",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "9dd7b5f2027bf2ef00732f679d53974632d32e48615154871f8a393022a6cb21"
+}
