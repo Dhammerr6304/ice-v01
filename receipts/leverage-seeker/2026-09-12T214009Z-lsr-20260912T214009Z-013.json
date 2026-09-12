@@ -1,0 +1,144 @@
+{
+  "event_id": "ls-20260912T214009Z-013",
+  "receipt_id": "lsr-20260912T214009Z-013",
+  "executed_at_utc": "2026-09-12T21:40:09Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change. The forgotten-signal scan added explicit vendor navigation searches for Startup Program and Accelerator pages after prior launch-focused scans missed magnitude offers.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-11T213936Z-lsr-20260911T213936Z-012.json",
+  "previous_hash": "9dd7b5f2027bf2ef00732f679d53974632d32e48615154871f8a393022a6cb21",
+  "output_digest": "c6539b5fa272779d35e2e3684ffa967684b58e1fa07994da4770f63977365b98",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-12T21:40:09Z",
+    "previous_run_delta": "Recovered magnitude programs: Deepgram now publicly offers selected AI builders up to $100,000 in voice-AI credits for 12 months; Together AI offers startups with up to $5 million raised as much as $15,000 in platform credits plus three hours of forward-deployed engineering; ElevenLabs offers 33 million characters and 12 months of Scale, valued by the vendor above $5,500. Closing: Deepgram Flux promotional access ends September 12 and Vercel Open Source Program applications close September 13. No fresh general-purpose launch exceeded these recovered program signals.",
+    "signals": [
+      {
+        "signal_id": "deepgram-startups-up-to-100k-2026-recovery",
+        "classification": "CONFIRMED MAGNITUDE RECOVERY; AWARD SIZE DISCRETIONARY",
+        "score": 92,
+        "displacement": "TEST",
+        "changed": "The separate program scan recovered Deepgram for Startups, which was not represented in prior receipts despite remaining publicly actionable.",
+        "free_value": "Selected applicants receive up to $100,000 in credits for Deepgram speech-to-text, text-to-speech and Voice Agent APIs, usable for 12 months, plus startup community and engineering-support access.",
+        "approximate_value": "Up to $100,000 face value. The maximum must not be treated as the expected award because Deepgram does not publish tier amounts or selection probability.",
+        "cash_required": "$0 application fee. A Deepgram account and Project ID are required. Card, overage and post-credit billing behavior were not disclosed on the public program page and must be checked before activation.",
+        "eligibility_reality_check": "Published gates are an AI builder or early-stage startup, already in production or launching within six months, and active participation in the community. The public page does not require VC sponsorship, disclose a company-age minimum, or publish incorporation, revenue, geography, team-size or domain-email rules. It asks separately about funding above $10 million and whether agencies or consultants qualify, but the rendered answers were unavailable.",
+        "why_asymmetric": "The program can subsidize an entire production voice stack rather than a short trial. It composes with DUALITY verification, Open Yap evaluation data and Cloudflare turn metrics.",
+        "catch": "Voice is not currently a top project. The headline is up to $100,000, approval is discretionary, the actual award is unknown, and applicants need a credible six-month launch. Building a new voice product solely for credits would destroy the leverage.",
+        "window": "Rolling application; no deadline published. Credits expire 12 months after award.",
+        "immediate_exploit": "Spend no more than 30 minutes mapping an existing DUALITY or LEVERAGEdelta interface to one concrete voice use case. Apply only if a real six-month launch can be stated without creating a new priority.",
+        "sources": [
+          "https://deepgram.com/startup-program"
+        ]
+      },
+      {
+        "signal_id": "together-ai-startup-build-tier-15k-fde-2026-recovery",
+        "classification": "CONFIRMED MAGNITUDE RECOVERY; SELECTION-BASED",
+        "score": 89,
+        "displacement": "TEST",
+        "changed": "Together AI now publishes a direct Build tier for startups with up to $5 million raised, including credits and hands-on engineering support.",
+        "free_value": "Up to $15,000 in credits usable for serverless inference, dedicated endpoints, fine-tuning and instant clusters, plus three hours of forward-deployed engineering, benchmarking material, community access and joint go-to-market support.",
+        "approximate_value": "Up to $15,000 in credits plus three specialist engineering hours. Reserved GPU Clusters are excluded.",
+        "cash_required": "$0 application fee identified. Payment-card, overage, prior-account and redemption sequencing terms are not published on the public page.",
+        "eligibility_reality_check": "The Build tier states up to $5 million raised, which includes a bootstrapped company on its face. No minimum funding, company age, revenue, geography, team size, partner referral or accelerator prerequisite is published. It is explicitly a targeted, selection-based program.",
+        "why_asymmetric": "Unlike voice-only grants, Together directly covers general model inference, fine-tuning and short-lived compute relevant to agent evaluation and B2ROOT-style trajectory experiments. The forward-deployed engineering time may be more valuable than nominal credits if used to establish cost and benchmark controls.",
+        "catch": "Up to does not guarantee $15,000. Award size, approval criteria, card requirements and overage controls remain opaque, and credits exclude reserved GPU clusters.",
+        "window": "Rolling application; no public deadline.",
+        "immediate_exploit": "Use one 30-minute block to apply around an existing workload: verifiable agent execution, model benchmarking or evidence extraction. Ask the engineering allocation to design checkpointing and spend-bounded evaluation, not a speculative new product.",
+        "sources": [
+          "https://www.together.ai/startup-accelerator"
+        ]
+      },
+      {
+        "signal_id": "elevenlabs-startup-grant-33m-characters-2026-recovery",
+        "classification": "CONFIRMED RECOVERY; CLEAR HARD LANDING TO FREE PLAN",
+        "score": 86,
+        "displacement": "QUEUE",
+        "changed": "The lookback recovered ElevenLabs current grant terms: 33 million characters and the Scale plan for 12 months, with explicit automatic conversion to Free rather than a paid-plan rollover.",
+        "free_value": "Twelve months of Scale and 33 million characters, described as more than 680 hours of Agents usage, covering conversational agents, TTS, STT, voice design, cloning, sound effects and other platform capabilities.",
+        "approximate_value": "ElevenLabs states more than $5,500 in value.",
+        "cash_required": "$0 grant. The account automatically converts to Free when the term ends, the character pool is exhausted, or 10,000 credits remain, unless the recipient explicitly chooses otherwise.",
+        "eligibility_reality_check": "Requires a monetized product strategy, valid business email, long-term market intent and fewer than 25 employees. Agencies, consulting firms, one-off projects, products for minors and existing enterprise customers are excluded. One application is allowed per company; no VC, revenue or geography requirement is published.",
+        "why_asymmetric": "The grant is smaller than Deepgram but unusually legible and billing-safe. The 680-hour stated capacity is sufficient for a serious voice-agent prototype and evaluation corpus.",
+        "catch": "A product with a genuine commercial voice dependency is required. One-off demos do not qualify, the grant cannot be resold, and applying without an active voice roadmap would add platform distraction.",
+        "window": "Rolling; no application deadline. Grant lasts 12 months.",
+        "immediate_exploit": "Queue behind current priorities. If a voice interface becomes committed, compare Deepgram and ElevenLabs on the same synthetic or public benchmark before choosing which application to emphasize.",
+        "sources": [
+          "https://elevenlabs.io/startup-grants",
+          "https://elevenlabs.io/grants-application"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Deepgram and Together AI passed the Devin benchmark retrieval test on magnitude and public accessibility, but both should have been recovered earlier. Future scans must explicitly query vendor navigation links labeled Startup Program and Accelerator, not only benefit directories and launch pages.",
+      "ElevenLabs passed the fit check because its public terms define employee, business-email, use-case and automatic-downgrade behavior; it is safer but less directly aligned with current work.",
+      "No institutional-funding prerequisite was found for the three reported entry paths, but Deepgram and Together award amounts remain discretionary.",
+      "The current Vercel Open Source Program remains more urgent than these rolling programs because applications close September 13."
+    ],
+    "omissions_errors": [
+      "Deepgram FAQ answers for existing customers, agencies and applicants above $10 million were not exposed in the rendered page.",
+      "Deepgram and Together account-specific card, overage and prior-account rules were unavailable without entering the application flows.",
+      "Actual award distributions and acceptance rates are unpublished.",
+      "No program application was submitted because user-specific representations and account actions require the founder.",
+      "Personal-context retrieval was unavailable; visible conversation context was used.",
+      "No capability benchmark was executed."
+    ],
+    "source_manifest": [
+      "https://deepgram.com/startup-program",
+      "https://www.together.ai/startup-accelerator",
+      "https://elevenlabs.io/startup-grants",
+      "https://elevenlabs.io/grants-application",
+      "https://vercel.com/open-source-program",
+      "https://deepgram.com/pricing",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "deepgram-startups-up-to-100k-2026-recovery",
+      "together-ai-startup-build-tier-15k-fde-2026-recovery",
+      "elevenlabs-startup-grant-33m-characters-2026-recovery"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "deepgram-startups-up-to-100k-2026-recovery",
+        "class": "CONFIRMED MAGNITUDE RECOVERY; AWARD SIZE DISCRETIONARY"
+      },
+      {
+        "signal_id": "together-ai-startup-build-tier-15k-fde-2026-recovery",
+        "class": "CONFIRMED MAGNITUDE RECOVERY; SELECTION-BASED"
+      },
+      {
+        "signal_id": "elevenlabs-startup-grant-33m-characters-2026-recovery",
+        "class": "CONFIRMED RECOVERY; CLEAR HARD LANDING TO FREE PLAN"
+      }
+    ],
+    "omissions_errors": [
+      "Deepgram FAQ answers for existing customers, agencies and applicants above $10 million were not exposed in the rendered page.",
+      "Deepgram and Together account-specific card, overage and prior-account rules were unavailable without entering the application flows.",
+      "Actual award distributions and acceptance rates are unpublished.",
+      "No program application was submitted because user-specific representations and account actions require the founder.",
+      "Personal-context retrieval was unavailable; visible conversation context was used.",
+      "No capability benchmark was executed."
+    ]
+  },
+  "canonical_sources": [
+    "https://deepgram.com/startup-program",
+    "https://www.together.ai/startup-accelerator",
+    "https://elevenlabs.io/startup-grants",
+    "https://elevenlabs.io/grants-application",
+    "https://vercel.com/open-source-program",
+    "https://deepgram.com/pricing",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "b7d3b9358e93d5418a28e80289f046030870613923396fda673bb7abc646b409"
+}
