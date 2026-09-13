@@ -1,0 +1,92 @@
+{
+  "event_id": "ls-20260913T211858Z-014",
+  "receipt_id": "lsr-20260913T211858Z-014",
+  "executed_at_utc": "2026-09-13T21:18:58Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No user policy change. Separate fresh-launch, program-surface, benefit-expiry, partner-catalog and 60-90-day magnitude lookback scans retained.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-12T214009Z-lsr-20260912T214009Z-013.json",
+  "previous_hash": "b7d3b9358e93d5418a28e80289f046030870613923396fda673bb7abc646b409",
+  "output_digest": "2bb931dd4ec0acd8261e30b2f12a2e5ef8cdfda2ecbdec349600f9212c3db481",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-13T21:18:58Z",
+    "previous_run_delta": "Vercel Open Source Program moved from closing tomorrow to its published final application day. Its primary page still says Open until September 13 and exposes Apply now. Deepgram, Together AI and ElevenLabs remain rolling and unchanged; no stronger fresh launch or bootstrap-fit program cleared verification. Deepgram Flux is closed.",
+    "signals": [
+      {
+        "signal_id": "vercel-oss-summer-2026-final-day-20260913",
+        "classification": "CONFIRMED FINAL-DAY WINDOW; SELECTION AND PARTNER REDEMPTIONS CONDITIONAL",
+        "score": 94,
+        "displacement": "DISPLACE",
+        "changed": "The previously reported magnitude opportunity is now on its published closing date. As checked September 13, Vercel still labels the Summer cohort open until September 13 and links to the application endpoint.",
+        "free_value": "$3,600 in Vercel platform credits over three years plus an OSS Starter Pack. Explicit partner amounts include Agora $1,200, Daytona $1,000 for new users, Langfuse $1,200, Mux $3,000, Neon $1,000, PlanetScale $1,000, Prisma $1,000, Resend $3,000, Supabase $300 and Tembo $400, alongside unpriced plan benefits.",
+        "approximate_value": "At least $16,700 in explicitly stated Vercel and partner credit face value, before unpriced benefits. Face value is not cash and only benefits attached to a real workload should be counted economically.",
+        "cash_required": "$0 application fee found. Partner redemptions may require new-user status, paid-plan activation, billing details, or expose overages; these terms are mostly unavailable before authentication.",
+        "eligibility_reality_check": "A qualifying project must be actively developed open source, hosted or intended for Vercel, show measurable impact or growth potential, follow a Code of Conduct, and use credits only for the project. No funding, incorporation, revenue, geography, domain-email or team-size gate is published. Acceptance is discretionary; Vercel recommends funded OSS companies use its startup program instead.",
+        "why_asymmetric": "One short application can subsidize hosting, isolated sandboxes, databases, observability, email, authentication and developer tooling for an existing repository. It does not require creating a new product.",
+        "catch": "Exact cutoff time is unpublished. The application endpoint rendered no public form text during verification, so submission availability must be confirmed immediately. Partner benefits have separate eligibility and overage rules; Vercel Marketplace usage is not covered by the $3,600 Vercel credit.",
+        "window": "Published closing date: September 13, 2026. Exact time and timezone are not stated.",
+        "immediate_exploit": "If not already submitted, use one 45-minute block now: select the strongest existing OSS repository, verify active commits and Vercel intent, add or confirm a Code of Conduct, state truthful impact metrics, submit, and save the confirmation. Stop if the repository cannot honestly meet those gates.",
+        "sources": [
+          "https://vercel.com/open-source-program",
+          "https://open-source-program.vercel.app/",
+          "https://oss-starter-pack.vercel.com/"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "No newly discovered Devin-class program suitable for a bootstrapped solo builder cleared primary-source verification today.",
+      "Deepgram up to $100,000, Together AI up to $15,000 plus three engineering hours, and ElevenLabs 33 million characters remain rolling and unchanged, so they are not recycled as edge signals.",
+      "The detector continues to traverse vendor navigation, cohort calendars, application pages and partner catalogs; today that logic confirmed the final actionable state of the Vercel cohort rather than finding a new magnitude offer."
+    ],
+    "omissions_errors": [
+      "Vercel does not publish an exact September 13 cutoff time or timezone.",
+      "The linked application endpoint returned no indexable form text; successful submission was not tested.",
+      "Most partner-specific prior-account, card, overage and redemption sequencing rules require authentication.",
+      "No user repository eligibility state or prior application status was observable.",
+      "No fresh capability benchmark or application was executed."
+    ],
+    "source_manifest": [
+      "https://vercel.com/open-source-program",
+      "https://open-source-program.vercel.app/",
+      "https://oss-starter-pack.vercel.com/",
+      "https://posthog.com/handbook/marketing/startups",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-oss-summer-2026-final-day-20260913"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-oss-summer-2026-final-day-20260913",
+        "class": "CONFIRMED FINAL-DAY WINDOW; SELECTION AND PARTNER REDEMPTIONS CONDITIONAL"
+      }
+    ],
+    "omissions_errors": [
+      "Vercel does not publish an exact September 13 cutoff time or timezone.",
+      "The linked application endpoint returned no indexable form text; successful submission was not tested.",
+      "Most partner-specific prior-account, card, overage and redemption sequencing rules require authentication.",
+      "No user repository eligibility state or prior application status was observable.",
+      "No fresh capability benchmark or application was executed."
+    ]
+  },
+  "canonical_sources": [
+    "https://vercel.com/open-source-program",
+    "https://open-source-program.vercel.app/",
+    "https://oss-starter-pack.vercel.com/",
+    "https://posthog.com/handbook/marketing/startups",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "23bc344fa3b1e6b74126eddd093c4b5b1c2e0b5ff22e59c9e8074b08fba4c333"
+}
