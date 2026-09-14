@@ -1,0 +1,115 @@
+{
+  "event_id": "ls-20260914T220308Z-015",
+  "receipt_id": "lsr-20260914T220308Z-015",
+  "executed_at_utc": "2026-09-14T22:03:08Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change. Expanded vendor-navigation recovery to nested Data for AI resource menus after Bright Data exposed its startup program there.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-13T211858Z-lsr-20260913T211858Z-014.json",
+  "previous_hash": "23bc344fa3b1e6b74126eddd093c4b5b1c2e0b5ff22e59c9e8074b08fba4c333",
+  "output_digest": "9652d8d4f36d781e6ac1e90f42a68d8abbe0245082edb77d5a9c3c9bdb5be030",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "report": {
+    "executed_at_utc": "2026-09-14T22:03:08Z",
+    "previous_run_delta": "Recovered Bright Data AI Startup Program: up to $20,000 in web-data platform credits for Pre-Seed through Series A companies with AI central to the product and a public-web-data need. Fresh: Cloudflare Browser Run added outbound hostname guardrails and read-only Live View; Workers Free includes 10 browser minutes daily and three concurrent sessions. Closed: Vercel OSS Summer applications. Weakened: PostHog startup credits no longer cover its named AI products from September 14.",
+    "signals": [
+      {
+        "signal_id": "bright-data-ai-startup-program-up-to-20k-recovery-20260914",
+        "classification": "CONFIRMED MAGNITUDE RECOVERY; AWARD AND PRODUCT COVERAGE DISCRETIONARY",
+        "score": 89,
+        "displacement": "TEST",
+        "changed": "The separate program-surface lookback recovered a vendor-owned page marked New offering up to $20,000 in credits. It was absent from prior receipts and remains open.",
+        "free_value": "Up to $20,000 in Bright Data platform credits plus expert support, technical resources and possible co-marketing. The platform includes search, crawl, unlocker, scraper, datasets, browser automation and a free MCP interface, but exact credit coverage by product is not published.",
+        "approximate_value": "Up to $20,000 face value. The expected award cannot be estimated because tiering, acceptance rate and normal grant size are unpublished.",
+        "cash_required": "$0 application fee found. Bright Data says the application takes under five minutes. Account, KYC, card, overage and post-credit billing requirements are not disclosed on the public program page.",
+        "eligibility_reality_check": "Published gates: AI is central to the product; startup is Pre-Seed through Series A; public web data is needed for growth. No explicit VC minimum, incorporation, company-age, revenue, geography, domain-email or team-size condition is published. Approval includes a meeting with a Bright Data expert; most applicants hear back within seven business days.",
+        "why_asymmetric": "It directly subsidizes the expensive retrieval layer shared by LEVERAGE SEEKER, property intelligence, domain scouting and evidence-backed agents instead of creating a new project. Web access, anti-blocking, structured extraction and browser execution can be evaluated behind one provider.",
+        "catch": "Up to $20,000 is not a guaranteed award. Exact service eligibility, credit duration, card requirements and hard budget controls are unpublished. Bright Data also applies compliance and acceptable-use controls, so each target and collection method must be lawful and public-data appropriate.",
+        "window": "Rolling; no deadline or credit-expiry term published.",
+        "immediate_exploit": "Run a 45-minute fit test: define one existing evidence workload, estimate monthly URLs/records/browser minutes, list target domains and public-data justification, then submit only if that workload remains useful without the award. Ask for hard-stop billing and exact product coverage before activating credits.",
+        "sources": [
+          "https://brightdata.com/ai/ai-startups-program",
+          "https://brightdata.com/"
+        ]
+      },
+      {
+        "signal_id": "cloudflare-browser-run-hostname-guardrails-readonly-liveview-20260914",
+        "classification": "CONFIRMED FRESH CAPABILITY; FREE-TIER CAPACITY LIMITED",
+        "score": 83,
+        "displacement": "TEST",
+        "changed": "Cloudflare Browser Run added session-level allowed-domain guardrails for Puppeteer, Playwright and REST sessions, plus read-only Live View links.",
+        "free_value": "Workers Free includes 10 browser minutes per day and three concurrent browser sessions. Guardrails restrict HTTP and HTTPS requests to declared hostnames; read-only Live View allows observation without clicking, typing, navigating or executing JavaScript.",
+        "approximate_value": "No credible credit value. The leverage is security engineering avoided: outbound-host restrictions reduce unintended navigation, third-party loading and data-exfiltration paths in agent browser runs.",
+        "cash_required": "$0 within Workers Free limits. Paid accounts include 10 browser hours monthly, then $0.09 per browser hour; session concurrency can also be billable.",
+        "eligibility_reality_check": "Available on Free and Paid plans. No startup, funding, incorporation, domain-email, geography or team-size gate is published. A Cloudflare account, Worker and Browser Run binding are required.",
+        "why_asymmetric": "This is a native safety boundary for DUALITY-style inspected browser agents and evidence acquisition. It converts an application-layer prompt rule into infrastructure enforcement and gives observers a non-mutating inspection link.",
+        "catch": "Guardrails are beta, hostname-based rather than a complete authorization system, and do not prevent harmful actions on allowed domains. The 10-minute daily Free allowance supports tests and light jobs, not broad crawling.",
+        "window": "Active from September 14; no announced expiry.",
+        "immediate_exploit": "Spend at most 60 minutes on one synthetic browser task: allow only the target domain and required static hosts, attempt a blocked navigation, create a read-only Live View, and record the result as an ICE safety test.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-14-guardrails/",
+          "https://developers.cloudflare.com/browser-run/pricing/"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Bright Data passed the Devin detector test on magnitude and direct workload fit, but was recovered late because it is nested under Data for AI resources rather than ordinary pricing navigation.",
+      "Cloudflare for Startups remains capped at $10,000 for the bootstrapped tier; larger headlines require partner-backed funding and were not recycled.",
+      "Deepgram, Together AI and ElevenLabs remain rolling and unchanged."
+    ],
+    "omissions_errors": [
+      "Bright Data award distribution, acceptance rate, credit duration, exact product coverage and authenticated billing terms are unpublished.",
+      "Bright Data application submission and KYC requirements were not tested.",
+      "Cloudflare Browser Run guardrails were not independently exercised.",
+      "No account-specific Cloudflare usage or spending controls were observable.",
+      "No authenticated partner inventories were inspected."
+    ],
+    "source_manifest": [
+      "https://brightdata.com/ai/ai-startups-program",
+      "https://brightdata.com/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-14-guardrails/",
+      "https://developers.cloudflare.com/browser-run/pricing/",
+      "https://vercel.com/open-source-program",
+      "https://posthog.com/handbook/marketing/startups",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "bright-data-ai-startup-program-up-to-20k-recovery-20260914",
+      "cloudflare-browser-run-hostname-guardrails-readonly-liveview-20260914"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "bright-data-ai-startup-program-up-to-20k-recovery-20260914",
+        "class": "CONFIRMED MAGNITUDE RECOVERY; AWARD AND PRODUCT COVERAGE DISCRETIONARY"
+      },
+      {
+        "signal_id": "cloudflare-browser-run-hostname-guardrails-readonly-liveview-20260914",
+        "class": "CONFIRMED FRESH CAPABILITY; FREE-TIER CAPACITY LIMITED"
+      }
+    ],
+    "omissions_errors": [
+      "Bright Data award distribution, acceptance rate, credit duration, exact product coverage and authenticated billing terms are unpublished.",
+      "Bright Data application submission and KYC requirements were not tested.",
+      "Cloudflare Browser Run guardrails were not independently exercised.",
+      "No account-specific Cloudflare usage or spending controls were observable.",
+      "No authenticated partner inventories were inspected."
+    ]
+  },
+  "canonical_sources": [
+    "https://brightdata.com/ai/ai-startups-program",
+    "https://brightdata.com/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-14-guardrails/",
+    "https://developers.cloudflare.com/browser-run/pricing/",
+    "https://vercel.com/open-source-program",
+    "https://posthog.com/handbook/marketing/startups",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+  ],
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "content_hash": "4da2b3868c7749090f9a051832557dee7ef00f9e7fbeca20904da875a615710d"
+}
