@@ -1,0 +1,148 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-15-granular-worker-permissions/",
+    "https://developers.cloudflare.com/workers/authorization/workers/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-15-instance-event-subscriptions/",
+    "https://developers.cloudflare.com/workflows/reference/pricing/",
+    "https://developers.cloudflare.com/workflows/build/workers-api/",
+    "https://openai.com/index/introducing-the-agents-api/",
+    "https://developers.openai.com/api/docs/guides/agents-api/overview",
+    "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted",
+    "https://developers.openai.com/api/docs/pricing",
+    "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway"
+  ],
+  "content_hash": "f3c72cc1e7974fe99a62ec4f768e31ac71b33282502583641fc8ea51b5b049dc",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260915T213437Z-016",
+  "executed_at_utc": "2026-09-15T21:34:37Z",
+  "execution_mode": "recovered",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "5477967ed8269c2f19aa10d11ef9c3a15380481be62ce80fe6967bd518adbc2e",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change. Added managed-harness launch recovery after the OpenAI Agents API signal was missed for five days; retained separate program, expiry, partner-benefit and magnitude scans.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "4da2b3868c7749090f9a051832557dee7ef00f9e7fbeca20904da875a615710d",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-14T220308Z-lsr-20260914T220308Z-015.json",
+  "receipt_id": "lsr-20260915T213437Z-016",
+  "report": {
+    "executed_at_utc": "2026-09-15T21:34:37Z",
+    "omissions_errors": [
+      "The Cloudflare permission and Workflow features were not independently exercised.",
+      "Account-specific Cloudflare token policy behavior and current usage were not observable.",
+      "OpenAI Agents API task quality, token consumption and beta stability were not benchmarked.",
+      "No authenticated startup-program redemption inventory was inspected.",
+      "Gemini 3.8 Live was verified as newly available through Vercel but excluded because no free or subsidized usage was established."
+    ],
+    "previous_run_delta": "Fresh: Cloudflare added per-Worker roles and account-owned API tokens scoped to individual Workers, plus streaming Workflow instance histories through subscribe() and GET /subscribe. Recovered: OpenAI Agents API, launched September 10, exposes the managed Codex harness in public beta without a separate orchestration fee, but model, tool and sandbox usage remains paid. Yesterday's Bright Data and Browser Run signals remain actionable but unchanged. Vercel OSS is closed; PostHog AI-product credit coverage has ended.",
+    "program_surface_results": [
+      "No new Devin-class startup or founder program suitable for a bootstrapped solo builder survived verification.",
+      "Bright Data, Together AI, Deepgram and ElevenLabs remain rolling and unchanged; they were not recycled.",
+      "The Devin benchmark now passes on vendor navigation, nested resource pages and launch surfaces, but still needs application-deadline monitoring to avoid late discovery."
+    ],
+    "signals": [
+      {
+        "approximate_value": "No credible cash equivalent; removes custom credential-proxy work and materially reduces blast radius.",
+        "cash_required": "$0 incremental fee stated; Cloudflare says available to all customers.",
+        "catch": "Role boundaries do not make agent actions correct. Secrets, bindings and downstream systems still need independent least privilege; Durable Objects inherit Worker scope.",
+        "changed": "Four per-Worker roles and account-owned API tokens can now be scoped to specified Workers for people, CI and agents.",
+        "classification": "CONFIRMED FRESH CAPABILITY; AVAILABLE TO ALL CUSTOMERS",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Cloudflare account and an existing Worker required. No startup, funding, incorporation, domain-email, geography or team-size gate.",
+        "free_value": "Metadata Read-Only, Content Read-Only, Editor and Admin controls at Worker level, with Durable Objects inheriting the implementing Worker's permissions.",
+        "immediate_exploit": "Create one Metadata Read-Only token scoped to one noncritical Worker, verify that logs work and code/deploy/delete actions fail, then revoke it.",
+        "score": 88,
+        "signal_id": "cloudflare-granular-worker-agent-permissions-20260915",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-15-granular-worker-permissions/",
+          "https://developers.cloudflare.com/workers/authorization/workers/"
+        ],
+        "why_asymmetric": "An agent can inspect logs without code access, review code without mutation, or deploy without deletion or access to other Workers.",
+        "window": "Active September 15; no expiry."
+      },
+      {
+        "approximate_value": "No defensible cash equivalent; replaces polling and bespoke progress/event plumbing.",
+        "cash_required": "$0 within Workers Free limits. Free limits fail closed when storage is exhausted; Paid usage is metered.",
+        "catch": "A new long-lived subscription consumes a connection and history contains operational data. Free state is retained three days by default and CPU remains 10 ms per invocation.",
+        "changed": "WorkflowInstance.subscribe() and GET /subscribe now stream historical and live workflow and step events without polling.",
+        "classification": "CONFIRMED FRESH CAPABILITY; FREE PLAN INCLUDED WITH LIMITS",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Cloudflare account and Workflow required; no company-stage or application gate.",
+        "free_value": "The stream includes attempts, sleeps, waits and rollbacks; supports event filters and cursors. Workers Free includes Workflows, 100,000 shared requests/day, 1 GB-month state and 3,000 steps/day.",
+        "immediate_exploit": "Instrument one tiny synthetic three-step Workflow, subscribe from cursor zero, force one retry, and persist the event sequence in ICE.",
+        "score": 86,
+        "signal_id": "cloudflare-workflows-instance-streaming-subscribe-20260915",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-15-instance-event-subscriptions/",
+          "https://developers.cloudflare.com/workflows/reference/pricing/",
+          "https://developers.cloudflare.com/workflows/build/workers-api/"
+        ],
+        "why_asymmetric": "It provides an event-native spine for B2ROOT checkpoints, live LEVERAGEdelta progress, audit evidence and human-in-the-loop control.",
+        "window": "Active September 15; no expiry."
+      },
+      {
+        "approximate_value": "Unquantified labor and infrastructure replacement; the API removes the need to build a durable agent harness, but does not subsidize model or compute usage.",
+        "cash_required": "Tokens and tools are billed normally. OpenAI-hosted containers start at $0.03 per 1 GB 20-minute session; web search is $10/1,000 calls plus model tokens.",
+        "catch": "Not zero-dollar in production, public beta may change, hosted sandboxes and tools are separately charged, and a migration only pays if an existing recurring workflow is already valuable.",
+        "changed": "OpenAI launched the Agents API September 10, exposing the managed Codex harness, long-session compaction, tool search, programmatic tool calling, subagents, tracing and selectable sandboxes.",
+        "classification": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; ORCHESTRATION FEE ZERO BUT USAGE PAID",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Public beta is available to all developers in supported API regions with API billing. No startup or funding gate.",
+        "free_value": "No additional Agents API fee. The open-source harness is inspectable, and self-hosted environments are supported.",
+        "immediate_exploit": "Run one capped existing task with a self-hosted or 1 GB sandbox, one model, no web search and a $2 project limit; compare completion quality and engineering effort with the current path.",
+        "score": 83,
+        "signal_id": "openai-agents-api-public-beta-recovery-20260910",
+        "sources": [
+          "https://openai.com/index/introducing-the-agents-api/",
+          "https://developers.openai.com/api/docs/guides/agents-api/overview",
+          "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted",
+          "https://developers.openai.com/api/docs/pricing"
+        ],
+        "why_asymmetric": "It can productize the long-running, tool-using workflow already proven interactively without maintaining context compaction or multi-agent orchestration.",
+        "window": "Public beta from September 10; no end date."
+      }
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-15-granular-worker-permissions/",
+      "https://developers.cloudflare.com/workers/authorization/workers/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-15-instance-event-subscriptions/",
+      "https://developers.cloudflare.com/workflows/reference/pricing/",
+      "https://developers.cloudflare.com/workflows/build/workers-api/",
+      "https://openai.com/index/introducing-the-agents-api/",
+      "https://developers.openai.com/api/docs/guides/agents-api/overview",
+      "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted",
+      "https://developers.openai.com/api/docs/pricing",
+      "https://vercel.com/changelog/gemini-3-8-live-models-now-available-on-ai-gateway"
+    ]
+  },
+  "result_manifest": {
+    "omissions_errors": [
+      "The Cloudflare permission and Workflow features were not independently exercised.",
+      "Account-specific Cloudflare token policy behavior and current usage were not observable.",
+      "OpenAI Agents API task quality, token consumption and beta stability were not benchmarked.",
+      "No authenticated startup-program redemption inventory was inspected.",
+      "Gemini 3.8 Live was verified as newly available through Vercel but excluded because no free or subsidized usage was established."
+    ],
+    "signal_ids": [
+      "cloudflare-granular-worker-agent-permissions-20260915",
+      "cloudflare-workflows-instance-streaming-subscribe-20260915",
+      "openai-agents-api-public-beta-recovery-20260910"
+    ],
+    "verification_classes": [
+      {
+        "class": "CONFIRMED FRESH CAPABILITY; AVAILABLE TO ALL CUSTOMERS",
+        "signal_id": "cloudflare-granular-worker-agent-permissions-20260915"
+      },
+      {
+        "class": "CONFIRMED FRESH CAPABILITY; FREE PLAN INCLUDED WITH LIMITS",
+        "signal_id": "cloudflare-workflows-instance-streaming-subscribe-20260915"
+      },
+      {
+        "class": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; ORCHESTRATION FEE ZERO BUT USAGE PAID",
+        "signal_id": "openai-agents-api-public-beta-recovery-20260910"
+      }
+    ]
+  },
+  "signature": "UNSIGNED"
+}
