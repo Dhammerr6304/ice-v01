@@ -1,0 +1,86 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-16-hyperdrive-python-workers/",
+    "https://developers.cloudflare.com/hyperdrive/examples/python-workers/",
+    "https://developers.cloudflare.com/hyperdrive/platform/pricing/",
+    "https://developer.amd.com/ai-developer-program/"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260916T214201Z-017",
+  "executed_at_utc": "2026-09-16T21:42:01Z",
+  "execution_mode": "normal",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "0302a27de6541abb8dd8e38c925139bcff2d9c283e819f10b97811d4dc50969a",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; retained separate launch, program, expiry, partner-benefit, and 60–90 day magnitude scans.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "f3c72cc1e7974fe99a62ec4f768e31ac71b33282502583641fc8ea51b5b049dc",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-15T213437Z-lsr-20260915T213437Z-016.json",
+  "receipt_id": "lsr-20260916T214201Z-017",
+  "report": {
+    "executed_at_utc": "2026-09-16T21:42:01Z",
+    "previous_run_delta": "Fresh: Cloudflare added Hyperdrive support to Python Workers, allowing direct PostgreSQL and MySQL access through tested Python drivers. Workers Free includes 100,000 Hyperdrive database statements per day, fails closed when exhausted, and adds no Hyperdrive egress fee. Yesterday's Worker permission, Workflow streaming, and Agents API signals remain actionable but unchanged. The AMD AI Developer Program was recovered but excluded as a primary signal because its guaranteed compute subsidy is only $100.",
+    "program_surface_results": [
+      "No new Devin-class startup, founder, accelerator, grant, or partner-benefit program suitable for a bootstrapped solo builder survived primary-source verification.",
+      "AMD AI Developer Program is free and includes $100 in Developer Cloud credits plus one month of DeepLearning.AI, but its magnitude is too small to justify workload displacement.",
+      "Secondary-directory claims of larger Algolia, Fireworks AI, and Replicate startup credits were excluded because current primary program terms could not be verified."
+    ],
+    "signals": [
+      {
+        "signal_id": "cloudflare-hyperdrive-python-workers-free-20260916",
+        "classification": "CONFIRMED FRESH CAPABILITY; FREE PLAN INCLUDED WITH FAIL-CLOSED LIMIT",
+        "score": 82,
+        "displacement": "TEST",
+        "changed": "Python Workers can now connect to PostgreSQL and MySQL through Hyperdrive using TCP-compatible Python database drivers.",
+        "free_value": "Workers Free includes 100,000 Hyperdrive database statements per day. Connection pooling, query caching, and Hyperdrive data transfer are included without an additional fee; excess Free-plan operations fail instead of billing.",
+        "approximate_value": "No defensible cash equivalent. The leverage is eliminating a JavaScript proxy or separate database service for Python-first edge applications while preserving pooling and caching.",
+        "cash_required": "$0 for Hyperdrive within Workers Free limits; the underlying database provider can still charge separately.",
+        "eligibility_reality_check": "Requires a Cloudflare account, a Python Worker, a PostgreSQL or MySQL database, and compatibility date 2026-09-08 or later. No startup, funding, incorporation, geography, domain-email, or team-size gate.",
+        "why_asymmetric": "Python-heavy evidence, agent, and automation code can now reach relational state at the edge without a language rewrite, custom connection broker, or paid Hyperdrive add-on.",
+        "catch": "Python support is beta. Async SQLAlchemy is not supported; synchronous database calls need explicit serialization. The external database is not free merely because Hyperdrive is, and every statement counts against the daily limit.",
+        "window": "Available September 16, 2026; no announced expiry.",
+        "immediate_exploit": "Connect one disposable Python Worker to a test PostgreSQL database, run read-only SELECTs with asyncpg, verify pooling and failure behavior, and record uncached versus cached latency. Do not migrate production state.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-16-hyperdrive-python-workers/",
+          "https://developers.cloudflare.com/hyperdrive/examples/python-workers/",
+          "https://developers.cloudflare.com/hyperdrive/platform/pricing/"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Hyperdrive support for Python Workers was not independently exercised.",
+      "Account-specific Workers usage, database-provider cost, and credential configuration were not observable.",
+      "Async SQLAlchemy remains unsupported, and beta stability was not benchmarked.",
+      "Authenticated startup-program redemption inventories were unavailable.",
+      "Secondary claims of Algolia, Fireworks AI, and Replicate startup credits lacked verified current primary terms and were excluded."
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-16-hyperdrive-python-workers/",
+      "https://developers.cloudflare.com/hyperdrive/examples/python-workers/",
+      "https://developers.cloudflare.com/hyperdrive/platform/pricing/",
+      "https://developer.amd.com/ai-developer-program/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-hyperdrive-python-workers-free-20260916"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-hyperdrive-python-workers-free-20260916",
+        "class": "CONFIRMED FRESH CAPABILITY; FREE PLAN INCLUDED WITH FAIL-CLOSED LIMIT"
+      }
+    ],
+    "omissions_errors": [
+      "Hyperdrive support for Python Workers was not independently exercised.",
+      "Account-specific Workers usage, database-provider cost, and credential configuration were not observable.",
+      "Async SQLAlchemy remains unsupported, and beta stability was not benchmarked.",
+      "Authenticated startup-program redemption inventories were unavailable.",
+      "Secondary claims of Algolia, Fireworks AI, and Replicate startup credits lacked verified current primary terms and were excluded."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "97aecd47b0bf6ed999e810560bac8a6d7f736bb07993f01d47893faf113083f2"
+}
