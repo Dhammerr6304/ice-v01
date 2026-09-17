@@ -1,0 +1,117 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-15-free-account-creation/",
+    "https://developers.cloudflare.com/fundamentals/account/create-account/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-17-javascript-rpc-session-spans/",
+    "https://developers.cloudflare.com/workers/observability/traces/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-17-instance-delete/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-17-reject-if-busy/",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260917T215927Z-018",
+  "executed_at_utc": "2026-09-17T21:59:27Z",
+  "execution_mode": "normal",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "00fc8760edeff675c4ee88644a80e2e4279cb0224eac5562c8be3dfb017e7a83",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; retained separate launch, program, deadline, partner-benefit, and 60–90 day magnitude scans.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "97aecd47b0bf6ed999e810560bac8a6d7f736bb07993f01d47893faf113083f2",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-16T214201Z-lsr-20260916T214201Z-017.json",
+  "receipt_id": "lsr-20260917T215927Z-018",
+  "report": {
+    "executed_at_utc": "2026-09-17T21:59:27Z",
+    "previous_run_delta": "Fresh: Cloudflare now permits eligible existing users to create up to five additional Free accounts through the dashboard or API, enabling zero-cost project and agent isolation. Cloudflare also added automatic JavaScript RPC session and method spans across Worker and Durable Object boundaries while tracing remains completely free through September 30. Strengthening: these capabilities compound the September 14–16 Browser Run guardrails, granular Worker permissions, Workflow streaming, and Python Hyperdrive releases. Closing: Fish Audio free gateway routes end September 18.",
+    "program_surface_results": [
+      "No new Devin-class startup, founder, accelerator, grant, hackathon, or partner-benefit program suitable for a bootstrapped solo builder survived primary-source verification.",
+      "A secondary report of a billion-dollar cyber-defense credit initiative lacked a verifiable OpenAI application page or eligibility terms and was excluded.",
+      "The 60–90 day magnitude lookback did not recover an exceptional still-actionable program not already present in the ledger."
+    ],
+    "signals": [
+      {
+        "signal_id": "cloudflare-additional-free-accounts-api-20260917",
+        "classification": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY",
+        "score": 87,
+        "displacement": "TEST",
+        "changed": "Eligible existing Cloudflare users can now create up to five additional standalone Free accounts in the dashboard or programmatically with user-owned API or OAuth tokens.",
+        "free_value": "Up to five additional Free account boundaries, each provisionable without an Enterprise organization. Account creation itself has no stated fee or payment-card requirement.",
+        "approximate_value": "No defensible cash equivalent. The leverage is account-level blast-radius, billing, credential, domain, and project separation that previously required manual support or a paid organization pattern.",
+        "cash_required": "$0 to create eligible Free accounts. Individual products and upgrades retain their normal limits and billing rules.",
+        "eligibility_reality_check": "Cloudflare user must be active and at least seven days old, and the user must already be Super Administrator of an account. Limit is five additional Free accounts. API creation requires a user-owned token with User Details Read or an OAuth token with user-details.read; account-owned tokens cannot create accounts.",
+        "why_asymmetric": "HAMMER OPS can isolate public products, risky agent experiments, and infrastructure credentials at the account boundary without buying an organization tier or sharing one account-wide failure domain.",
+        "catch": "This is not permission to multiply quotas or evade product limits. Cloudflare does not state that Free entitlements are additive across accounts; use the capability for isolation, not quota sharding. Separate accounts also create operational and recovery overhead.",
+        "window": "Available September 17, 2026; no announced expiry.",
+        "immediate_exploit": "Create at most one clearly named lab account, place only one noncritical experimental Worker inside it, and verify that existing account-owned credentials and resources are inaccessible. Do not create all five accounts preemptively.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-15-free-account-creation/",
+          "https://developers.cloudflare.com/fundamentals/account/create-account/"
+        ]
+      },
+      {
+        "signal_id": "cloudflare-automatic-rpc-traces-free-window-20260917",
+        "classification": "CONFIRMED FRESH OBSERVABILITY CAPABILITY; TEMPORARILY UNMETERED",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "Workers traces now follow JavaScript RPC sessions, method calls, nested calls, callbacks, and Durable Object boundaries automatically, where traces previously stopped at the caller boundary.",
+        "free_value": "All trace collection, storage, and dashboard viewing are free during the initial beta through September 30. No SDK or code instrumentation is required; one configuration setting enables tracing.",
+        "approximate_value": "No credible cash equivalent. It replaces cross-service correlation work and makes distributed agent execution inspectable without adding an observability SDK.",
+        "cash_required": "$0 through September 30. Beginning October 1, spans share Workers Logs quotas: Free includes 200,000 events per day with three-day retention; Paid includes 20 million per month before overage.",
+        "eligibility_reality_check": "Requires a Cloudflare Worker using service bindings or Durable Objects and tracing enabled in Wrangler. No startup, company, funding, geography, or application gate.",
+        "why_asymmetric": "DUALITY and ICE can capture who called what, across which Worker boundary, for how long, and through which callback—without custom tracing code.",
+        "catch": "Tracing is early beta and defaults to 100% sampling once enabled. High-volume applications can create a large event count after October 1; traces can also contain sensitive metadata. Set a low sampling rate and synthetic inputs first.",
+        "window": "Completely free through September 30, 2026; quota-based Free-plan operation begins October 1.",
+        "immediate_exploit": "Enable tracing at a 5% sampling rate on one synthetic two-Worker RPC path with a Durable Object callback, then export or preserve one trace as an ICE execution record.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-17-javascript-rpc-session-spans/",
+          "https://developers.cloudflare.com/workers/observability/traces/"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Additional Free-account isolation was not independently exercised.",
+      "Cloudflare does not state that product quotas are additive across accounts; no quota-multiplication claim is made.",
+      "Automatic RPC tracing was not independently benchmarked or inspected for sensitive-field behavior.",
+      "Account-specific current usage, retention settings, and post-October event volume were unobservable.",
+      "The reported cyber-defense credit initiative lacked a primary application and eligibility surface and was excluded.",
+      "Workflow deletion and rejectIfBusy were verified but excluded as incremental controls below the signal threshold."
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-15-free-account-creation/",
+      "https://developers.cloudflare.com/fundamentals/account/create-account/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-17-javascript-rpc-session-spans/",
+      "https://developers.cloudflare.com/workers/observability/traces/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-17-instance-delete/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-17-reject-if-busy/",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-additional-free-accounts-api-20260917",
+      "cloudflare-automatic-rpc-traces-free-window-20260917"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-additional-free-accounts-api-20260917",
+        "class": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY"
+      },
+      {
+        "signal_id": "cloudflare-automatic-rpc-traces-free-window-20260917",
+        "class": "CONFIRMED FRESH OBSERVABILITY CAPABILITY; TEMPORARILY UNMETERED"
+      }
+    ],
+    "omissions_errors": [
+      "Additional Free-account isolation was not independently exercised.",
+      "Cloudflare does not state that product quotas are additive across accounts; no quota-multiplication claim is made.",
+      "Automatic RPC tracing was not independently benchmarked or inspected for sensitive-field behavior.",
+      "Account-specific current usage, retention settings, and post-October event volume were unobservable.",
+      "The reported cyber-defense credit initiative lacked a primary application and eligibility surface and was excluded.",
+      "Workflow deletion and rejectIfBusy were verified but excluded as incremental controls below the signal threshold."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "200fd548f9e2d5c47c19887025e2206d77047fe0f67a028765cbd15ebe2bc2f8"
+}
