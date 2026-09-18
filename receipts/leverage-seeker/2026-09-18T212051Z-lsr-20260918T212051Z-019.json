@@ -1,0 +1,154 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://runware.ai/grant-program",
+    "https://runware.ai/",
+    "https://neo4j.com/startup-program/",
+    "https://modal.com/startups",
+    "https://vercel.com/changelog/webmcp-mcp-handler",
+    "https://github.com/vercel-labs/mcp-handler/blob/main/docs/WEBMCP.md",
+    "https://github.com/webmachinelearning/webmcp",
+    "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260918T212051Z-019",
+  "executed_at_utc": "2026-09-18T21:20:51Z",
+  "execution_mode": "recovered",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "f78ce9a2f7af4b9d201595551e2816edf388352c99ea8b031fbb61898a942978",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; magnitude recovery added vendor-owned grant footers and startup-partner navigation, recovering Runware and Neo4j programs.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "200fd548f9e2d5c47c19887025e2206d77047fe0f67a028765cbd15ebe2bc2f8",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-17T215927Z-lsr-20260917T215927Z-018.json",
+  "receipt_id": "lsr-20260918T212051Z-019",
+  "report": {
+    "executed_at_utc": "2026-09-18T21:20:51Z",
+    "previous_run_delta": "Recovered magnitude: Runware offers bootstrapped pre-Series-A teams up to $30,000 in production API credits for 12 months, and Neo4j offers eligible product startups up to $16,000 in Aura credits. Fresh: Vercel mcp-handler 2.2.0 can bridge an allowlisted subset of existing MCP tools into browser agents using the signed-in user session. Closing: September 18 is the final published day for Fish Audio free gateway routes. Unchanged: Cloudflare RPC tracing remains unmetered through September 30 and was not recycled.",
+    "program_surface_results": [
+      "Runware Grant Program cleared the magnitude and solo-founder fit threshold: bootstrapped teams are explicitly welcome, no investor introduction is required, and accepted credits last 12 months.",
+      "Neo4j Startup Program also cleared the magnitude threshold, but requires a live website, a company LinkedIn profile associated with the applicant, and a one-product-to-many-customers model.",
+      "Modal was excluded for the current profile because its startup-credit eligibility requires qualifying VC funding and a payment method; secondary claims of a $25,000 tier were not confirmed on the public primary page.",
+      "The Devin benchmark exposed no new search-surface gap today: both recovered programs were found through vendor-owned footer and partner/startup navigation, now explicitly covered."
+    ],
+    "signals": [
+      {
+        "signal_id": "runware-grant-up-to-30k-recovery-20260918",
+        "classification": "CONFIRMED MAGNITUDE RECOVERY; PROGRAM SURFACE",
+        "score": 88,
+        "displacement": "TEST",
+        "changed": "A vendor-owned Grant Program page now exposes a rolling program for early-stage teams building or launching on Runware within six months.",
+        "free_value": "Up to $30,000 in production API credits for 12 months, covering Runware’s unified image, video, audio, avatar, 3D, editing, vision, and LLM platform, plus direct team and builder-community access.",
+        "approximate_value": "Up to $30,000 face value; Runware equates the maximum to more than 750,000 image generations or over 90 hours of generated video at average list pricing. Actual award size and practical value remain discretionary and workload-dependent.",
+        "cash_required": "$0 application fee found. Standard signup provides $2 with no card required, but the grant page does not publish card, hard-stop, overage, or post-credit billing rules.",
+        "eligibility_reality_check": "Requires a real product or credible MVP, early usage signals, genAI central to the product, pre-Series-A stage, a launch or integration within six months, a company website, and a business email. Bootstrapped teams are explicitly welcome; no VC funding or investor introduction is required. The form asks funding amount but publishes no minimum. No incorporation, revenue, geography, or team-size gate is stated.",
+        "why_asymmetric": "One production grant can consolidate multiple model vendors and modalities behind one API while subsidizing the costliest generation workloads. It can support an existing agent or media function without provisioning GPUs.",
+        "catch": "Up to does not imply a $30,000 award. Acceptance rate, award distribution, prior-account exclusions, card requirements, automatic overages, covered-model exceptions, and renewal terms are unpublished. Applying without a real six-month workload would create integration debt.",
+        "window": "Rolling; applications are reviewed within two weeks. No closing date published.",
+        "immediate_exploit": "Spend at most 45 minutes mapping one existing product function to expected monthly requests and model mix. Apply only if the function remains valuable without credits; request written confirmation of award size, covered models, expiry, and hard-stop billing before activation.",
+        "sources": [
+          "https://runware.ai/grant-program",
+          "https://runware.ai/"
+        ]
+      },
+      {
+        "signal_id": "neo4j-startup-program-up-to-16k-recovery-20260918",
+        "classification": "CONFIRMED MAGNITUDE RECOVERY; PROGRAM SURFACE",
+        "score": 84,
+        "displacement": "QUEUE",
+        "changed": "Neo4j’s current startup page offers product companies up to $16,000 in Aura credits and explicitly accepts both new and existing AuraDB users.",
+        "free_value": "Up to $16,000 in credits for the fully managed Aura graph database, plus graph-expert validation and possible co-marketing or go-to-market support.",
+        "approximate_value": "Up to $16,000 face value. Practical value is high only if knowledge graphs, GraphRAG, or persistent agent memory are already a measured bottleneck.",
+        "cash_required": "$0 application fee found. Credit duration, payment-card requirement, overage behavior, and post-credit billing are not published on the public program page.",
+        "eligibility_reality_check": "Series B or earlier; must build one scalable product for many customers. Dev shops, consultants, custom-product firms, and marketing agencies are excluded. A live functioning website and company LinkedIn profile directly associated with the applicant are required. No explicit VC minimum, incorporation, company-age, revenue, geography, domain-email, or team-size gate is stated.",
+        "why_asymmetric": "For a product that already needs traceable entity relationships or agent memory, the grant can fund production GraphRAG while adding expert model-design review.",
+        "catch": "This is poor leverage if a relational or document store already solves the workload. Award size, duration, spend controls, and acceptance rate are unpublished; the company-profile requirements may block an informal solo project.",
+        "window": "Rolling; Neo4j targets application decisions within five business days. No deadline published.",
+        "immediate_exploit": "Queue a 30-minute fit test: identify one query that is materially awkward in PostgreSQL or a vector store. Apply only if a small local graph prototype clearly improves traceability or retrieval quality.",
+        "sources": [
+          "https://neo4j.com/startup-program/"
+        ]
+      },
+      {
+        "signal_id": "vercel-mcp-handler-webmcp-bridge-20260918",
+        "classification": "CONFIRMED FRESH OPEN-SOURCE AGENT INTEGRATION; EXPERIMENTAL",
+        "score": 84,
+        "displacement": "TEST",
+        "changed": "mcp-handler 2.2.0 can expose an explicit allowlist of existing MCP tools to in-browser agents through one script tag and proxy calls back to the MCP endpoint as the signed-in user.",
+        "free_value": "Open-source bridge code, tool discovery, schema forwarding, JSON and finite-SSE results, pagination, cancellation forwarding, same-origin exposure, and session-cookie reuse without a separate browser OAuth flow.",
+        "approximate_value": "No credible cash equivalent. It can remove a duplicate browser integration and brittle DOM automation for an existing MCP-enabled application.",
+        "cash_required": "$0 for the library capability; hosting, model inference, and underlying tool execution retain their normal costs.",
+        "eligibility_reality_check": "No company or program gate. Requires mcp-handler 2.2.0, a stateless Streamable HTTP MCP endpoint, a secure origin-isolated page, WebMCP support through Chrome’s origin trial/local flag or a compatible polyfill, and session-cookie authentication for signed-in calls.",
+        "why_asymmetric": "An existing MCP tool contract can become both a backend-agent interface and a browser-agent interface with a narrow allowlist, reducing duplicated adapters and preserving visible user context.",
+        "catch": "WebMCP remains an evolving proposal. Any script or agent in the page can invoke exposed tools with the user’s credentials; cancellation does not guarantee server rollback, persistent sessions are unsupported, and MCP annotations do not fully map to WebMCP consequence or trust hints. Read-only tools only for the first test.",
+        "window": "Available September 18, 2026; no expiry, but API and browser support may change during the experimental phase.",
+        "immediate_exploit": "Bridge one synthetic read-only search or status tool on a nonproduction page. Verify that unlisted tools stay invisible, bearer tokens never enter the script, same-origin controls hold, and a side-effecting tool cannot be reached.",
+        "sources": [
+          "https://vercel.com/changelog/webmcp-mcp-handler",
+          "https://github.com/vercel-labs/mcp-handler/blob/main/docs/WEBMCP.md",
+          "https://github.com/webmachinelearning/webmcp"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Runware award distribution, acceptance rate, card requirements, model-specific exclusions, overage behavior, prior-account rules, and renewal terms are unpublished.",
+      "Neo4j credit duration, card requirement, overage behavior, award distribution, and acceptance rate are unpublished.",
+      "Neither recovered program application nor any capability benchmark was executed.",
+      "WebMCP browser support is experimental and the bridge was not independently exercised.",
+      "GLM 5.3 FlashX was verified as newly available through Vercel AI Gateway but excluded because no free or subsidized inference allowance was established.",
+      "Modal was excluded as a poor bootstrapped-founder fit because the public eligibility surface requires qualifying VC funding and references a required payment method.",
+      "Fish Audio’s exact September 18 cutoff time is unpublished."
+    ],
+    "source_manifest": [
+      "https://runware.ai/grant-program",
+      "https://runware.ai/",
+      "https://neo4j.com/startup-program/",
+      "https://modal.com/startups",
+      "https://vercel.com/changelog/webmcp-mcp-handler",
+      "https://github.com/vercel-labs/mcp-handler/blob/main/docs/WEBMCP.md",
+      "https://github.com/webmachinelearning/webmcp",
+      "https://vercel.com/changelog/glm-5-3-flashx-now-available-on-ai-gateway",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "runware-grant-up-to-30k-recovery-20260918",
+      "neo4j-startup-program-up-to-16k-recovery-20260918",
+      "vercel-mcp-handler-webmcp-bridge-20260918"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "runware-grant-up-to-30k-recovery-20260918",
+        "class": "CONFIRMED MAGNITUDE RECOVERY; PROGRAM SURFACE"
+      },
+      {
+        "signal_id": "neo4j-startup-program-up-to-16k-recovery-20260918",
+        "class": "CONFIRMED MAGNITUDE RECOVERY; PROGRAM SURFACE"
+      },
+      {
+        "signal_id": "vercel-mcp-handler-webmcp-bridge-20260918",
+        "class": "CONFIRMED FRESH OPEN-SOURCE AGENT INTEGRATION; EXPERIMENTAL"
+      }
+    ],
+    "omissions_errors": [
+      "Runware award distribution, acceptance rate, card requirements, model-specific exclusions, overage behavior, prior-account rules, and renewal terms are unpublished.",
+      "Neo4j credit duration, card requirement, overage behavior, award distribution, and acceptance rate are unpublished.",
+      "Neither recovered program application nor any capability benchmark was executed.",
+      "WebMCP browser support is experimental and the bridge was not independently exercised.",
+      "GLM 5.3 FlashX was verified as newly available through Vercel AI Gateway but excluded because no free or subsidized inference allowance was established.",
+      "Modal was excluded as a poor bootstrapped-founder fit because the public eligibility surface requires qualifying VC funding and references a required payment method.",
+      "Fish Audio’s exact September 18 cutoff time is unpublished."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "6134072462e3166268edeb1bf66763b9166b5f6008172e62e7a4012078c8fdd8"
+}
