@@ -1,0 +1,92 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-18-browser-run-session-recording-inspect/",
+    "https://developers.cloudflare.com/browser-run/features/session-recording/",
+    "https://developers.cloudflare.com/browser-run/pricing/",
+    "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260919T215247Z-020",
+  "executed_at_utc": "2026-09-19T21:52:47Z",
+  "execution_mode": "recovered",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "f197af325a14497d239a34389dcfef7af398a152ec9de93fbd79a156c9738861",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; added delayed-primary-changelog reconciliation after recovering a September 18 Cloudflare capability after the prior run.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "6134072462e3166268edeb1bf66763b9166b5f6008172e62e7a4012078c8fdd8",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-18T212051Z-lsr-20260918T212051Z-019.json",
+  "receipt_id": "lsr-20260919T215247Z-020",
+  "report": {
+    "executed_at_utc": "2026-09-19T21:52:47Z",
+    "previous_run_delta": "Delayed primary-source recovery: Cloudflare Browser Run Session Recordings now expose searchable console logs, full network inspection with HAR export, and final DOM state. Closed: Fish Audio free gateway routes passed their September 18 final published day. Unchanged and not recycled: Runware, Neo4j, and the WebMCP bridge.",
+    "program_surface_results": [
+      "No new Devin-class startup, founder, ecosystem, grant, hackathon, or partner-benefit program suitable for the bootstrapped solo-builder profile survived primary-source verification.",
+      "The 60–90 day magnitude scan found no exceptional still-actionable program absent from the existing ledger.",
+      "The Browser Run item was published September 18 but reached the primary changelog surface after the prior scout; delayed-feed reconciliation is now explicit in the scan."
+    ],
+    "signals": [
+      {
+        "signal_id": "cloudflare-browser-run-recording-inspect-har-dom-20260918-recovered",
+        "classification": "CONFIRMED FRESH CAPABILITY; DELAYED PRIMARY-SOURCE RECOVERY",
+        "score": 87,
+        "displacement": "TEST",
+        "changed": "Cloudflare added an Inspect panel to Browser Run Session Recordings with searchable console logs, network request and response details, timing waterfalls, HAR download, and an expandable final DOM snapshot. The recording API can also return raw JSON or HAR.",
+        "free_value": "The inspection and export capability has no separately announced charge. Workers Free includes 10 browser minutes per day and three concurrent browser sessions; recordings are retained for 30 days.",
+        "approximate_value": "No defensible cash equivalent. It replaces custom browser-agent instrumentation and turns a replay into an inspectable execution artifact suitable for debugging and evidence capture.",
+        "cash_required": "$0 within Workers Free allowances. Paid includes 10 browser hours per month, then $0.09 per additional hour; Browser Sessions also meter concurrency.",
+        "eligibility_reality_check": "Requires a Cloudflare account, Browser Run session through Puppeteer, Playwright, or CDP, and per-session recording opt-in. It is unavailable for Quick Actions. No company, funding, incorporation, geography, domain-email, or team-size gate.",
+        "why_asymmetric": "A single browser run can now yield replay, console evidence, network chronology, payload and response details, final DOM state, and a portable HAR without maintaining a second observability stack.",
+        "catch": "Network records can expose headers, payloads, responses, tokens, and personal data. Input fields are masked by default in the replay, but that does not establish network-level redaction. Recordings expire after 30 days, large or highly dynamic pages produce high event volume, and canvas, cross-origin iframes, media, and WebGL are not captured.",
+        "window": "Active beta; no expiry announced. Recordings themselves are retained for 30 days and are limited to two hours.",
+        "immediate_exploit": "Record one synthetic, nonproduction flow; close the session; export HAR and raw JSON; inspect logs, network data, and final DOM for secret leakage; then retain only a sanitized evidence bundle or digest in ICE.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-18-browser-run-session-recording-inspect/",
+          "https://developers.cloudflare.com/browser-run/features/session-recording/",
+          "https://developers.cloudflare.com/browser-run/pricing/"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "The Browser Run recording and Inspect workflow was not independently exercised.",
+      "Account-specific feature availability and usage were unobservable.",
+      "Cloudflare states that input fields are masked by default but does not document automatic redaction of sensitive network headers, payloads, or responses.",
+      "No separate recording fee was announced; ordinary Browser Run time and concurrency metering still apply.",
+      "No new program-surface or 60–90 day magnitude signal suitable for the current profile cleared primary-source verification."
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-18-browser-run-session-recording-inspect/",
+      "https://developers.cloudflare.com/browser-run/features/session-recording/",
+      "https://developers.cloudflare.com/browser-run/pricing/",
+      "https://vercel.com/changelog/fish-audio-models-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-browser-run-recording-inspect-har-dom-20260918-recovered"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-browser-run-recording-inspect-har-dom-20260918-recovered",
+        "class": "CONFIRMED FRESH CAPABILITY; DELAYED PRIMARY-SOURCE RECOVERY"
+      }
+    ],
+    "omissions_errors": [
+      "The Browser Run recording and Inspect workflow was not independently exercised.",
+      "Account-specific feature availability and usage were unobservable.",
+      "Cloudflare states that input fields are masked by default but does not document automatic redaction of sensitive network headers, payloads, or responses.",
+      "No separate recording fee was announced; ordinary Browser Run time and concurrency metering still apply.",
+      "No new program-surface or 60–90 day magnitude signal suitable for the current profile cleared primary-source verification."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "fa86fc828316243801f7b254d2218008e4d0a4cd4de5a8d2bbcb5484befd011f"
+}
