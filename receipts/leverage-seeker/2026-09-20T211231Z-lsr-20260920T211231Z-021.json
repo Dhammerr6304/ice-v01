@@ -1,0 +1,95 @@
+{
+  "attestation": "PROVISIONAL — self-attested, not independently signed or verified.",
+  "canonical_sources": [
+    "https://platform.claude.com/docs/en/release-notes/overview",
+    "https://platform.claude.com/docs/en/build-with-claude/compaction",
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://cloud.google.com/startup/ai",
+    "https://startup.google.com/cloud/",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260920T211231Z-021",
+  "executed_at_utc": "2026-09-20T21:12:31Z",
+  "execution_mode": "recovered",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "409849ab4745506bbf34357e546f46f11aa68ddedb548807b9a1474a6ebbadf5",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; expanded provider API release-note recovery with compaction, context-management, checkpointing, and resume vocabulary.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "fa86fc828316243801f7b254d2218008e4d0a4cd4de5a8d2bbcb5484befd011f",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-19T215247Z-lsr-20260919T215247Z-020.json",
+  "receipt_id": "lsr-20260920T211231Z-021",
+  "report": {
+    "executed_at_utc": "2026-09-20T21:12:31Z",
+    "previous_run_delta": "Recovered: Anthropic added on-demand, background-capable compaction that returns a signed context block for long-running Messages API sessions. No fresh September 19–20 platform launch or new Devin-class program cleared verification. Closing: Ling Flash Fin remains free through September 25; Tako Search and Cloudflare unmetered tracing remain available through September 30.",
+    "program_surface_results": [
+      "No new startup, founder, builder, accelerator, partner-benefit, grant, hackathon, or research-preview program suitable for the bootstrapped solo-builder profile survived primary-source verification.",
+      "Google Cloud’s headline $350,000 AI program was excluded from recommendation because the primary eligibility surface requires VC funding; the bootstrapped Start tier is only up to $2,000 and is not a new delta.",
+      "The 60–90 day magnitude scan found no exceptional still-actionable program absent from the existing ledger.",
+      "The recovery exposes a coverage gap: provider API release notes need a feature-level compaction, context-management, checkpointing, and resume vocabulary—not only launch and pricing terms."
+    ],
+    "signals": [
+      {
+        "signal_id": "anthropic-messages-on-demand-signed-compaction-20260914-recovery",
+        "classification": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; PAID BETA CAPABILITY",
+        "score": 82,
+        "displacement": "TEST",
+        "changed": "The Claude Messages API can now compact a conversation on demand. A separate request returns one signed compaction block that replaces the summarized history; the request can run in the background while the conversation continues, and recent turns can remain verbatim after the summary.",
+        "free_value": "No additional orchestration or compaction product fee is listed. The capability is part of normal Messages API access, but both the compaction sampling step and later model calls are token-billed.",
+        "approximate_value": "The primary value is avoided orchestration work and repeated context replay. If 100,000 old tokens become a 5,000-token block, each uncached continuation avoids roughly 95,000 input tokens—about $0.19 at Claude Sonnet 5 list price. Actual savings depend on summary size, caching, model, and number of later turns.",
+        "cash_required": "Paid API billing is required. At Claude Sonnet 5 list rates, compacting 100,000 input tokens and emitting a 2,000-token summary is roughly $0.22 before any extra thinking or overhead; a bounded validation can use a $1 ceiling.",
+        "eligibility_reality_check": "Available through the first-party Claude API on supported Claude models using the compact-2026-09-04 beta header. It is not available through Amazon Bedrock or Google Cloud. No startup, incorporation, funding, geography, or team-size gate, but an API account with billing is required.",
+        "why_asymmetric": "It converts long-session continuity from custom summarization code into a signed, provider-recognized state primitive. That directly supports B₂ROOT semantic resume, checkpointed agents, and ICE experiments while allowing work to continue during background summarization.",
+        "catch": "This is beta and lossy: a summary is not full replay. The compaction request must use the same model used for summarization, is billed like another inference request, cannot be combined with context_management in the same request, and must complete before the original conversation exceeds the model window. A misplaced or edited signed block produces errors or loses continuity.",
+        "window": "Available since September 14, 2026; no published expiry, but the beta header and request shape may change.",
+        "immediate_exploit": "Use one synthetic 50,000–100,000-token B₂ROOT-style transcript. Compact only older turns, keep the last exchange verbatim, cap spend at $1, and compare continuation accuracy, effective input tokens, total billed tokens, and checkpoint size against the uncompacted baseline.",
+        "sources": [
+          "https://platform.claude.com/docs/en/release-notes/overview",
+          "https://platform.claude.com/docs/en/build-with-claude/compaction",
+          "https://platform.claude.com/docs/en/about-claude/pricing"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "On-demand compaction was not independently benchmarked.",
+      "Summary fidelity, continuation quality, actual thinking-token consumption, and break-even point remain workload-dependent.",
+      "The API is paid; no zero-dollar production allowance was established.",
+      "The feature is unavailable through Amazon Bedrock and Google Cloud and cannot be combined with context_management on the same request.",
+      "No new program-surface or 60–90 day magnitude opportunity suitable for the current profile cleared primary-source verification."
+    ],
+    "source_manifest": [
+      "https://platform.claude.com/docs/en/release-notes/overview",
+      "https://platform.claude.com/docs/en/build-with-claude/compaction",
+      "https://platform.claude.com/docs/en/about-claude/pricing",
+      "https://cloud.google.com/startup/ai",
+      "https://startup.google.com/cloud/",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "anthropic-messages-on-demand-signed-compaction-20260914-recovery"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "anthropic-messages-on-demand-signed-compaction-20260914-recovery",
+        "class": "CONFIRMED FORGOTTEN-SIGNAL RECOVERY; PAID BETA CAPABILITY"
+      }
+    ],
+    "omissions_errors": [
+      "On-demand compaction was not independently benchmarked.",
+      "Summary fidelity, continuation quality, actual thinking-token consumption, and break-even point remain workload-dependent.",
+      "The API is paid; no zero-dollar production allowance was established.",
+      "The feature is unavailable through Amazon Bedrock and Google Cloud and cannot be combined with context_management on the same request.",
+      "No new program-surface or 60–90 day magnitude opportunity suitable for the current profile cleared primary-source verification."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "bd12e435f49c3c590b5aec1c13b9883229e497e70eb6b5bf6fff47388b66017e"
+}
