@@ -1,0 +1,106 @@
+{
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "canonical_sources": [
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/ai-gateway/models/grok-4.7",
+    "https://vercel.com/changelog/vercel-connect-microsoft-teams",
+    "https://developers.cloudflare.com/changelog/post/2026-09-21-invite-members-to-workers/",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260921T220310Z-022",
+  "executed_at_utc": "2026-09-21T22:03:10Z",
+  "execution_mode": "normal",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "aee998f25390f514a9a50b235594cc65e7ce587f8f6a3e9bb8a2cab7c31f4292",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; retained separate fresh-launch, program-surface, deadline, partner-benefit, promotion-catalog, and 60–90 day magnitude scans.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "bd12e435f49c3c590b5aec1c13b9883229e497e70eb6b5bf6fff47388b66017e",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-20T211231Z-lsr-20260920T211231Z-021.json",
+  "receipt_id": "lsr-20260921T220310Z-022",
+  "report": {
+    "executed_at_utc": "2026-09-21T22:03:10Z",
+    "previous_run_delta": "New: Vercel launched Grok 4.7 with automatic 40% promotional pricing through September 27; unpaid AI Gateway accounts receive $5 of credits every 30 days, allowing a zero-cash coding-agent benchmark. Strengthening: Cloudflare added a dashboard invitation flow for the per-Worker roles reported September 15. Excluded: Vercel Connect for Microsoft Teams requires a tenant administrator and Azure subscription and has no verified free allowance. No new Devin-class program cleared verification.",
+    "program_surface_results": [
+      "No new startup, founder, builder, accelerator, partner-benefit, grant, hackathon, or research-preview program suitable for the bootstrapped solo-builder profile survived primary-source verification.",
+      "The 60–90 day magnitude lookback found no exceptional still-actionable program absent from the existing ledger.",
+      "The Devin benchmark detector now covers vendor grant pages, partner navigation, model-promotion catalogs, cohort deadlines, footer-linked programs, and API release notes; the remaining weakness is discovery of non-indexed authenticated partner benefits."
+    ],
+    "signals": [
+      {
+        "signal_id": "vercel-grok-4-7-forty-percent-free-credit-benchmark-20260921",
+        "classification": "CONFIRMED FRESH MODEL / TEMPORARY PRICING / ZERO-CASH TEST",
+        "score": 82,
+        "score_breakdown": {
+          "capability": 22,
+          "economic_value": 8,
+          "zero_cost_accessibility": 19,
+          "composability": 14,
+          "immediacy": 9,
+          "temporary_window_likelihood": 10
+        },
+        "displacement": "TEST",
+        "platform_program": "Vercel AI Gateway / Grok 4.7",
+        "signal_type": "FRESH MODEL ACCESS / TEMPORARY 40% DISCOUNT",
+        "changed": "Grok 4.7 launched on Vercel AI Gateway, fx, and eve on September 21 with a 500,000-token context window, low through xhigh reasoning, image input, tool calling, and direct compatibility with Codex and other coding agents. Promotional pricing is automatic through September 27.",
+        "free_value": "Vercel states that AI Gateway users who have never made a payment receive $5 of credits every 30 days. At the promotional rates, $5 covers about 4.17 million input tokens if spent only on input, 1.39 million output tokens if spent only on output, or a smaller mixed workload. The promotion itself is a discount, not an extra credit grant.",
+        "approximate_value": "$5 of recurring gateway credit for an unpaid account; the seven-day discount increases its purchasing power by 66.7% versus the model's stated normal $2/M input and $6/M output pricing. This is validation capacity, not production-scale subsidy.",
+        "cash_required": "$0 if the account still qualifies for the unpaid-user credit and the benchmark stays within the displayed balance. Otherwise usage is metered at $1.20/M input and $3.60/M output tokens through September 27, plus $0.30/M cache reads and $5/1,000 web-search calls when used.",
+        "eligibility_reality_check": "No startup, funding, incorporation, geography, domain-email, partner, team-size, or application gate is published. A Vercel AI Gateway account and API key are required. The $5 allowance is expressly for users who have not made a payment; prior payment may disqualify the account. A card requirement for the unpaid allowance is not stated on the model page. Model use is subject to SpaceXAI terms and privacy policies.",
+        "why_asymmetric": "The same model ID works in the AI SDK, OpenAI-compatible APIs, eve, fx, Codex, Cursor, Amp, and OpenCode, so one free-credit evaluation can test coding, long-context retrieval, tool use, and self-verification without new orchestration work.",
+        "evidence": {
+          "confirmed_fact": "Vercel publishes the September 21 release, 500K context, reasoning controls, $1.20/$3.60 promotional rates, September 27 end date, coding-agent setup, ZDR and no-training routing controls, and the $5-per-30-days unpaid-user credit.",
+          "inference": "A fixed evaluation suite can determine whether Grok 4.7 replaces more expensive calls or adds a useful independent verifier for B₂ROOT and LEVERAGEδ.",
+          "unverified_claim": "No independent quality, latency, or tool-reliability benchmark was run, and the actual account credit balance was not observed."
+        },
+        "catch": "The headline 40% discount is not free production capacity and expires after one week. The $5 credit is account-state dependent. Reasoning tokens count toward output usage, web search is separately expensive, and the model has only one listed provider, limiting failover diversity.",
+        "window": "Promotional pricing ends September 27, 2026. Vercel states that the unpaid-user credit refreshes every 30 days but does not state a program end date on the model page.",
+        "immediate_exploit": "Run one existing 10–20-case coding-agent or evidence-verification suite with web search disabled, xhigh reasoning used only on the hardest cases, and a $5 gateway budget. Compare pass rate, tool correctness, latency, input/output tokens, and cost against the current baseline; stop if the account shows no free balance.",
+        "sources": [
+          "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+          "https://vercel.com/ai-gateway/models/grok-4.7"
+        ]
+      }
+    ],
+    "omissions_errors": [
+      "Grok 4.7 was not independently benchmarked.",
+      "The account-specific $5 balance, payment history, card requirement, and hard-stop behavior were unobservable.",
+      "No new bootstrapped-accessible magnitude program survived primary-source verification.",
+      "Vercel Connect for Microsoft Teams was excluded because it requires tenant-admin setup and an Azure subscription, and no zero-cost allowance was established.",
+      "Cloudflare's dashboard invitation flow was treated as a strengthening update to the already-ledgered per-Worker permission signal, not a recycled signal."
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+      "https://vercel.com/ai-gateway/models/grok-4.7",
+      "https://vercel.com/changelog/vercel-connect-microsoft-teams",
+      "https://developers.cloudflare.com/changelog/post/2026-09-21-invite-members-to-workers/",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-grok-4-7-forty-percent-free-credit-benchmark-20260921"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-grok-4-7-forty-percent-free-credit-benchmark-20260921",
+        "class": "CONFIRMED FRESH MODEL / TEMPORARY PRICING / ZERO-CASH TEST"
+      }
+    ],
+    "omissions_errors": [
+      "Grok 4.7 was not independently benchmarked.",
+      "The account-specific $5 balance, payment history, card requirement, and hard-stop behavior were unobservable.",
+      "No new bootstrapped-accessible magnitude program survived primary-source verification.",
+      "Vercel Connect for Microsoft Teams was excluded because it requires tenant-admin setup and an Azure subscription, and no zero-cost allowance was established.",
+      "Cloudflare's dashboard invitation flow was treated as a strengthening update to the already-ledgered per-Worker permission signal, not a recycled signal."
+    ]
+  },
+  "signature": "UNSIGNED",
+  "content_hash": "5477685c285e2ab317c590b37a8a7f26f0a15e59ebd96315817d970f50756cfb"
+}
