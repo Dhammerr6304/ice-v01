@@ -1,0 +1,201 @@
+{
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "canonical_sources": [
+    "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta",
+    "https://developers.cloudflare.com/changelog/post/2026-09-22-worker-previews/",
+    "https://developers.cloudflare.com/workers/previews/",
+    "https://developers.cloudflare.com/workers/previews/resources/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-21-browser-binding-methods/",
+    "https://developers.cloudflare.com/browser-run/features/outbound-workers/",
+    "https://developers.cloudflare.com/browser-run/pricing/",
+    "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
+    "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway",
+    "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "content_hash": "94742004e1cb231e682012cde154902560bf0c3f64d4bac021dc82ff55057caf",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "event_id": "ls-20260922T211812Z-023",
+  "executed_at_utc": "2026-09-22T21:18:12Z",
+  "execution_mode": "recovered",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "output_digest": "8016d17b023973ed03bacbfb21f0dc023b4dc122dbfe4cd2f4c9d44e0b36621c",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "policy_id": "leverage-seeker-daily",
+  "policy_input_change_summary": "No user policy change; added persistent-workspace, branch-isolation, and credential-broker vocabulary while retaining separate fresh-launch, program-surface, deadline, partner-benefit, and 60–90 day scans.",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "previous_hash": "5477685c285e2ab317c590b37a8a7f26f0a15e59ebd96315817d970f50756cfb",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-21T220310Z-lsr-20260921T220310Z-022.json",
+  "receipt_id": "lsr-20260922T211812Z-023",
+  "report": {
+    "executed_at_utc": "2026-09-22T21:18:12Z",
+    "omissions_errors": [
+      "No capability was independently exercised; account-specific availability and quota state were unobservable.",
+      "Vercel Drive storage is free only within Hobby allowances; Sandbox compute remains separately metered.",
+      "Worker Previews do not automatically isolate KV, D1, R2, Workflows, service bindings, routes, Cron Triggers, or Queue consumers.",
+      "Browser outbound routing was not tested for credential leakage in recordings or HAR exports.",
+      "GPT-6 Sol, GPT-6 Luna, and Claude Opus 5.5 were excluded as ordinary metered model availability with no newly verified subsidy beyond the previously ledgered AI Gateway allowance.",
+      "A reported $50,000-plus compute academy was excluded: the inaugural cohort targets recent high-school graduates, requires a one-year San Francisco relocation, and leaves housing to participants; a primary application surface was not found.",
+      "No new bootstrapped-accessible Devin-class program cleared primary-source verification."
+    ],
+    "previous_run_delta": "New: Vercel Sandbox Drives add persistent, snapshot-capable agent workspaces with meaningful Hobby allowances. New: Cloudflare Worker Previews add isolated branch environments and immutable review URLs. Recovered: Browser Run outbound Workers can broker credentials and reach private services. Excluded: newly listed frontier models lack a new subsidy; a $50,000-plus academy headline is a poor profile match.",
+    "program_surface_results": [
+      "No new startup, founder, builder, accelerator, grant, hackathon, research-preview, or partner-benefit program suitable for a bootstrapped solo builder survived verification.",
+      "A reported Horowitz Andreessen Academy package includes more than $50,000 of compute credits and a $5,000 travel/research budget, but the inaugural one-year program targets recent high-school graduates, requires relocation to San Francisco, and leaves housing to students. It was excluded despite magnitude.",
+      "The 60–90 day lookback found no exceptional still-actionable opportunity absent from the ledger. Today’s scan would detect the Devin benchmark through program-value, cohort, application, and partner-benefit vocabulary; non-indexed authenticated benefit catalogs remain the coverage gap."
+    ],
+    "signals": [
+      {
+        "approximate_value": "No defensible cash equivalent. The leverage is avoiding repeated dependency installs, artifact upload/download plumbing, and custom workspace persistence for agents.",
+        "cash_required": "$0 within Hobby Drive allowances; Sandbox compute and other Vercel usage remain separately metered.",
+        "catch": "Public beta; one writable mount at a time; Hobby drives cap at 1 GiB; snapshots do not receive later writes; drives cannot fail over across regions; Sandbox compute is not free merely because Drive storage is included.",
+        "changed": "Persistent drives can now be mounted into Vercel Sandboxes and reused across runs and sandbox instances. One writer can update the drive while multiple sandboxes mount point-in-time read-only snapshots.",
+        "classification": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY / PUBLIC BETA",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Available in public beta on Hobby, Pro, and Enterprise without a startup, incorporation, funding, geography, domain-email, or application gate. A Vercel account and Sandbox SDK are required. Drives are region-bound.",
+        "evidence": {
+          "confirmed_fact": "Vercel publishes cross-run persistence, one read-write mount, concurrent read-only snapshots, four-drive mounts, Hobby limits, included usage, regional storage, and regional rates.",
+          "inference": "A B2ROOT workspace can preserve repositories, checkpoints, dependency caches, and artifact manifests between sandbox sessions.",
+          "unverified_claim": "Resume fidelity, snapshot consistency under real agent writes, and cost behavior near Hobby limits were not independently benchmarked."
+        },
+        "free_value": "Hobby includes 15 GB of Drive storage plus 30 GB each of reads and writes per month. A sandbox can mount up to four drives; the Hobby maximum size is 1 GiB per drive.",
+        "immediate_exploit": "Create one small agent-workspace drive, persist a repository plus checkpoint manifest, stop the sandbox, resume in a fresh sandbox, then mount two read-only snapshots for review and tests. Delete it if the workflow is not simpler than the current artifact path.",
+        "platform_program": "Vercel Sandbox Drives",
+        "score": 91,
+        "score_breakdown": {
+          "capability": 24,
+          "composability": 15,
+          "economic_value": 14,
+          "immediacy": 9,
+          "temporary_window_likelihood": 9,
+          "zero_cost_accessibility": 20
+        },
+        "signal_id": "vercel-sandbox-drives-persistent-agent-workspace-20260922",
+        "signal_type": "FRESH PERSISTENT AGENT WORKSPACE / FREE BETA CAPACITY",
+        "sources": [
+          "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta"
+        ],
+        "why_asymmetric": "It turns disposable microVM sessions into resumable agent workspaces while snapshots let parallel reviewers and test sandboxes inspect the same known state without write conflicts.",
+        "window": "Public beta active September 22, 2026; no expiry announced."
+      },
+      {
+        "approximate_value": "No credible cash equivalent. It removes a meaningful amount of preview-environment provisioning and gives every agent branch an isolated execution and observability boundary.",
+        "cash_required": "$0 incremental charge stated on Workers Free, subject to ordinary Workers and bound-product quotas.",
+        "catch": "KV, D1, R2, and other resources are not automatically isolated unless separately bound. Workflow bindings, service bindings, routes, Cron Triggers, and Queue consumers can still touch existing or production targets. Preview URLs are public by default unless protected with Access.",
+        "changed": "Each branch can now run as an isolated production-like Preview under the same Worker, with its own configuration, URL, observability, Durable Object namespace, and Container instances. Deployment URLs are immutable.",
+        "classification": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Requires a Cloudflare account, Wrangler 4.135.0 or later, and explicit preview configuration. No company, funding, incorporation, geography, or team-size gate.",
+        "evidence": {
+          "confirmed_fact": "Cloudflare documents per-Preview variables, secrets, bindings, URLs, logs, metrics, traces, automatic Durable Object and Container isolation, and Free-plan limits.",
+          "inference": "This can become the execution boundary for agent-authored patches and their ICE test evidence.",
+          "unverified_claim": "Provisioning latency, cleanup reliability, and quota interaction were not independently exercised."
+        },
+        "free_value": "Workers Free supports up to 100 Previews per Worker and 100 deployments per Preview. There is no separately announced Preview charge; underlying Worker and bound-product usage follows existing quotas.",
+        "immediate_exploit": "Create one Preview for a disposable branch, bind separate nonproduction storage, verify production state is unreachable, then preserve the immutable deployment URL and trace as review evidence.",
+        "platform_program": "Cloudflare Worker Previews",
+        "score": 90,
+        "score_breakdown": {
+          "capability": 23,
+          "composability": 15,
+          "economic_value": 14,
+          "immediacy": 9,
+          "temporary_window_likelihood": 9,
+          "zero_cost_accessibility": 20
+        },
+        "signal_id": "cloudflare-worker-previews-isolated-branch-environments-20260922",
+        "signal_type": "FRESH ISOLATED AGENT/BRANCH ENVIRONMENTS",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-22-worker-previews/",
+          "https://developers.cloudflare.com/workers/previews/",
+          "https://developers.cloudflare.com/workers/previews/resources/"
+        ],
+        "why_asymmetric": "A coding agent can receive a stable branch URL and isolated state without touching production, while an immutable deployment URL can be attached to review evidence.",
+        "window": "Active September 22, 2026; no expiry announced."
+      },
+      {
+        "approximate_value": "No defensible cash equivalent. It can remove credentials from page scripts and browser-agent context while avoiding a separate proxy service.",
+        "cash_required": "$0 within Workers Free and Browser Run limits.",
+        "catch": "It does not make an allowed private service safe by itself; the outbound Worker still needs least privilege, request validation, rate limits, and response redaction. Browser-minute and concurrency limits still apply.",
+        "changed": "Browser bindings now support outboundByHost routing: selected hostnames can pass through another Worker that reaches private services, adds authentication, or transforms responses before the browser receives them.",
+        "classification": "CONFIRMED DELAYED-PRIMARY RECOVERY / FREE AGENT-SECURITY CAPABILITY",
+        "displacement": "TEST",
+        "eligibility_reality_check": "Requires a Cloudflare account, Browser Run binding, compatible Worker configuration, and Puppeteer, Playwright, or CDP session. No startup, funding, incorporation, geography, or team-size gate.",
+        "evidence": {
+          "confirmed_fact": "Cloudflare documents hostname-selective outbound routing, private-service reachability, authentication injection, and response transformation.",
+          "inference": "This can keep API secrets out of Browser Run recordings, HAR exports, page JavaScript, and agent-visible state.",
+          "unverified_claim": "Secret isolation and failure behavior were not independently tested against the new recording inspector."
+        },
+        "free_value": "The routing primitive has no separate announced fee. Browser Run on Workers Free includes 10 browser minutes daily and three concurrent Browser Sessions.",
+        "immediate_exploit": "Route one synthetic private hostname through a Worker that adds a disposable token, record the browser session, and verify the token is absent from DOM, console, HAR, and agent-visible state.",
+        "platform_program": "Cloudflare Browser Run outbound Workers",
+        "score": 88,
+        "score_breakdown": {
+          "capability": 23,
+          "composability": 15,
+          "economic_value": 12,
+          "immediacy": 9,
+          "temporary_window_likelihood": 9,
+          "zero_cost_accessibility": 20
+        },
+        "signal_id": "cloudflare-browser-run-outbound-worker-auth-private-services-20260922",
+        "signal_type": "FRESH CREDENTIAL BROKER / PRIVATE-SERVICE ROUTING",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-21-browser-binding-methods/",
+          "https://developers.cloudflare.com/browser-run/features/outbound-workers/",
+          "https://developers.cloudflare.com/browser-run/pricing/"
+        ],
+        "why_asymmetric": "The browser can navigate as if it reached a named host while trusted Worker code injects credentials or reaches a private binding outside the browser process.",
+        "window": "Documented September 21–22, 2026; no expiry announced."
+      }
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/drives-for-vercel-sandbox-are-now-in-public-beta",
+      "https://developers.cloudflare.com/changelog/post/2026-09-22-worker-previews/",
+      "https://developers.cloudflare.com/workers/previews/",
+      "https://developers.cloudflare.com/workers/previews/resources/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-21-browser-binding-methods/",
+      "https://developers.cloudflare.com/browser-run/features/outbound-workers/",
+      "https://developers.cloudflare.com/browser-run/pricing/",
+      "https://vercel.com/changelog/gpt-6-sol-and-luna-now-available-on-ai-gateway",
+      "https://vercel.com/changelog/claude-opus-5-5-now-available-on-ai-gateway",
+      "https://www.theverge.com/ai-artificial-intelligence/998813/andreessen-horowitz-ai-academy",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "result_manifest": {
+    "omissions_errors": [
+      "No capability was independently exercised; account-specific availability and quota state were unobservable.",
+      "Vercel Drive storage is free only within Hobby allowances; Sandbox compute remains separately metered.",
+      "Worker Previews do not automatically isolate KV, D1, R2, Workflows, service bindings, routes, Cron Triggers, or Queue consumers.",
+      "Browser outbound routing was not tested for credential leakage in recordings or HAR exports.",
+      "GPT-6 Sol, GPT-6 Luna, and Claude Opus 5.5 were excluded as ordinary metered model availability with no newly verified subsidy beyond the previously ledgered AI Gateway allowance.",
+      "A reported $50,000-plus compute academy was excluded: the inaugural cohort targets recent high-school graduates, requires a one-year San Francisco relocation, and leaves housing to participants; a primary application surface was not found.",
+      "No new bootstrapped-accessible Devin-class program cleared primary-source verification."
+    ],
+    "signal_ids": [
+      "vercel-sandbox-drives-persistent-agent-workspace-20260922",
+      "cloudflare-worker-previews-isolated-branch-environments-20260922",
+      "cloudflare-browser-run-outbound-worker-auth-private-services-20260922"
+    ],
+    "verification_classes": [
+      {
+        "class": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY / PUBLIC BETA",
+        "signal_id": "vercel-sandbox-drives-persistent-agent-workspace-20260922"
+      },
+      {
+        "class": "CONFIRMED FRESH FREE-INFRASTRUCTURE CAPABILITY",
+        "signal_id": "cloudflare-worker-previews-isolated-branch-environments-20260922"
+      },
+      {
+        "class": "CONFIRMED DELAYED-PRIMARY RECOVERY / FREE AGENT-SECURITY CAPABILITY",
+        "signal_id": "cloudflare-browser-run-outbound-worker-auth-private-services-20260922"
+      }
+    ]
+  },
+  "signature": "UNSIGNED"
+}
