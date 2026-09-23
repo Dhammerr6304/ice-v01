@@ -1,0 +1,113 @@
+{
+  "event_id": "ls-20260923T214348Z-024",
+  "receipt_id": "lsr-20260923T214348Z-024",
+  "executed_at_utc": "2026-09-23T21:43:48Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change; added decision-model, evaluation, stop-condition, retry/escalation, model-routing, and tool-approval vocabulary after recovering Jev's expiring promotion.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-22T211812Z-lsr-20260922T211812Z-023.json",
+  "previous_hash": "94742004e1cb231e682012cde154902560bf0c3f64d4bac021dc82ff55057caf",
+  "canonical_sources": [
+    "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+    "https://vercel.com/kb/jev-from-typesafe-ai",
+    "https://vercel.com/i/what-is-jev",
+    "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan",
+    "https://github.com/NVIDIA/Personal-AI-Router",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "result_manifest": {
+    "signal_ids": [
+      "vercel-jev-free-agent-decision-gate-20260923-recovery"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "vercel-jev-free-agent-decision-gate-20260923-recovery",
+        "class": "CONFIRMED EXPIRING ZERO-CASH AGENT-CONTROL CAPABILITY"
+      }
+    ],
+    "omissions_errors": [
+      "Jev was not independently benchmarked; semantic accuracy, latency, and threshold calibration remain workload-dependent.",
+      "The public launch page establishes free access through September 25 but does not publish post-promotion price, card requirements, or hard-stop behavior.",
+      "Jev must not be the sole budget control; application-owned hard caps, retry limits, and human escalation remain necessary.",
+      "Unlimited Vercel Blob stores were excluded as low-impact for this profile because ordinary storage, operations, and transfer usage remain metered.",
+      "NVIDIA Personal AI Router was recovered in the 60–90 day scan but excluded from immediate action because the current Intel UHD 620 machine does not provide the supported accelerator class.",
+      "No new bootstrapped-accessible Devin-class startup or founder program cleared primary-source verification."
+    ]
+  },
+  "report": {
+    "executed_at_utc": "2026-09-23T21:43:48Z",
+    "previous_run_delta": "Recovered and expiring: Jev is free through September 25 and adds typed probabilistic gates for agent continuation, routing, and approvals. Strengthening: it complements yesterday's persistent workspaces and isolated previews by adding a control decision before another expensive step. Excluded as low impact: unlimited Blob stores. Program scan: no new bootstrapped-accessible magnitude program cleared verification.",
+    "signals": [
+      {
+        "signal_id": "vercel-jev-free-agent-decision-gate-20260923-recovery",
+        "platform_program": "Vercel AI Gateway / TypeSafe AI Jev",
+        "signal_type": "EXPIRING FREE DECISION MODEL / DELAYED-PRIMARY RECOVERY",
+        "classification": "CONFIRMED EXPIRING ZERO-CASH AGENT-CONTROL CAPABILITY",
+        "score": 94,
+        "score_breakdown": {
+          "capability": 23,
+          "economic_value": 18,
+          "zero_cost_accessibility": 20,
+          "composability": 15,
+          "immediacy": 8,
+          "temporary_window_likelihood": 10
+        },
+        "displacement": "TEST",
+        "changed": "Jev became callable through Vercel AI Gateway using TypeSafe clients, a language-neutral HTTP API, or AI SDK. It returns typed Boolean, Choice, and Score decisions with probabilities instead of prose, and is free through September 25, 2026.",
+        "free_value": "All Jev requests through AI Gateway are free during the published promotion. The same calls appear in Gateway usage and observability.",
+        "approximate_value": "The token subsidy is unquantified. The material value is avoided waste: a validated stop/retry/escalate gate could reduce the risk of another runaway agent loop whose prior observed cost was approximately $600.",
+        "cash_required": "$0 through September 25, subject to an AI Gateway account and API key. Post-promotion pricing and billing safeguards were not published on the launch page.",
+        "eligibility_reality_check": "No startup, company, funding, incorporation, geography, domain-email, team-size, or partner gate is published. A Vercel AI Gateway account and API key are required. Card, prior-payment, and post-promotion hard-stop rules are unpublished.",
+        "why_asymmetric": "A cheap typed evaluator can sit between expensive agent steps and answer bounded questions such as continue or stop, retry or escalate, which model to route to, and whether a tool call needs approval. Its value comes from constraining higher-cost systems, not from replacing them.",
+        "evidence": {
+          "confirmed_fact": "Vercel documents the September 21 launch, free-through-September-25 window, HTTP/TypeSafe/AI SDK access, Boolean/Choice/Score responses, probabilities, usage visibility, and use in eve for model selection, evaluation, and tool approvals.",
+          "inference": "A calibrated Jev gate could reduce needless continuation, retries, and expensive-model calls in B2ROOT and other autonomous workflows.",
+          "unverified_claim": "No evidence yet shows that Jev makes sufficiently accurate stop decisions on the user's trajectories or would have prevented the prior approximately $600 loop."
+        },
+        "catch": "Typed output guarantees shape, not semantic correctness. Jev is text-only, produces no explanation, and can confidently choose the wrong action. Application code must own policy, hard spend caps, retry ceilings, side-effect permissions, and human review.",
+        "window": "Free through September 25, 2026; exact cutoff time and post-promotion economics are unpublished.",
+        "immediate_exploit": "Run 20 labeled historical or synthetic agent states through three questions: continue/stop, retry/escalate, and cheap/expensive-model route. Measure false-continue, false-stop, calibration, latency, and cost. Keep deterministic budget and retry caps authoritative.",
+        "sources": [
+          "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+          "https://vercel.com/kb/jev-from-typesafe-ai",
+          "https://vercel.com/i/what-is-jev"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "No new startup, founder, builder, accelerator, cloud-credit, grant, hackathon, research-preview, or partner-benefit program suitable for a bootstrapped solo builder survived primary-source verification.",
+      "The 60–90 day lookback recovered NVIDIA Personal AI Router as free open-source local inference routing, but the current Intel UHD 620 machine lacks a compatible accelerator, so it is not immediate leverage.",
+      "The Devin benchmark exposed a vocabulary gap: model-release scans must also search for decision models, evaluation, stop conditions, retry/escalation, model routing, and tool approval. Those terms have been added for future scans."
+    ],
+    "omissions_errors": [
+      "Jev was not independently benchmarked; semantic accuracy, latency, and threshold calibration remain workload-dependent.",
+      "The public launch page establishes free access through September 25 but does not publish post-promotion price, card requirements, or hard-stop behavior.",
+      "Jev must not be the sole budget control; application-owned hard caps, retry limits, and human escalation remain necessary.",
+      "Unlimited Vercel Blob stores were excluded as low-impact for this profile because ordinary storage, operations, and transfer usage remain metered.",
+      "NVIDIA Personal AI Router was recovered in the 60–90 day scan but excluded from immediate action because the current Intel UHD 620 machine does not provide the supported accelerator class.",
+      "No new bootstrapped-accessible Devin-class startup or founder program cleared primary-source verification."
+    ],
+    "source_manifest": [
+      "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+      "https://vercel.com/kb/jev-from-typesafe-ai",
+      "https://vercel.com/i/what-is-jev",
+      "https://vercel.com/changelog/unlimited-vercel-blob-stores-on-every-plan",
+      "https://github.com/NVIDIA/Personal-AI-Router",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "output_digest": "26c415c068feab7bd5abe2a17664f01d1fda445348f5d87e0e8c0ce96f6f0779",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "7704f9271f93200ac1ae99b43a3bdd58dba9e9599cf8ae4e35e6d78f8b56ec3f"
+}
