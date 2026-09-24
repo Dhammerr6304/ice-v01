@@ -1,0 +1,153 @@
+{
+  "event_id": "ls-20260924T220508Z-025",
+  "receipt_id": "lsr-20260924T220508Z-025",
+  "executed_at_utc": "2026-09-24T22:05:08Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change; program recovery now explicitly compares vendor tier-change language and billing-transition terms in addition to initial launch and eligibility surfaces.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-23T214348Z-lsr-20260923T214348Z-024.json",
+  "previous_hash": "7704f9271f93200ac1ae99b43a3bdd58dba9e9599cf8ae4e35e6d78f8b56ec3f",
+  "canonical_sources": [
+    "https://www.cloudflare.com/startups/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-24-mcp-portals-ga/",
+    "https://developers.cloudflare.com/cloudflare-one/access-controls/ai-controls/mcp-portals/",
+    "https://www.cloudflare.com/plans/zero-trust-services/",
+    "https://vercel.com/changelog/vercel-connect-tanstack-ai",
+    "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-startups-tier3-10k-bootstrapped-recovery-20260924",
+      "cloudflare-mcp-server-portals-ga-20260924"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-startups-tier3-10k-bootstrapped-recovery-20260924",
+        "class": "CONFIRMED MAGNITUDE PROGRAM; CONDITIONAL ELIGIBILITY AND AUTO-BILLING RISK"
+      },
+      {
+        "signal_id": "cloudflare-mcp-server-portals-ga-20260924",
+        "class": "CONFIRMED FRESH AGENT-GOVERNANCE CAPABILITY; CORE COST NOT SEPARATELY PUBLISHED"
+      }
+    ],
+    "omissions_errors": [
+      "Cloudflare for Startups acceptance is discretionary and the user's incorporated-entity status was not independently verified; an EIN alone does not establish incorporation.",
+      "The Tier 3 page expressly accepts bootstrapped companies but the general qualification list also says funded within the last 12 months; treatment of a company with zero outside funding is unclear and should be confirmed.",
+      "A valid payment method is mandatory and Cloudflare automatically bills overages and post-credit usage; account-level hard caps were not established.",
+      "MCP server portals were not independently exercised and Cloudflare does not publish a separate portal price or free-plan quota on the documentation page.",
+      "Advanced portal controls have plan differences: Logpush is Enterprise-only and Gateway DLP or other controls may require paid entitlements.",
+      "No additional bootstrapped-accessible magnitude program cleared primary-source verification."
+    ]
+  },
+  "report": {
+    "executed_at_utc": "2026-09-24T22:05:08Z",
+    "previous_run_delta": "Recovered magnitude: Cloudflare doubled its bootstrapped startup tier to $10,000 and expanded the top tier to $350,000. Fresh: MCP server portals reached GA for all customers with service-token access, allowlists, logging, and context optimization. Closing: Jev and Ling free windows reach their final published day September 25.",
+    "signals": [
+      {
+        "signal_id": "cloudflare-startups-tier3-10k-bootstrapped-recovery-20260924",
+        "platform_program": "Cloudflare for Startups — Tier 3",
+        "signal_type": "PROGRAM SURFACE / MAGNITUDE RECOVERY / RECENT VALUE INCREASE",
+        "classification": "CONFIRMED MAGNITUDE PROGRAM; CONDITIONAL ELIGIBILITY AND AUTO-BILLING RISK",
+        "score": 91,
+        "score_breakdown": {
+          "capability": 24,
+          "economic_value": 20,
+          "zero_cost_accessibility": 14,
+          "composability": 15,
+          "immediacy": 10,
+          "temporary_window_likelihood": 8
+        },
+        "displacement": "DISPLACE",
+        "changed": "Cloudflare recently doubled its bootstrapped Tier 3 award from $5,000 to $10,000 and raised the top tier from $250,000 to $350,000. Tier 3 expressly requires no minimum funding.",
+        "free_value": "$10,000 of usage credits for one year across Workers, Workers for Platforms, Durable Objects, Workflows, KV, D1, Queues, Vectorize, R2, Pages, Images, Stream, Cache Reserve, and Argo. Workers AI is capped at $2,500 for Tier 3. Three Enterprise domains plus security and networking benefits are included.",
+        "approximate_value": "$10,000 in credits plus three Enterprise-domain benefits. AI Gateway, registrar purchases, and several premium network services are excluded.",
+        "cash_required": "$0 application fee, but a valid payment method is required after acceptance and overages or post-expiry usage are automatically billed.",
+        "eligibility_reality_check": "Tier 3 is for bootstrapped or self-funded startups under $1 million raised. The company must be incorporated within ten years, for-profit, actively building a technology product, have a public website, matching-domain business email, public GitHub/X/LinkedIn presence, and no prior program approval. Consultancies, agencies, MSPs, resellers, personal blogs, educational institutions, and existing Enterprise customers are excluded.",
+        "why_asymmetric": "The award can subsidize the exact Cloudflare stack already under evaluation—Workers, Workflows, Durable Objects, storage, queues, Vectorize, R2, and agent inference—while also providing production-grade domain and security capabilities that would otherwise be out of reach.",
+        "evidence": {
+          "confirmed_fact": "Cloudflare publishes the $10,000 Tier 3 award, bootstrapped eligibility, one-year duration, product coverage, exclusions, two-day review target, payment-method requirement, and automatic billing terms.",
+          "inference": "A product-focused HAMMER OPS or LEVERAGEdelta entity could be a strong technical fit if it is incorporated and clearly separated from consulting or service work.",
+          "unverified_claim": "The user's entity form, application eligibility, expected approval, and ability to configure a zero-overage boundary are unverified."
+        },
+        "catch": "This is not safe-to-forget credit. Cloudflare requires a card and automatically bills overages and use after credits expire. AI Gateway is excluded. The generic funded-within-12-months criterion conflicts with the explicit bootstrapped tier and needs written clarification.",
+        "window": "Rolling; no application deadline published. Credits last one year from acceptance or until consumed. Program terms can change without notice.",
+        "immediate_exploit": "Run a 30-minute eligibility gate. If the entity is incorporated, product-focused, has a live site and matching-domain email, apply with a twelve-month usage budget. Before enabling paid services, obtain written clarification on zero-funding eligibility and create monthly spend alerts plus a post-credit downgrade calendar.",
+        "sources": [
+          "https://www.cloudflare.com/startups/"
+        ]
+      },
+      {
+        "signal_id": "cloudflare-mcp-server-portals-ga-20260924",
+        "platform_program": "Cloudflare MCP Server Portals",
+        "signal_type": "FRESH MCP CONTROL PLANE / GENERAL AVAILABILITY",
+        "classification": "CONFIRMED FRESH AGENT-GOVERNANCE CAPABILITY; CORE COST NOT SEPARATELY PUBLISHED",
+        "score": 88,
+        "score_breakdown": {
+          "capability": 24,
+          "economic_value": 14,
+          "zero_cost_accessibility": 17,
+          "composability": 15,
+          "immediacy": 9,
+          "temporary_window_likelihood": 9
+        },
+        "displacement": "TEST",
+        "changed": "MCP server portals are now generally available to all Cloudflare customers, adding one endpoint for approved remote MCP servers, Access authentication, tool/prompt logs, allowlists, autonomous-agent service tokens, session management, context optimization, and Code Mode.",
+        "free_value": "Cloudflare announces availability to all customers and offers a Cloudflare One free proof-of-concept plan. No separate portal fee or quota is published. Enterprise-only Logpush and potentially paid Gateway controls are not included in the zero-dollar claim.",
+        "approximate_value": "No defensible cash equivalent. It can replace custom MCP aggregation, OAuth brokering, tool allowlisting, and basic tool-call audit plumbing; minimize-tools mode claims up to fivefold tool-context savings.",
+        "cash_required": "$0 expected for a core proof-of-concept using an existing Cloudflare domain and Free Zero Trust account; account-specific entitlements remain unverified.",
+        "eligibility_reality_check": "Requires an active domain on Cloudflare and an identity provider configured in Cloudflare Zero Trust. Only remote HTTP MCP servers are supported; stdio-only servers must be self-hosted behind HTTP. Each portal supports up to 80 servers.",
+        "why_asymmetric": "DUALITY and B2ROOT can present agents with one constrained MCP endpoint while centralizing tool visibility, authentication, session control, and audit evidence. Tool discovery modes reduce context consumed by large tool catalogs.",
+        "evidence": {
+          "confirmed_fact": "Cloudflare documents all-customer GA, Access logging, server/tool allowlists, service tokens, Code Mode, context optimization, private-server routing, an 80-server limit, and published policy limitations.",
+          "inference": "A one-server read-only portal could become the least-privilege tool boundary for DUALITY and ICE.",
+          "unverified_claim": "Core free-plan operation, real token savings, OAuth compatibility, and logging fidelity were not independently tested."
+        },
+        "catch": "Portal authorization does not support independent MFA, purpose justification, or temporary approval for servers authorized through the portal. Admin OAuth tokens can expire without notification. Some proxy-hostile providers reject portals, and service-token sessions use an admin credential rather than per-user OAuth.",
+        "window": "Generally available September 24, 2026; no expiry announced.",
+        "immediate_exploit": "Create one portal for one synthetic read-only remote MCP server. Default-deny all tools, allowlist one status tool, authenticate an autonomous test with a service token, and confirm denied tools stay hidden while calls appear in portal logs.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-24-mcp-portals-ga/",
+          "https://developers.cloudflare.com/cloudflare-one/access-controls/ai-controls/mcp-portals/",
+          "https://www.cloudflare.com/plans/zero-trust-services/"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "Cloudflare Tier 3 is the first new bootstrapped-accessible magnitude program found since the Runware recovery and directly passes the Devin benchmark detector test.",
+      "The program is a conditional fit, not a guaranteed award: incorporation, product-company positioning, domain email, public site, first-time status, card-on-file risk, and the contradictory funded-within-12-months wording must be resolved.",
+      "No second magnitude program suitable for the current profile survived primary-source verification in the 60–90 day lookback."
+    ],
+    "omissions_errors": [
+      "Cloudflare for Startups acceptance is discretionary and the user's incorporated-entity status was not independently verified; an EIN alone does not establish incorporation.",
+      "The Tier 3 page expressly accepts bootstrapped companies but the general qualification list also says funded within the last 12 months; treatment of a company with zero outside funding is unclear and should be confirmed.",
+      "A valid payment method is mandatory and Cloudflare automatically bills overages and post-credit usage; account-level hard caps were not established.",
+      "MCP server portals were not independently exercised and Cloudflare does not publish a separate portal price or free-plan quota on the documentation page.",
+      "Advanced portal controls have plan differences: Logpush is Enterprise-only and Gateway DLP or other controls may require paid entitlements.",
+      "No additional bootstrapped-accessible magnitude program cleared primary-source verification."
+    ],
+    "source_manifest": [
+      "https://www.cloudflare.com/startups/",
+      "https://developers.cloudflare.com/changelog/post/2026-09-24-mcp-portals-ga/",
+      "https://developers.cloudflare.com/cloudflare-one/access-controls/ai-controls/mcp-portals/",
+      "https://www.cloudflare.com/plans/zero-trust-services/",
+      "https://vercel.com/changelog/vercel-connect-tanstack-ai",
+      "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "output_digest": "555a0fcebee2ff6d61e26e2ac8a2ab1d719bffea6a35713447a140c8cd094a6a",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "a863002ce4b963987eb9e04d9544a6c51655951e362a118021b9d9263ae07b2b"
+}
