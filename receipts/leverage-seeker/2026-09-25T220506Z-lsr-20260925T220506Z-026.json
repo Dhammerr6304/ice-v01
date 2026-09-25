@@ -1,0 +1,162 @@
+{
+  "event_id": "ls-20260925T220506Z-026",
+  "receipt_id": "lsr-20260925T220506Z-026",
+  "executed_at_utc": "2026-09-25T22:05:06Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No user policy change; retained launch, program, deadline, tier-delta, billing-transition, and 60–90-day magnitude scans.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-24T220508Z-lsr-20260924T220508Z-025.json",
+  "previous_hash": "a863002ce4b963987eb9e04d9544a6c51655951e362a118021b9d9263ae07b2b",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-09-25-crawl-event-subscriptions/",
+    "https://developers.cloudflare.com/browser-run/quick-actions/crawl-endpoint/",
+    "https://developers.cloudflare.com/browser-run/pricing/",
+    "https://developers.cloudflare.com/queues/platform/pricing/",
+    "https://developers.cloudflare.com/queues/event-subscriptions/",
+    "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+    "https://vercel.com/docs/sandbox/pricing",
+    "https://vercel.com/startups/credits",
+    "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "result_manifest": {
+    "signal_ids": [
+      "cloudflare-event-driven-unbilled-static-crawl-20260925",
+      "vercel-sandbox-memory-observability-20260925"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "cloudflare-event-driven-unbilled-static-crawl-20260925",
+        "class": "CONFIRMED FRESH CAPABILITY; BETA ECONOMICS; NOT INDEPENDENTLY EXERCISED"
+      },
+      {
+        "signal_id": "vercel-sandbox-memory-observability-20260925",
+        "class": "CONFIRMED FRESH CAPABILITY; FREE FAIL-CLOSED HOBBY TEST"
+      }
+    ],
+    "omissions_errors": [
+      "Cloudflare Browser Run crawl event subscriptions and unbilled render:false crawling were not independently exercised.",
+      "Cloudflare does not publish an end date for the render:false unbilled beta; future Workers billing is explicitly planned.",
+      "Queue event delivery, duplicate behavior, and crawl-result fidelity were not benchmarked.",
+      "Vercel Sandbox memory metrics and alert behavior were not independently exercised.",
+      "No new bootstrapped-accessible magnitude program cleared verification; Vercel for Startups requires an approved partner, proof of affiliation, recent funding, and a payment method.",
+      "The exact September 25 cutoff times for Jev and Ling Flash Fin remain unpublished."
+    ]
+  },
+  "report": {
+    "executed_at_utc": "2026-09-25T22:05:06Z",
+    "previous_run_delta": "Fresh: Browser Run crawl jobs can now push lifecycle events into Queues; static render:false crawls remain unbilled during beta. Fresh strengthening: Vercel Sandbox exposes memory usage, thresholds, queries, and alerts. Closing today: Jev and Ling Flash Fin free windows. Program exclusion: Vercel headline credits require approved-partner proof and recent funding.",
+    "signals": [
+      {
+        "signal_id": "cloudflare-event-driven-unbilled-static-crawl-20260925",
+        "platform_program": "Cloudflare Browser Run / Queues",
+        "signal_type": "FRESH EVENT-DRIVEN RESEARCH INFRASTRUCTURE / TEMPORARILY UNBILLED BETA",
+        "classification": "CONFIRMED FRESH CAPABILITY; BETA ECONOMICS; NOT INDEPENDENTLY EXERCISED",
+        "score": 96,
+        "score_breakdown": {
+          "capability": 24,
+          "economic_value": 17,
+          "zero_cost_accessibility": 20,
+          "composability": 15,
+          "immediacy": 10,
+          "temporary_window_likelihood": 10
+        },
+        "displacement": "TEST",
+        "changed": "Browser Run crawl jobs can now publish crawl.started, crawl.updated, and crawl.finished events directly to Cloudflare Queues, replacing status polling. The crawl API can fetch static HTML or Markdown with render:false, which Cloudflare says is not billed during beta.",
+        "free_value": "Static render:false crawling is unbilled during beta. Workers Free includes 10,000 Queue operations daily. If JavaScript rendering is required, Workers Free includes 10 Browser Run minutes daily.",
+        "approximate_value": "No defensible cash equivalent. It can replace polling logic and part of the manual discovery/recheck workload for LEVERAGE SEEKER while providing structured completion events.",
+        "cash_required": "$0 within beta static-crawl behavior and Workers Free Queue limits.",
+        "eligibility_reality_check": "Requires a Cloudflare account, Browser Rendering Edit API token, a Queue and consumer. Events are account-wide for all crawl jobs. Crawls respect robots.txt, Content Signals, crawl delays, bot protection, CAPTCHAs, and target-site restrictions.",
+        "why_asymmetric": "A daily scout can submit narrow vendor changelog or program-page crawls, sleep without polling, then trigger comparison and ICE processing only when a job finishes.",
+        "evidence": {
+          "confirmed_fact": "Cloudflare documents lifecycle subscriptions, push delivery through Queues, static render:false crawling without beta billing, 10,000 daily Free Queue operations, result retention, and crawl restrictions.",
+          "inference": "This could become a low-cost event source for LEVERAGE SEEKER program and launch reconciliation.",
+          "unverified_claim": "End-to-end reliability, duplicate-event handling, extraction fidelity, and savings versus the current scout were not measured."
+        },
+        "catch": "Lifecycle events contain status, not page content; the consumer must fetch results after completion. Results expire after 14 days, jobs time out after seven days, event subscriptions cover every crawl in the account, and render:false will eventually move to ordinary Workers billing.",
+        "window": "Event subscriptions launched September 25. Static render:false crawling is unbilled only during an undated beta.",
+        "immediate_exploit": "Crawl one public vendor changelog with render:false, limit 20, Markdown output, narrow include patterns, and declared reference/ai-input purposes. Route completion to a Queue, fetch the result once, hash it, and compare it with the previous snapshot.",
+        "sources": [
+          "https://developers.cloudflare.com/changelog/post/2026-09-25-crawl-event-subscriptions/",
+          "https://developers.cloudflare.com/browser-run/quick-actions/crawl-endpoint/",
+          "https://developers.cloudflare.com/browser-run/pricing/",
+          "https://developers.cloudflare.com/queues/platform/pricing/",
+          "https://developers.cloudflare.com/queues/event-subscriptions/"
+        ]
+      },
+      {
+        "signal_id": "vercel-sandbox-memory-observability-20260925",
+        "platform_program": "Vercel Sandbox",
+        "signal_type": "FRESH RESOURCE-GOVERNANCE / OBSERVABILITY",
+        "classification": "CONFIRMED FRESH CAPABILITY; FREE FAIL-CLOSED HOBBY TEST",
+        "score": 88,
+        "score_breakdown": {
+          "capability": 22,
+          "economic_value": 14,
+          "zero_cost_accessibility": 20,
+          "composability": 15,
+          "immediacy": 9,
+          "temporary_window_likelihood": 8
+        },
+        "displacement": "TEST",
+        "changed": "Sandbox dashboards and the vercel metrics CLI now expose memory usage. Charts include average, P75 and P95, an 85% memory-ceiling reference line, custom-query support, and alert creation.",
+        "free_value": "Hobby includes 5 active CPU hours, 420 GB-hours of provisioned memory, 5,000 creations, 20 GB transfer, 15 GB snapshots, and fail-closed quota behavior. No separate memory-observability fee is published.",
+        "approximate_value": "Unquantified. It replaces custom memory telemetry and gives B2ROOT evidence for right-sizing or terminating resource-heavy agent sandboxes.",
+        "cash_required": "$0 within Hobby quotas; Sandbox creation pauses rather than billing when Hobby limits are exceeded.",
+        "eligibility_reality_check": "Requires a Vercel account, Sandbox workload, and linked project for CLI metrics. No company, funding, incorporation, geography, card, or partner gate is published for Hobby use.",
+        "why_asymmetric": "The persistent workspace and snapshot stack reported September 22 now gains a measurable resource boundary, allowing resume experiments to capture memory cost and alert before failure.",
+        "evidence": {
+          "confirmed_fact": "Vercel documents dashboard and CLI metrics, average/P75/P95 views, an 85% limit line, custom queries, alerts, Hobby quotas, and pause-not-charge behavior.",
+          "inference": "Memory evidence can become part of B2ROOT trajectory cost and environment manifests.",
+          "unverified_claim": "Metric latency, alert delivery, and usefulness for detecting the user’s prior inference runaway were not tested."
+        },
+        "catch": "Memory observability does not measure model-token spend and cannot stop inference loops by itself. Provisioned memory is a billing dimension on paid plans; alerts are evidence, not enforcement unless coupled to termination policy.",
+        "window": "Available September 25; no expiry announced.",
+        "immediate_exploit": "Run one known small Sandbox task, deliberately approach but do not exceed 85% memory, record CLI and dashboard readings, and verify Hobby pause behavior remains fail-closed.",
+        "sources": [
+          "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+          "https://vercel.com/docs/sandbox/pricing"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "No new bootstrapped-accessible magnitude program cleared verification.",
+      "Vercel advertises up to $30,000, but the application requires an approved startup partner, proof from the partner portal, Series A or earlier status, and application within 12 months of funding. It is excluded for the current bootstrapped profile despite the headline.",
+      "The 60–90-day lookback found no additional still-actionable Devin-class opportunity absent from the ledger."
+    ],
+    "omissions_errors": [
+      "Cloudflare Browser Run crawl event subscriptions and unbilled render:false crawling were not independently exercised.",
+      "Cloudflare does not publish an end date for the render:false unbilled beta; future Workers billing is explicitly planned.",
+      "Queue event delivery, duplicate behavior, and crawl-result fidelity were not benchmarked.",
+      "Vercel Sandbox memory metrics and alert behavior were not independently exercised.",
+      "No new bootstrapped-accessible magnitude program cleared verification; Vercel for Startups requires an approved partner, proof of affiliation, recent funding, and a payment method.",
+      "The exact September 25 cutoff times for Jev and Ling Flash Fin remain unpublished."
+    ],
+    "source_manifest": [
+      "https://developers.cloudflare.com/changelog/post/2026-09-25-crawl-event-subscriptions/",
+      "https://developers.cloudflare.com/browser-run/quick-actions/crawl-endpoint/",
+      "https://developers.cloudflare.com/browser-run/pricing/",
+      "https://developers.cloudflare.com/queues/platform/pricing/",
+      "https://developers.cloudflare.com/queues/event-subscriptions/",
+      "https://vercel.com/changelog/vercel-sandbox-now-supports-memory-observability",
+      "https://vercel.com/docs/sandbox/pricing",
+      "https://vercel.com/startups/credits",
+      "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free",
+      "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/"
+    ]
+  },
+  "output_digest": "5b94404c5cedfee01c1dc8e144acef02502c7488121be1e735da6efc4f4b88c9",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "e064bf9841c98ac4c21b7410154788cb24742ba95f1796c0806c3265b75e5dea"
+}
