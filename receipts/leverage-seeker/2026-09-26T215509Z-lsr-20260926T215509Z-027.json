@@ -1,0 +1,196 @@
+{
+  "event_id": "ls-20260926T215509Z-027",
+  "receipt_id": "lsr-20260926T215509Z-027",
+  "executed_at_utc": "2026-09-26T21:55:09Z",
+  "policy_id": "leverage-seeker-daily",
+  "policy_version": "2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Expanded direct-program recovery with automatic-approval, account-age, product-exclusion, partner-perk, broken-terms, and conflicting-tier-value checks.",
+  "previous_receipt_ref": "receipts/leverage-seeker/2026-09-25T220506Z-lsr-20260925T220506Z-026.json",
+  "previous_hash": "e064bf9841c98ac4c21b7410154788cb24742ba95f1796c0806c3265b75e5dea",
+  "canonical_sources": [
+    "https://posthog.com/startups",
+    "https://posthog.com/handbook/marketing/startups",
+    "https://www.daytona.io/startups",
+    "https://www.daytona.io/pricing",
+    "https://daytonaio.notion.site/Daytona-Startup-Grid-Terms-and-Conditions-20929a8a0d0180a3bfbbea74398babf0",
+    "https://grafana.com/blog/grafana-labs-startup-program/",
+    "https://grafana-labs.typeform.com/to/cSI7ohks/",
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/",
+    "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+    "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+  ],
+  "result_manifest": {
+    "signal_ids": [
+      "posthog-startups-50k-direct-recovery-20260926",
+      "daytona-startup-grid-100k-headline-delta-20260926",
+      "grafana-startup-program-100k-still-open-recovery-20260926"
+    ],
+    "verification_classes": [
+      {
+        "signal_id": "posthog-startups-50k-direct-recovery-20260926",
+        "class": "CONFIRMED MAGNITUDE PROGRAM; AUTOMATIC INITIAL APPROVAL; BILLING TRANSITION RISK"
+      },
+      {
+        "signal_id": "daytona-startup-grid-100k-headline-delta-20260926",
+        "class": "CONFIRMED CURRENT MARKETING CLAIM; CONFLICTING PRIMARY PAGES; TERMS UNAVAILABLE"
+      },
+      {
+        "signal_id": "grafana-startup-program-100k-still-open-recovery-20260926",
+        "class": "CONFIRMED STILL-ACTIONABLE PROGRAM; DISCRETIONARY ADMISSION"
+      }
+    ],
+    "omissions_errors": [
+      "No September 26 fresh launch materially exceeded the prior ledger.",
+      "PostHog account-specific eligibility and billing safeguards were not independently verified.",
+      "Daytona’s linked program terms returned 404 and vendor pages conflict on the maximum award.",
+      "Grafana admission, payment method, and post-credit hard-stop behavior remain unpublished.",
+      "Authenticated partner-benefit inventories remain unavailable."
+    ]
+  },
+  "report": {
+    "executed_at_utc": "2026-09-26T21:55:09Z",
+    "previous_run_delta": "Recovered: PostHog offers $50,000 directly to eligible sub-two-year startups without a VC gate. Strengthening but conflicted: Daytona’s current program page raises its headline from $50,000 to $100,000 while other primary surfaces remain stale and its terms link is broken. Recovered still-open: Grafana offers up to $100,000 with discretionary admission and a reference-customer requirement. Closed: Jev and Ling Flash Fin free windows passed September 25. No September 26 launch exceeded the prior day’s capability signals.",
+    "signals": [
+      {
+        "signal_id": "posthog-startups-50k-direct-recovery-20260926",
+        "platform_program": "PostHog for Startups",
+        "signal_type": "PROGRAM SURFACE / MAGNITUDE RECOVERY / DIRECT BOOTSTRAPPED ACCESS",
+        "classification": "CONFIRMED MAGNITUDE PROGRAM; AUTOMATIC INITIAL APPROVAL; BILLING TRANSITION RISK",
+        "score": 93,
+        "score_breakdown": {
+          "capability": 24,
+          "economic_value": 20,
+          "zero_cost_accessibility": 15,
+          "composability": 15,
+          "immediacy": 10,
+          "temporary_window_likelihood": 9
+        },
+        "displacement": "DISPLACE — eligibility and application check only",
+        "changed": "Recovered a direct program that grants eligible companies $50,000 in PostHog credits for 12 months plus advertised partner perks. All applications are initially approved automatically and then manually reviewed. Since September 14, 2026, the credits exclude PostHog AI tools.",
+        "free_value": "$50,000 for core PostHog products including analytics, web analytics, session replay, feature flags, experiments, error tracking, AI observability, context warehouse, surveys, heatmaps, and CDP. The public page also advertises partner benefits valued at $12,000, including $5,000 in Depot credit, though discount value is workload-dependent.",
+        "approximate_value": "$50,000 in directly usable PostHog credits; partner perks have advertised face value above $12,000 but are not equivalent to cash.",
+        "cash_required": "$0 to apply, but the applicant must sign up to a paid usage-based plan and add billing details.",
+        "eligibility_reality_check": "Company must be under two years old, have raised under $5 million, use a matching company-domain email, and have created the PostHog account on or after January 1, 2023. Personal email addresses are rejected. No VC, accelerator, geography, minimum revenue, incorporation, or team-size gate is published. The YC deal cannot stack.",
+        "why_asymmetric": "One short application can subsidize most of the product-feedback and release-control stack for a year, including experimentation, session evidence, error tracking, feature flags, and AI observability.",
+        "evidence": {
+          "confirmed_fact": "PostHog publishes the amount, 12-month duration, eligibility, automatic initial approval, company-domain rule, product exclusions, billing-details requirement, milestone notifications, and automatic move to standard billing after expiry or depletion.",
+          "inference": "If an eligible current product needs analytics, replay, flags, experiments, or observability, the program can replace multiple paid tools and consolidate evidence.",
+          "unverified_claim": "The user entity’s age, domain, account creation date, billing protections, and actual eligible workload were not established."
+        },
+        "catch": "Credits no longer cover PostHog Desktop, Slack app, Replay Vision, PostHog AI, or Inbox. A billing method is required, credits expire after 12 months, and the account moves to standard paid billing afterward. Support remains normal/community priority, not a dedicated account team.",
+        "window": "Rolling, but company-age eligibility closes permanently at two years and program terms can change.",
+        "immediate_exploit": "Spend at most 20 minutes checking company age, account date, company-domain email, and one real covered workload. If all pass, apply, set usage alerts, and calendar a downgrade or deletion review before the 12-month expiry.",
+        "sources": [
+          "https://posthog.com/startups",
+          "https://posthog.com/handbook/marketing/startups"
+        ]
+      },
+      {
+        "signal_id": "daytona-startup-grid-100k-headline-delta-20260926",
+        "platform_program": "Daytona Startup Grid",
+        "signal_type": "PROGRAM SURFACE / HEADLINE INCREASE / AGENT SANDBOX CREDITS",
+        "classification": "CONFIRMED CURRENT MARKETING CLAIM; CONFLICTING PRIMARY PAGES; TERMS UNAVAILABLE",
+        "score": 86,
+        "score_breakdown": {
+          "capability": 25,
+          "economic_value": 20,
+          "zero_cost_accessibility": 12,
+          "composability": 15,
+          "immediacy": 8,
+          "temporary_window_likelihood": 6
+        },
+        "displacement": "TEST — written-terms check only",
+        "changed": "Daytona’s current startup page now advertises $10,000 upon approval and up to $100,000, versus the older $50,000 ceiling still shown on its pricing and confirmation surfaces.",
+        "free_value": "The current application page claims $10,000 on approval and a path to as much as $100,000 for Daytona agent-runtime and sandbox usage.",
+        "approximate_value": "$10,000 initial claimed award; up to $100,000 headline ceiling, subject to unpublished progression rules.",
+        "cash_required": "No application fee is shown. Payment-method, overage, expiry, minimum-spend, and redemption rules are not publicly established.",
+        "eligibility_reality_check": "The application requires a startup name, company email, website, location, start date, funding, employee count, deck, industry, use case, compute requirement, and consumption preference. It asks whether the applicant comes through a VC or accelerator, which implies direct applications exist, but no published acceptance thresholds were found.",
+        "why_asymmetric": "Daytona directly finances isolated, stateful sandboxes for coding agents, evaluations, computer use, and untrusted-code execution—one of the closest technical matches to B2ROOT and the active agent stack.",
+        "evidence": {
+          "confirmed_fact": "The vendor’s current program page states $10,000 upon approval and up to $100,000 and exposes a direct application form.",
+          "inference": "A bootstrapped solo product with a credible agent-sandbox workload may qualify without a partner referral.",
+          "unverified_claim": "The $100,000 progression, bootstrapped acceptance, award duration, card requirement, overage behavior, commercial restrictions, and conflicts with other programs remain unverified."
+        },
+        "catch": "The linked terms page returns 404, and Daytona’s own pricing and confirmation pages still state a $50,000 maximum. This makes the $100,000 headline unsuitable for activation until written terms are supplied.",
+        "window": "Rolling; no deadline published. The inconsistent ceiling suggests terms are actively changing.",
+        "immediate_exploit": "Submit no workload and spend no money yet. Ask Daytona for the governing terms, exact initial award, escalation criteria, expiry, hard-stop behavior, card requirement, and bootstrapped eligibility; proceed only after written confirmation.",
+        "sources": [
+          "https://www.daytona.io/startups",
+          "https://www.daytona.io/pricing",
+          "https://daytonaio.notion.site/Daytona-Startup-Grid-Terms-and-Conditions-20929a8a0d0180a3bfbbea74398babf0"
+        ]
+      },
+      {
+        "signal_id": "grafana-startup-program-100k-still-open-recovery-20260926",
+        "platform_program": "Grafana Labs Startup Program",
+        "signal_type": "PROGRAM SURFACE / MAGNITUDE RECOVERY / OBSERVABILITY CREDITS",
+        "classification": "CONFIRMED STILL-ACTIONABLE PROGRAM; DISCRETIONARY ADMISSION",
+        "score": 82,
+        "score_breakdown": {
+          "capability": 21,
+          "economic_value": 20,
+          "zero_cost_accessibility": 13,
+          "composability": 13,
+          "immediacy": 7,
+          "temporary_window_likelihood": 8
+        },
+        "displacement": "QUEUE",
+        "changed": "Recovered a still-live application for up to $100,000 of Grafana Cloud credits despite the program’s 2024 launch date.",
+        "free_value": "$100,000 in Grafana Cloud credits for 12 months or until the next funding round, Enterprise data-source plugins, 24x7 support, integrations assistance, and a guaranteed 20% post-credit discount.",
+        "approximate_value": "Up to $100,000, but only if observability volume would otherwise create material spend.",
+        "cash_required": "No application fee is published. Payment-method, overage, and hard-stop rules are not stated on the program page.",
+        "eligibility_reality_check": "New Grafana Cloud customers, Free-account users, and Grafana OSS users may apply. Grafana says applicants should ideally have raised under $10 million and have fewer than 25 employees, but encourages applications outside those guidelines. Acceptance is discretionary and recipients must agree to be a reference customer; additional marketing may be requested by mutual agreement.",
+        "why_asymmetric": "For a system generating meaningful logs, traces, metrics, profiling, synthetic tests, or agent observability, the award can eliminate a major scale-linked cost while retaining OpenTelemetry portability.",
+        "evidence": {
+          "confirmed_fact": "Grafana publishes the amount, duration, covered services, broad applicant classes, discretionary selection, reference-customer requirement, and active application.",
+          "inference": "A trace-heavy agent or evidence product could qualify and benefit if it already has a measured telemetry-cost problem.",
+          "unverified_claim": "Current acceptance rate, bootstrapped preference, card requirement, billing boundary, and expected award utilization are unpublished."
+        },
+        "catch": "The program is not useful simply because the headline is large. Admission is discretionary, marketing participation is part of the trade, and migrating low-volume telemetry could create unnecessary operational debt.",
+        "window": "Application remains accessible; no deadline published.",
+        "immediate_exploit": "Queue only after measuring current or projected telemetry volume. Apply if a 12-month observability bill could plausibly exceed the migration and reference-customer costs.",
+        "sources": [
+          "https://grafana.com/blog/grafana-labs-startup-program/",
+          "https://grafana-labs.typeform.com/to/cSI7ohks/"
+        ]
+      }
+    ],
+    "program_surface_results": [
+      "PostHog is the strongest direct bootstrapped fit and passes the Devin benchmark detector: vendor-owned, application-only, no investor gate, and materially above $10,000.",
+      "Daytona is technically aligned but downgraded because the $100,000 headline conflicts with other vendor pages and the governing terms link is unavailable.",
+      "Grafana remains actionable but is workload-contingent and marketing-discretionary; it belongs behind a measured telemetry-cost trigger.",
+      "Neon’s new $200,000 combined Neon/Databricks headline requires at least $1 million in funding or a recognized accelerator; self-funded applicants receive only up to $1,000, so it was excluded for the current profile."
+    ],
+    "omissions_errors": [
+      "No September 26 fresh launch materially exceeded the prior ledger.",
+      "PostHog account-specific eligibility and billing safeguards were not independently verified.",
+      "Daytona’s linked program terms returned 404 and vendor pages conflict on the maximum award.",
+      "Grafana admission, payment method, and post-credit hard-stop behavior remain unpublished.",
+      "Authenticated partner-benefit inventories remain unavailable."
+    ],
+    "source_manifest": [
+      "https://posthog.com/startups",
+      "https://posthog.com/handbook/marketing/startups",
+      "https://www.daytona.io/startups",
+      "https://www.daytona.io/pricing",
+      "https://daytonaio.notion.site/Daytona-Startup-Grid-Terms-and-Conditions-20929a8a0d0180a3bfbbea74398babf0",
+      "https://grafana.com/blog/grafana-labs-startup-program/",
+      "https://grafana-labs.typeform.com/to/cSI7ohks/",
+      "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+      "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+      "https://developers.cloudflare.com/workers/observability/traces/",
+      "https://vercel.com/changelog/ai-gateway-now-supports-typesafe-clients-and-http-api-for-jev",
+      "https://vercel.com/changelog/ling-3-0-flash-fin-now-available-on-ai-gateway-for-free"
+    ]
+  },
+  "output_digest": "5fd66d21c489656109f6fc05b046a390677e5d8151e46af00b8d065ae70b4838",
+  "output_digest_scope": "SHA-256 of canonical report JSON: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "content_hash_scope": "SHA-256 of canonical receipt JSON excluding content_hash and signature: object keys recursively sorted by JavaScript UTF-16 code-unit order; arrays preserved; compact UTF-8 JSON.",
+  "signature": "UNSIGNED",
+  "integrity_state": "Externally anchored as an append-only GitHub file only after successful creation; not independently signed.",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "fb152a5ea6916759b39347417002b0eb13ebee6bbcbc1d654d668fd9c736f5d8"
+}
