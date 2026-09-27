@@ -1,0 +1,41 @@
+{
+  "event_id": "ls-20260927T212017Z-028",
+  "receipt_id": "lsr-20260927T212017Z-028",
+  "executed_at_utc": "2026-09-27T21:20:17Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added incorporation-proof, governing-terms-over-marketing-copy, prior-coupon, automatic-PAYG, and publicity-consent checks to program recovery.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-09-26T215509Z-lsr-20260926T215509Z-027.json",
+  "previous_hash": "fb152a5ea6916759b39347417002b0eb13ebee6bbcbc1d654d668fd9c736f5d8",
+  "result_manifest": [
+    {
+      "signal_id": "algolia-startup-program-10k-direct-recovery-20260927",
+      "verification_class": "CONFIRMED MAGNITUDE PROGRAM; DIRECT APPLICATION; INCORPORATION AND AUTOMATIC-BILLING GATES"
+    }
+  ],
+  "omissions_errors": [
+    "No fresh September 27 launch cleared the leverage threshold.",
+    "Algolia program and FAQ copy conflict with governing terms on company-age and funding thresholds.",
+    "Account-specific payment-card and hard-stop behavior were not observable.",
+    "Render current headline tiers were not elevated because full eligibility and billing terms were inaccessible.",
+    "Twilio AI Startup Searchlight closed September 25.",
+    "Baseten and Datadog were excluded because of VC-stage and approved-partner gates."
+  ],
+  "canonical_sources": [
+    "https://www.algolia.com/industries/startups",
+    "https://www.algolia.com/policies/startup-program-terms",
+    "https://support.algolia.com/hc/en-us/requests/new?ticket_form_id=17355503932177",
+    "https://render.com/startups",
+    "https://www.baseten.co/startup-program/",
+    "https://www.datadoghq.com/partner/datadog-for-startups/",
+    "https://www.twilio.com/en-us/startups/searchlight",
+    "https://vercel.com/changelog/grok-4-7-now-available-and-40-off-on-ai-gateway-fx-eve",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "output_digest": "75195743a05ba343a5617f659d0060b4acf0e4be2ac1e6f4490032c32d923355",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "2121f5dccbf3537758a2c455227a3620db4b066f4d6a291802ee72042ea19bbe"
+}
