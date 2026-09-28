@@ -1,0 +1,44 @@
+{
+  "event_id": "ls-20260928T213315Z-029",
+  "receipt_id": "lsr-20260928T213315Z-029",
+  "executed_at_utc": "2026-09-28T21:33:15Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added direct-cohort, discretionary-up-to award, communications-API, and managed-agent-harness labor-replacement checks.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-09-27T212017Z-lsr-20260927T212017Z-028.json",
+  "previous_hash": "2121f5dccbf3537758a2c455227a3620db4b066f4d6a291802ee72042ea19bbe",
+  "result_manifest": [
+    {
+      "signal_id": "vonage-startup-program-up-to-75k-direct-recovery-20260928",
+      "verification_class": "CONFIRMED MAGNITUDE PROGRAM; DIRECT NON-VC APPLICATION; DISCRETIONARY AWARD"
+    },
+    {
+      "signal_id": "openai-agents-api-managed-codex-harness-recovery-20260928",
+      "verification_class": "CONFIRMED PUBLIC-BETA CAPABILITY; PAID MODEL, TOOL, AND CONTAINER USAGE"
+    }
+  ],
+  "omissions_errors": [
+    "No September 28 free-tier launch materially exceeded the recovered signals.",
+    "Vonage does not publish normal award size, credit tranches, payment-card requirement, expiry mechanics, overage controls, or acceptance rate.",
+    "The Vonage application form and account-specific billing controls were not independently inspected.",
+    "OpenAI Agents API was not independently benchmarked; session cost, resume fidelity, and failure recovery remain workload-dependent.",
+    "Appsmith was excluded from recommendation because formal incorporation and a justified self-hosted internal-tool workload were not established.",
+    "Authenticated partner-benefit inventories remain unavailable."
+  ],
+  "canonical_sources": [
+    "https://developer.vonage.com/en/startups",
+    "https://developer.vonage.com/en/blog/introducing-the-vonage-startup-program",
+    "https://www.appsmith.com/startup-program",
+    "https://openai.com/index/introducing-the-agents-api/",
+    "https://developers.openai.com/api/docs/guides/agents-api/overview",
+    "https://developers.openai.com/api/docs/guides/agents-api/environments/openai-hosted",
+    "https://developers.openai.com/api/docs/pricing",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "output_digest": "a0c48bf54aa4d9ce84a9371ad390726ae8ae03abb5460bb34cc0dc25476af2af",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; externally GitHub-anchored only after successful file creation; not independently signed or verified.",
+  "content_hash": "559bcbcbb4184c713e6280b56764fcd1a0db6a25e786bb33cb7f379f3fe3aa79"
+}
