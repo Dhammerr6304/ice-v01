@@ -1,0 +1,46 @@
+{
+  "event_id": "ls-20260929T211127Z-030",
+  "receipt_id": "lsr-20260929T211127Z-030",
+  "executed_at_utc": "2026-09-29T21:11:27Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added cross-app plan portability, per-app allowance caps, event-driven MCP wakeups, fail-closed credit behavior, and ordinary auto-replenishment checks.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-09-28T213315Z-lsr-20260928T213315Z-029.json",
+  "previous_hash": "559bcbcbb4184c713e6280b56764fcd1a0db6a25e786bb33cb7f379f3fe3aa79",
+  "result_manifest": [
+    "deepgram-startup-program-up-to-100k-direct-recovery-20260929: CONFIRMED MAGNITUDE PROGRAM; DIRECT APPLICATION; DISCRETIONARY AWARD; FAIL-CLOSED STT CREDIT PATH",
+    "openai-sign-in-chatgpt-cross-app-plan-usage-20260929: CONFIRMED FRESH ADOPTION SUBSIDY; EXISTING PLAN ALLOWANCE; PER-APP CAP",
+    "openai-mcp-events-plugin-automation-20260929: CONFIRMED FRESH EVENT-DRIVEN CAPABILITY; DRAFT PROTOCOL",
+    "openai-gpt-6-1-sol-cost-performance-20260929: CONFIRMED FRESH PAID MODEL; VENDOR BENCHMARKS UNVALIDATED",
+    "together-ai-build-tier-up-to-15k-recovery-20260929: CONFIRMED MAGNITUDE PROGRAM; AUTOMATIC REPLENISHMENT RISK"
+  ],
+  "omissions_errors": [
+    "Deepgram award size, acceptance rate, timing, agency eligibility, and non-STT fail-closed behavior are unverified.",
+    "Plan-sharing partner-specific conversion rates, tier access, latency, and task quality were unobservable.",
+    "MCP event delivery latency, duplicate behavior, retry semantics, and labor savings were not exercised.",
+    "GPT-6.1 Sol vendor benchmarks were not independently validated on the user workload.",
+    "Together AI credit duration, exact award, bootstrapped acceptance, and complete auto-replenishment disablement are unverified.",
+    "Decisions API pricing and broad-access details are unpublished; it remains limited preview.",
+    "Authenticated partner-benefit inventories were unavailable."
+  ],
+  "canonical_sources": [
+    "https://deepgram.com/startup-program",
+    "https://deepgram.com/startup-program-terms-of-service",
+    "https://deepgram.com/pricing",
+    "https://developers.deepgram.com/docs/errors",
+    "https://help.openai.com/en/articles/20001542-using-your-chatgpt-plan-in-other-apps-and-sites",
+    "https://learn.chatgpt.com/docs/sign-in-with-chatgpt",
+    "https://developers.openai.com/plugins/build/mcp-events",
+    "https://openai.com/index/devday-2026-recap/",
+    "https://openai.com/index/introducing-gpt-6-1-sol/",
+    "https://www.together.ai/startup-accelerator",
+    "https://www.together.ai/terms-of-service",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "output_digest": "a3d3ef8fd5d7c699184092c8739412cb4c6faee17099b0773501eb7a0bc9b355",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified.",
+  "content_hash": "203a4bb9672d88a8db6a9cfb7ad5d16a522ae2b635a86409af92f14547491954"
+}
