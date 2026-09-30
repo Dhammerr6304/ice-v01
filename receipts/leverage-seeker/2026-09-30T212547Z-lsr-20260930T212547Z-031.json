@@ -1,0 +1,49 @@
+{
+  "event_id": "ls-20260930T212547Z-031",
+  "receipt_id": "lsr-20260930T212547Z-031",
+  "executed_at_utc": "2026-09-30T21:25:47Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added per-agent anomaly baselines, provider snapshot retention and lifecycle checks, shared-browser context isolation, and paid-plan-before-program-application checks.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-09-29T211127Z-lsr-20260929T211127Z-030.json",
+  "previous_hash": "203a4bb9672d88a8db6a9cfb7ad5d16a522ae2b635a86409af92f14547491954",
+  "result_manifest": [
+    "cloudflare-ai-gateway-user-insights-cost-anomaly-20260929-recovery: CONFIRMED NO-INCREMENTAL-COST OBSERVABILITY; DOES NOT BLOCK",
+    "cloudflare-sandbox-sdk-1-0-snapshot-lifecycle-20260930: CONFIRMED FRESH PAID CAPABILITY; PUBLIC-BETA SNAPSHOTS",
+    "cloudflare-browser-run-multiclient-session-20260929-recovery: CONFIRMED NO-INCREMENTAL-COST CAPABILITY WITHIN FREE LIMITS",
+    "anthropic-sonnet-5-5-cost-speed-recovery-20260928: CONFIRMED PAID MODEL; VENDOR PERFORMANCE CLAIMS UNVALIDATED"
+  ],
+  "omissions_errors": [
+    "No reported capability was independently exercised.",
+    "User Insights requires attribution and historical traffic, and it does not block requests.",
+    "Sandbox SDK 1.0 requires Workers Paid; Workers, Durable Objects, logs and overages can add charges.",
+    "Browser contexts share a process and Free browser minutes remain limited.",
+    "Sonnet 5.5 speed and cost-per-task claims were not validated on the user's workload.",
+    "No qualifying new program survived the bootstrapped-accessibility check; Tenki requires a $200 monthly Team upgrade before application, Neon offers only up to $1,000 to self-funded startups, and Tavily requires VC backing.",
+    "Authenticated partner-benefit inventories were unavailable."
+  ],
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/product-group/ai/",
+    "https://developers.cloudflare.com/ai-gateway/observability/user-insights/",
+    "https://developers.cloudflare.com/changelog/post/2026-09-30-sandbox-sdk-1-0/",
+    "https://developers.cloudflare.com/sandbox/",
+    "https://developers.cloudflare.com/sandbox/files/save-and-restore-a-workspace/",
+    "https://developers.cloudflare.com/containers/platform/pricing/",
+    "https://developers.cloudflare.com/containers/platform/limits/",
+    "https://developers.cloudflare.com/browser-run/pricing/",
+    "https://www.anthropic.com/claude-sonnet-5-5",
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://tenki.cloud/startups",
+    "https://tenki.cloud/pricing",
+    "https://tenki.cloud/docs/terms-of-service",
+    "https://neon.com/startups",
+    "https://www.tavily.com/startups",
+    "https://vercel.com/changelog/tako-search-is-free-on-ai-gateway-through-september-30th",
+    "https://developers.cloudflare.com/workers/observability/traces/"
+  ],
+  "output_digest": "051ea56b212729418ab2ea14babf14b295e46aa05a36c822af5a68078916e347",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified.",
+  "content_hash": "73f55e02b1ff08213414658d173148f6636d098e9d0cbd4779f9b2dbb03b426e"
+}
