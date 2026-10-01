@@ -1,0 +1,49 @@
+{
+  "event_id": "ls-20261001T212610Z-032",
+  "receipt_id": "lsr-20261001T212610Z-032",
+  "executed_at_utc": "2026-10-01T21:26:10Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added vendor event agendas, pitch competitions, corporate Apply Now pages, and explicit submission-license review after late recovery of the Cold Start magnitude program.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-09-30T212547Z-lsr-20260930T212547Z-031.json",
+  "previous_hash": "73f55e02b1ff08213414658d173148f6636d098e9d0cbd4779f9b2dbb03b426e",
+  "result_manifest": [
+    "cloudflare-cold-start-500k-100k-credits-20261001-recovery: CONFIRMED EXPIRING MAGNITUDE PROGRAM; CONDITIONAL ELIGIBILITY; DROP-EVERYTHING APPLICATION GATE",
+    "cloudflare-clef-open-decision-models-20261001: CONFIRMED FRESH ZERO-CASH CAPABILITY; VENDOR BENCHMARKS UNVALIDATED",
+    "cloudflare-ai-search-ga-included-tier-20261001: CONFIRMED FRESH FREE-INFRASTRUCTURE; BILLING BEGINS 2026-11-01",
+    "cloudflare-artifacts-open-beta-competition-20261001: CONFIRMED FRESH PAID CAPABILITY AND EXPIRING PROGRAM; TERMS INCOMPLETE",
+    "cloudflare-workers-oauth-provider-v1-20261001: CONFIRMED FRESH OPEN MCP AUTHORIZATION CAPABILITY"
+  ],
+  "omissions_errors": [
+    "Cold Start entity, residency, public-product, travel, tax, credit-coverage, overage-control, and broad submission-license acceptance were not independently established.",
+    "Cold Start was recovered roughly 72 hours after publication, leaving approximately one full day to apply.",
+    "No reported capability was independently exercised.",
+    "Clef and Clef-flash performance claims are vendor benchmarks; local hosting is impractical on the current Intel UHD 620 machine.",
+    "AI Search does not document a user-configurable post-November hard spending stop.",
+    "Artifacts requires Workers Paid; public competition eligibility and prize mechanics were not found, and Cloudflare sources conflict on whether billing begins October 14 or October 15.",
+    "Authenticated partner-benefit catalogs were unavailable.",
+    "No additional bootstrapped-accessible 60-90 day magnitude opportunity absent from the ledger cleared verification."
+  ],
+  "canonical_sources": [
+    "https://www.cloudflare.com/connect/cold-start/",
+    "https://www.cloudflare.com/connect/cold-start/terms/",
+    "https://blog.cloudflare.com/introducing-the-cold-start/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-clef-workers-ai/",
+    "https://blog.cloudflare.com/clef-decision-models/",
+    "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-ai-search-generally-available/",
+    "https://developers.cloudflare.com/ai-search/platform/limits-pricing/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-artifacts-open-beta/",
+    "https://blog.cloudflare.com/next-git-platform-on-cloudflare/",
+    "https://developers.cloudflare.com/artifacts/platform/pricing/",
+    "https://developers.cloudflare.com/artifacts/platform/limits/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-workers-oauth-provider-1x/",
+    "https://vercel.com/changelog/ling-3-1-flash-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/ai-gateway/models/ling-3.1-flash"
+  ],
+  "output_digest": "1f5e2f40f6590ff276d8896c9a4d7273c4eb40bdfb8461c8cd520928d4478b93",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified.",
+  "content_hash": "789cd91bf57150b8afb198ca1b10c62af55c951a14a83ae2a10406315bbff9e6"
+}
