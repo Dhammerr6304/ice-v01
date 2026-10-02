@@ -1,0 +1,43 @@
+{
+  "event_id": "ls-20261002T211340Z-033",
+  "receipt_id": "lsr-20261002T211340Z-033",
+  "executed_at_utc": "2026-10-02T21:13:40Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "No user policy change; added final-day deadline reconciliation and direct comparison vocabulary for competing decision models.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-01T212610Z-lsr-20261001T212610Z-032.json",
+  "previous_hash": "789cd91bf57150b8afb198ca1b10c62af55c951a14a83ae2a10406315bbff9e6",
+  "result_manifest": [
+    "cloudflare-cold-start-final-day-20261002: CONFIRMED CLOSING MAGNITUDE PROGRAM; CONDITIONAL ELIGIBILITY; DROP-EVERYTHING APPLICATION GATE",
+    "vercel-laya-free-decision-model-20261002-recovery: CONFIRMED EXPIRING ZERO-CASH CAPABILITY; WORKLOAD PERFORMANCE UNVALIDATED",
+    "cloudflare-30-day-analytics-free-20261002: CONFIRMED FRESH FREE-OBSERVABILITY EXPANSION",
+    "cloudflare-protected-quick-tunnels-20261002: CONFIRMED FRESH ZERO-COST SECURITY CAPABILITY"
+  ],
+  "omissions_errors": [
+    "No evidence established whether a Cold Start application was already submitted.",
+    "Cold Start residency, company eligibility, public-product status, October 19 attendance, content-license acceptance and credit utilization were not independently established.",
+    "No reported capability was independently exercised.",
+    "Laya accuracy, calibration, account-specific payment state and post-promotion behavior of the standard model ID remain unverified.",
+    "Cloudflare analytics datasets and fields remain plan-specific and are not a billing ledger.",
+    "Protected Quick Tunnels are development infrastructure and were not tested for sensitive-data suitability.",
+    "Authenticated partner-benefit catalogs were unavailable.",
+    "No additional bootstrapped-accessible 60-90 day magnitude opportunity absent from the ledger cleared verification."
+  ],
+  "canonical_sources": [
+    "https://www.cloudflare.com/connect/cold-start/",
+    "https://www.cloudflare.com/connect/cold-start/terms/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://vercel.com/ai-gateway/models/laya",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-30-days-analytics-on-every-plan/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-protected-quick-tunnels/",
+    "https://developers.cloudflare.com/tunnel/get-started/quick-tunnels/",
+    "https://vercel.com/changelog/ling-3-1-flash-now-available-on-ai-gateway-for-free",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-artifacts-open-beta/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-ai-search-generally-available/"
+  ],
+  "output_digest": "cfcda348ae1963e1ab4a7674d63c773f73303db46e9fca6ea1df78bbdeb1ea61",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified.",
+  "content_hash": "8361f4ab6fff9f1781ff46cf9aa6258188941775062ae93781b41eae83eb47ef"
+}
