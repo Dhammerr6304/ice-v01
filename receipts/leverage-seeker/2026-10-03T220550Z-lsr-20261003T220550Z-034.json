@@ -1,0 +1,45 @@
+{
+  "event_id": "ls-20261003T220550Z-034",
+  "receipt_id": "lsr-20261003T220550Z-034",
+  "executed_at_utc": "2026-10-03T22:05:50Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Expanded program recovery with secure-runtime, guardrail, audit, memory/process snapshot and fail-closed machine-auth vocabulary.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-02T211340Z-lsr-20261002T211340Z-033.json",
+  "previous_hash": "8361f4ab6fff9f1781ff46cf9aa6258188941775062ae93781b41eae83eb47ef",
+  "result_manifest": [
+    "declaw-startups-10k-secure-runtime-recovery-20261003: CONFIRMED MAGNITUDE PROGRAM; CONDITIONAL ELIGIBILITY; DISPLACE APPLICATION/FREE TEST ONLY",
+    "cloudflare-pi-durable-harness-20261003: CONFIRMED FRESH BETA CAPABILITY; REAL-WORKLOAD RESUME UNVALIDATED",
+    "cloudflare-strict-service-token-auth-20261003: CONFIRMED FRESH FAIL-CLOSED SECURITY CAPABILITY",
+    "cloudflare-cold-start-20261003: CONFIRMED CLOSED; SUBMISSION STATE UNKNOWN"
+  ],
+  "omissions_errors": [
+    "No reported capability was independently exercised.",
+    "Declaw award criteria, award distribution, entity eligibility, card requirement and production reliability are unpublished or unverified.",
+    "Declaw program application requires branding, aggregate-metrics and possible case-study consent.",
+    "PiHarness is beta, Pi Durable is experimental, and tool replay/idempotency behavior was not tested.",
+    "Strict service-token compatibility and logs were not tested against the user's configuration.",
+    "No evidence established whether a Cold Start application was submitted before closure.",
+    "Authenticated partner-benefit catalogs were unavailable.",
+    "No second profile-matched 60-90 day magnitude opportunity absent from the ledger cleared verification."
+  ],
+  "canonical_sources": [
+    "https://www.declaw.ai/startups",
+    "https://docs.declaw.ai/features/snapshots",
+    "https://docs.declaw.ai/platform/plans",
+    "https://docs.declaw.ai/platform/billing",
+    "https://www.declaw.ai/terms",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-pi-harness/",
+    "https://developers.cloudflare.com/agents/harnesses/pi/",
+    "https://developers.cloudflare.com/durable-objects/platform/pricing/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-strict-service-token-authentication/",
+    "https://developers.cloudflare.com/cloudflare-one/access-controls/service-credentials/service-tokens/",
+    "https://smallest.ai/grants",
+    "https://www.cloudflare.com/connect/cold-start/"
+  ],
+  "output_digest": "788f3cd6be0a94f2fcaf56b93078a9848460792e83437db001ed3cba384964b7",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified.",
+  "content_hash": "bd9d2133014b5a4274da824372e457d712d3aa88f708f740d68e0bfa602a2c10"
+}
