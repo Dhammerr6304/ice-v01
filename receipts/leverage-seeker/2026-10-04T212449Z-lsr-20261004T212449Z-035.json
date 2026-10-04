@@ -1,0 +1,47 @@
+{
+  "event_id": "ls-20261004T212449Z-035",
+  "receipt_id": "lsr-20261004T212449Z-035",
+  "executed_at_utc": "2026-10-04T21:24:49Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added evergreen vendor-program inventory revalidation plus agent-containment and agentic-control-plane recovery vocabulary.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-03T220550Z-lsr-20261003T220550Z-034.json",
+  "previous_hash": "bd9d2133014b5a4274da824372e457d712d3aa88f708f740d68e0bfa602a2c10",
+  "result_manifest": [
+    "grafana-startup-program-up-to-100k-recovery-20261004: CONFIRMED EXCEPTIONAL MAGNITUDE PROGRAM; DISCRETIONARY AWARD; WORKLOAD FIT UNVERIFIED",
+    "nvidia-openshell-0-1-agent-containment-recovery-20261004: CONFIRMED OPEN-SOURCE CAPABILITY; LOCAL COMPATIBILITY UNTESTED",
+    "cloudflare-cf-agentic-cli-recovery-20261004: CONFIRMED OPEN-BETA CAPABILITY; MUTATION AUTHORITY WITHHELD",
+    "novita-startup-program-20261004: EXCLUDED; VC GATE AND SPEND-MATCHED HEADLINE"
+  ],
+  "omissions_errors": [
+    "No reported capability was independently exercised.",
+    "Grafana approval probability, award size, card requirement, hard-stop controls and user/entity eligibility remain unverified.",
+    "Grafana practical value is contingent on a real observability workload and reference-customer consent.",
+    "OpenShell Windows WSL2 support is experimental and was not tested on the user's hardware.",
+    "OpenShell containment, policy proof and credential isolation were not independently audited.",
+    "Cloudflare cf command stability, token savings and scoped-token behavior were not tested.",
+    "Authenticated partner-benefit catalogs were unavailable.",
+    "No additional fresh or 60-90 day profile-matched magnitude opportunity absent from the ledger cleared verification."
+  ],
+  "canonical_sources": [
+    "https://grafana.com/blog/grafana-labs-startup-program/",
+    "https://grafana-labs.typeform.com/to/cSI7ohks/",
+    "https://developer.nvidia.com/blog/add-runtime-controls-to-ai-agents-with-nvidia-openshell/",
+    "https://github.com/NVIDIA/OpenShell",
+    "https://docs.nvidia.com/openshell/latest/about/support-matrix.html",
+    "https://blog.cloudflare.com/cloudflare-cf-cli-launch/",
+    "https://developers.cloudflare.com/cf/agents/",
+    "https://developers.cloudflare.com/cf/projects/cloudflare-config/",
+    "https://github.com/cloudflare/cf",
+    "https://startups.novita.ai/",
+    "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-artifacts-open-beta/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://developers.cloudflare.com/ai-search/platform/limits-pricing/"
+  ],
+  "output_digest": "533c5f191001efa08cfe355457811f28d8c7f887538d6cef71464baf225578b7",
+  "content_hash": "2245130b977c6c404c2314622b7e10aa912502d89253ac483c535bb1fc9ac38c",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified."
+}
