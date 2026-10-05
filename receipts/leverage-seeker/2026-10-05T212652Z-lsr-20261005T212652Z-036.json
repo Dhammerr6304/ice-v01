@@ -1,0 +1,45 @@
+{
+  "event_id": "ls-20261005T212652Z-036",
+  "receipt_id": "lsr-20261005T212652Z-036",
+  "executed_at_utc": "2026-10-05T21:26:52Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added public benchmark launches, local same-base agent bakeoffs, deterministic verifier artifacts and benchmark-cost boundaries to discovery vocabulary.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-04T212449Z-lsr-20261004T212449Z-035.json",
+  "previous_hash": "2245130b977c6c404c2314622b7e10aa912502d89253ac483c535bb1fc9ac38c",
+  "result_manifest": [
+    "github-reviewbench-code-review-evaluation-20261005: CONFIRMED FRESH RESEARCH PREVIEW; DATASET/RUNNER/JUDGE PUBLISHED; WORKLOAD FIT UNTESTED",
+    "atomics-repobench-local-agent-bakeoff-recovery-20261005: CONFIRMED APACHE-2.0 CAPABILITY; EXTREMELY EARLY; LOCAL COMPATIBILITY UNTESTED",
+    "bitdefender-ai-guardian-20261005: EXCLUDED FOR CURRENT HARDWARE; FREE BETA IS MACOS-ONLY",
+    "openai-startup-credits-20261005: EXCLUDED; PARTNER-VC REFERRAL REQUIRED"
+  ],
+  "omissions_errors": [
+    "No reported capability was independently exercised.",
+    "ReviewBench hosted capacity, asset licensing, container isolation and judge reproducibility were not independently audited.",
+    "ReviewBench agent inference requires the user's own model key and may create material cost beyond the small test set.",
+    "RepoBench has five commits, two stars, no tagged release and no established security track record.",
+    "RepoBench Windows compatibility and budget-enforcement behavior were not tested.",
+    "Authenticated partner-benefit catalogs were unavailable.",
+    "No fresh bootstrapped-accessible magnitude program cleared verification."
+  ],
+  "canonical_sources": [
+    "https://github.blog/ai-and-ml/github-copilot/reviewbench-an-open-benchmark-for-ai-code-review/",
+    "https://review-bench.ai/",
+    "https://github.com/Atomics-hub/RepoBench",
+    "https://github.com/Atomics-hub/RepoBench/blob/main/LICENSE",
+    "https://www.bitdefender.com/en-us/news/bitdefender-unveils-ai-guardian%2C-an-advanced-security-layer-developed-for-autonomous-ai-agents",
+    "https://ai.bitdefender.com/ai-guardian",
+    "https://openai.com/startups",
+    "https://developers.cloudflare.com/changelog/post/2026-10-02-strict-service-token-authentication/",
+    "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+    "https://developers.cloudflare.com/changelog/post/2026-10-01-artifacts-open-beta/",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://developers.cloudflare.com/ai-search/platform/limits-pricing/"
+  ],
+  "output_digest": "8772b503da6384701079ae57c10dce297fba933bfb2a0199eb304fb507b84f41",
+  "content_hash": "c7d5325ede02be03f5ed5ac41e50d5c305cecdf57e0680fa187b1fb215927cfa",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified."
+}
