@@ -1,0 +1,45 @@
+{
+  "event_id": "ls-20261006T220605Z-037",
+  "receipt_id": "lsr-20261006T220605Z-037",
+  "executed_at_utc": "2026-10-06T22:06:05Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "Added same-day decision-endpoint discovery and explicit discounting of multi-seat and partner-list-price marketing values for solo-founder fit.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-05T212652Z-lsr-20261005T212652Z-036.json",
+  "previous_hash": "c7d5325ede02be03f5ed5ac41e50d5c305cecdf57e0680fa187b1fb215927cfa",
+  "result_manifest": [
+    "anthropic-claude-startups-expansion-20261006: CONFIRMED SAME-DAY PROGRAM EXPANSION; BOOTSTRAPPED ELIGIBLE; SOLO VALUE MATERIALLY BELOW HEADLINE",
+    "openai-decisions-api-gpt6-luna-20261006: CONFIRMED SAME-DAY PUBLIC BETA; ULTRA-LOW-COST DECISION PRIMITIVE; ACCURACY UNTESTED",
+    "cloudflare-ai-gateway-provider-credential-errors-20261006: CONFIRMED SAME-DAY COST-CONTAINMENT CHANGE; CURRENT WORKLOAD FIT UNVERIFIED",
+    "aws-bay-area-agentic-hackathon-20261006: EXCLUDED; REGISTRATION CLOSED AND PRIZE VALUE TOO SMALL",
+    "crowdstrike-agentworks-hackathon-20261006: EXCLUDED; QUALIFYING FALCON LICENSE REQUIRED AND NO MATERIAL TECHNICAL PRIZE"
+  ],
+  "omissions_errors": [
+    "No reported capability was independently exercised and no program application was submitted.",
+    "Anthropic approval, account-specific payment requirements, overage controls and most partner-specific redemption terms were unobservable.",
+    "Anthropic's advertised partner value cannot be treated as cash-equivalent value for a solo founder.",
+    "OpenAI Decisions calibration, false-continue behavior and real latency were not benchmarked.",
+    "Cloudflare client compatibility and realized retry savings were not tested.",
+    "Authenticated partner-benefit catalogs remained unavailable.",
+    "The 60-90 day recovery scan found no additional exceptional actionable opportunity absent from the existing ledger."
+  ],
+  "canonical_sources": [
+    "https://claude.com/resources/articles/were-expanding-the-claude-startups-program-to-help-founders-build",
+    "https://claude.com/programs/startups",
+    "https://www.anthropic.com/startup-program-official-terms",
+    "https://www.anthropic.com/legal/startup-program-addendum",
+    "https://www.anthropic.com/legal/promotion-credit-terms",
+    "https://developers.openai.com/api/docs/changelog",
+    "https://developers.openai.com/api/docs/guides/decisions",
+    "https://developers.cloudflare.com/changelog/post/2026-10-05-provider-credential-errors/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://www.aws-aicd.com/hackathon/",
+    "https://www.crowdstrike.com/en-us/platform/charlotte-ai/agentworks-hackathon/"
+  ],
+  "output_digest": "aba18ae0be37122f612773be0e511a2d24cc138bc7394275effb0dbf47010f8d",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch body preceding the receipt; no trailing receipt block included.",
+  "content_hash": "6ddab16f456ee482a03ad0fd0f6a973328cb99b4f9eb64e7f11618a962a64d3b",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested and GitHub-anchored by file creation; not independently signed or verified."
+}
