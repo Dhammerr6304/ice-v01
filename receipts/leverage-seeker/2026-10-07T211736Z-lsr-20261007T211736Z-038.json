@@ -1,0 +1,42 @@
+{
+  "event_id": "ls-20261007T211736Z-038",
+  "receipt_id": "lsr-20261007T211736Z-038",
+  "executed_at_utc": "2026-10-07T21:17:36Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "Added subscriber-benefit extraction, stealth-access gating and confidence-fallback semantics to the existing launch, program, deadline and 60-90 day recovery scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-06T220605Z-lsr-20261006T220605Z-037.json",
+  "previous_hash": "6ddab16f456ee482a03ad0fd0f6a973328cb99b4f9eb64e7f11618a962a64d3b",
+  "result_manifest": [
+    "anthropic-haiku-5-5-monthly-api-credit-20261007: CONFIRMED SAME-DAY MODEL ECONOMICS AND RECURRING SUBSCRIBER BENEFIT; CONDITIONAL ZERO-INCREMENTAL-COST ACCESS",
+    "vercel-ai-gateway-confidence-decision-fallbacks-20261007: CONFIRMED FRESH BETA CONTROL PRIMITIVE; TWO-STAGE BILLING AND CALIBRATION UNTESTED",
+    "vercel-glyph-cluster-stealth-free-20261007: CONFIRMED SAME-DAY TEMPORARY FREE MODEL; PRO_OR_ENTERPRISE_AND_PRIOR_CREDIT_PURCHASE_REQUIRED",
+    "opencv-aws-ai-competition-20261007: EXCLUDED; 150_USD_GRANT_AND_FULL_PROJECT_REQUIREMENT_POOR_SOLO_FOUNDER_LEVERAGE",
+    "program-surface-20261007: NO_NEW_BOOTSTRAPPED_ACCESSIBLE_MAGNITUDE_PROGRAM_VERIFIED"
+  ],
+  "omissions_errors": [
+    "No model, decision fallback or credit-claim flow was independently exercised.",
+    "Claude account plan, seven-day tenure, rollout state and claim eligibility were unobservable.",
+    "Haiku 5.5 performance claims rely on vendor-published evaluations and remain workload-dependent.",
+    "Glyph Cluster identity, normal pricing, rate limits and stealth end date are unpublished; prompts and outputs may be retained for training.",
+    "Confidence calibration, escalation frequency, latency and realized cost savings were not benchmarked.",
+    "Authenticated partner-benefit catalogs remained unavailable.",
+    "The 60-90 day recovery scan found no additional exceptional actionable opportunity absent from the existing ledger."
+  ],
+  "canonical_sources": [
+    "https://www.anthropic.com/claude-haiku-5-5",
+    "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans",
+    "https://vercel.com/ai-gateway/models/claude-haiku-5.5",
+    "https://vercel.com/changelog/confidence-based-decision-fallbacks",
+    "https://vercel.com/i/confidence-based-decision-fallbacks",
+    "https://vercel.com/changelog/glyph-cluster-is-now-available-in-stealth-for-free-on-ai-gateway",
+    "https://vercel.com/ai-gateway/models/glyph-cluster",
+    "https://opencv26.devpost.com/"
+  ],
+  "output_digest": "c48afa2cec78c6a6aeb96b3c1e562a8005a75bd74c5089f5d978d4adb9fb5e16",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch from the title through the final WHY NOW paragraph, including its final LF; receipt block excluded.",
+  "content_hash": "fd8f8c1b023d6c1c6bcedce2f0832e07a97e525eac80edff1ea1e6b4b9b9ad98",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF included in hashed bytes.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; append-only GitHub file creation requested, not independently signed or verified."
+}
