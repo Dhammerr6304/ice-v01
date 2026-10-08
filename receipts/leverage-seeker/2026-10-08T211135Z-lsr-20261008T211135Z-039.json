@@ -1,0 +1,48 @@
+{
+  "event_id": "ls-20261008T211135Z-039",
+  "receipt_id": "lsr-20261008T211135Z-039",
+  "executed_at_utc": "2026-10-08T21:11:35Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added direct provider-program-page and benefit-addendum monitoring after recovering Anthropic's October 6 startup-program expansion; retained launch, pricing, deadline and 60-90 day magnitude scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-07T211736Z-lsr-20261007T211736Z-038.json",
+  "previous_hash": "fd8f8c1b023d6c1c6bcedce2f0832e07a97e525eac80edff1ea1e6b4b9b9ad98",
+  "result_manifest": [
+    "anthropic-claude-startups-expanded-20261006-recovered: CONFIRMED BOOTSTRAPPED-ACCESSIBLE PROGRAM; GUARANTEED_SOLO_VALUE_APPROX_2200_USD; APPLICATION_DISCRETIONARY",
+    "github-copilot-local-sandboxing-ga-20261007-recovered: CONFIRMED NO_INCREMENTAL_COST LOCAL_CONTAINMENT; WINDOWS_AND_IN_PROCESS_LIMITATIONS",
+    "cloudflare-workflows-createbatch-object-20261008: CONFIRMED FRESH FREE_TIER FANOUT_CONTROL; QUOTA_AND_SPEND_GOVERNANCE_NOT_INCLUDED",
+    "neon-databricks-startup-program-20261008: EXCLUDED_MAGNITUDE_HEADLINE; SELF_FUNDED_TRACK_ONLY_UP_TO_1000_USD",
+    "openai-codex-ultrafast-20261008: EXCLUDED; REQUIRES_500_USD_MONTHLY_PRO_OR_ELIGIBLE_ORGANIZATIONAL_ACCESS",
+    "google-gemini-enterprise-agent-20261008: EXCLUDED; PAID_SEAT_AFTER_ORDINARY_TRIAL"
+  ],
+  "omissions_errors": [
+    "No program application, sandbox policy or workflow batch was independently exercised.",
+    "Anthropic approval, payment-method requirement, post-year renewal behavior and overage defaults were unobservable.",
+    "Monthly Team API-credit stacking for promotional startup seats is unconfirmed and excluded from the valuation.",
+    "GitHub sandbox enforcement varies by operating system; Windows host filtering is weaker than macOS and Linux.",
+    "Cloudflare batch creation can exhaust free quotas or incur paid-plan usage and is not a spend governor.",
+    "Authenticated partner-benefit catalogs remained only partially observable.",
+    "The 60-90 day recovery scan found no additional exceptional actionable opportunity absent from the existing ledger."
+  ],
+  "canonical_sources": [
+    "https://claude.com/programs/startups",
+    "https://www.anthropic.com/startup-program-official-terms",
+    "https://www.anthropic.com/legal/startup-program-addendum",
+    "https://www.anthropic.com/legal/promotion-credit-terms",
+    "https://support.claude.com/en/articles/9266767-what-is-the-team-plan",
+    "https://platform.claude.com/docs/en/about-claude/api-credits-for-subscribers",
+    "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/",
+    "https://docs.github.com/en/copilot/concepts/security-governance-and-network-settings/about-cloud-and-local-sandboxes",
+    "https://developers.cloudflare.com/changelog/post/2026-10-08-create-batch-object-form/",
+    "https://developers.cloudflare.com/workflows/reference/pricing/",
+    "https://neon.com/startups",
+    "https://platform.openai.com/docs/codex/speed",
+    "https://cloud.google.com/products/gemini-enterprise-agent-platform"
+  ],
+  "output_digest": "c2a3c623a9cb8376525e8da15e6dc7c74573eff30b19a93b9e5902a615d9b71b",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch from the title through the final WHY NOW paragraph, including its final LF; receipt block excluded.",
+  "content_hash": "182a6d51e4943aa4e5995f61c49694d4c9982c2b83faa365436e173f7bae633c",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF included in hashed bytes.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; append-only GitHub file creation requested, not independently signed or verified."
+}
