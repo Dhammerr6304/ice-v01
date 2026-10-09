@@ -1,0 +1,42 @@
+{
+  "event_id": "ls-20261009T213839Z-040",
+  "receipt_id": "lsr-20261009T213839Z-040",
+  "executed_at_utc": "2026-10-09T21:38:39Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added evergreen program benefit-and-FAQ reconciliation after recovering OVHcloud US START; retained fresh launch, pricing, deadline, authenticated-benefit and 60-90 day magnitude scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-08T211135Z-lsr-20261008T211135Z-039.json",
+  "previous_hash": "182a6d51e4943aa4e5995f61c49694d4c9982c2b83faa365436e173f7bae633c",
+  "result_manifest": [
+    "ovhcloud-us-start-up-to-12k-recovery-20261009: CONFIRMED STILL_OPEN MAGNITUDE PROGRAM; BOOTSTRAPPED_POSSIBLE; AWARD_DISCRETIONARY; OVERAGE_BILLING_RISK",
+    "cloudflare-clef-omni-flash-20261009: CONFIRMED FRESH MULTIMODAL_DECISION_MODEL; PRICE_CUT; ZERO_CASH_FREE_TIER_TEST",
+    "bruin-startups-10k-20261009: EXCLUDED_CURRENT_FIT; YC_TECHSTARS_OR_ANTLER_AND_INSTITUTIONAL_BACKING_REQUIRED",
+    "liberty-ai-foundry-10k-aws-20261009: UNVERIFIED_EXCLUDED; INSUFFICIENT_PUBLIC_FEE_EQUITY_AWARD_EXPIRY_AND_REDEMPTION_TERMS"
+  ],
+  "omissions_errors": [
+    "No program application or model benchmark was independently executed.",
+    "OVHcloud actual voucher amount, approval probability, payment-method onboarding and hard-spend-stop availability remain unverified.",
+    "Clef workload accuracy, probability calibration and real latency remain unverified.",
+    "Cloudflare free-token equivalents are calculated upper bounds assuming the entire daily neuron allowance is dedicated to one Clef model.",
+    "Authenticated partner-benefit catalogs remained only partially observable.",
+    "No additional bootstrapped-accessible magnitude program survived verification."
+  ],
+  "canonical_sources": [
+    "https://us.ovhcloud.com/startup-program/",
+    "https://us.ovhcloud.com/startup-program/program-benefits/",
+    "https://us.ovhcloud.com/startup-program/faq-support/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-09-clef-omni-workers-ai/",
+    "https://developers.cloudflare.com/workers-ai/models/clef-omni/",
+    "https://developers.cloudflare.com/workers-ai/models/clef/",
+    "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "https://blog.cloudflare.com/clef-decision-models/",
+    "https://getbruin.com/startups/",
+    "https://libertyaifoundry.com/"
+  ],
+  "output_digest": "4ed3df13e7e119958f1e89f0d48fcefcc696be61c1b8f927d035f9c44ff0e98f",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch from the title through the final WHY NOW paragraph, including its final LF; receipt block excluded.",
+  "content_hash": "d213c8666d64af270e30e6ec7c5f3bd5ec216eff9a1cf5665da6563488354247",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF included in hashed bytes.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; append-only GitHub file creation requested, not independently signed or verified."
+}
