@@ -1,0 +1,43 @@
+{
+  "event_id": "ls-20261011T211233Z-042",
+  "receipt_id": "lsr-20261011T211233Z-042",
+  "executed_at_utc": "2026-10-11T21:12:33Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added direct startup, research, grants and terms-page enumeration for sandbox, browser-automation and agent-runtime vendors after recovering E2B's magnitude program; retained fresh launch, pricing, deadline and 60-90 day scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-10T214050Z-lsr-20261010T214050Z-041.json",
+  "previous_hash": "77dad1213b5713ae970c9d701d5fb71a95364f48ebd238e91cdcb49191f608a3",
+  "result_manifest": [
+    "e2b-startups-20k-pro-recovery-20261011: CONFIRMED STILL_OPEN MAGNITUDE PROGRAM; FIRST_TIME_USER_GATE; PUBLICITY_OBLIGATIONS; BILLING_TRANSITION_UNVERIFIED",
+    "e2b-secrets-ga-recovery-20261011: CONFIRMED DELAYED_PRIMARY SECURITY CAPABILITY; ZERO_CASH_HOBBY_TEST; PROVIDER_MISUSE_RISK_REMAINS",
+    "supabase-native-local-stack-recovery-20261011: CONFIRMED ALPHA DOCKER_FREE_AGENT_BACKEND; LOCAL_ZERO_CASH_TEST; PARITY_UNVERIFIED"
+  ],
+  "omissions_errors": [
+    "No program application, sandbox, secret injection or native Supabase stack was independently exercised.",
+    "HAMMER OPS startup status, first-time E2B use, approval probability and company-email eligibility were not independently established.",
+    "E2B card requirements, free Pro duration, credit treatment of plan fees, automatic billing transition and hard spending-stop availability remain unpublished or unverified.",
+    "E2B Secrets behavior under hostile code, redirects, logging and provider-side misuse was not independently tested.",
+    "Supabase native-stack resource use and parity on the user's hardware or a Codex sandbox remain unverified.",
+    "Authenticated partner-benefit catalogs remained partially observable.",
+    "No additional same-day or bootstrapped-accessible magnitude opportunity survived verification."
+  ],
+  "canonical_sources": [
+    "https://e2b.dev/startups",
+    "https://e2b.dev/startups/terms",
+    "https://e2b.dev/pricing",
+    "https://changelog.e2b.dev/resources/introducing-e2b-secrets",
+    "https://supabase.com/blog/select-2026-build-anything",
+    "https://supabase.com/blog/select-2026-operate-with-confidence",
+    "https://supabase.com/pricing",
+    "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+    "https://developers.cloudflare.com/artifacts/platform/changelog/",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31"
+  ],
+  "output_digest": "897a20aae3d06b91dafbce9a291c9492acbf01cdd3301db3a5b3dadcf80d6436",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch from the title through the final WHY NOW paragraph, including its final LF; receipt block excluded.",
+  "content_hash": "289d6f92230f4605a7c73edd119f67e7f326f6fa41581656531e1c131abfac31",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF included in hashed bytes.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; append-only GitHub file creation requested, not independently signed or verified."
+}
