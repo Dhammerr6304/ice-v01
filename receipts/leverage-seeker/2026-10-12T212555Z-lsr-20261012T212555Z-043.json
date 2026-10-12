@@ -1,0 +1,44 @@
+{
+  "event_id": "ls-20261012T212555Z-043",
+  "receipt_id": "lsr-20261012T212555Z-043",
+  "executed_at_utc": "2026-10-12T21:25:55Z",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "execution_mode": "recovered",
+  "policy_input_change_summary": "Added orchestration, fan-out, session-budget, workflow-run, Active Memory and Active Focus vocabulary after recovering Anthropic dynamic workflows and detecting Muse Wonder on launch day; retained fresh launch, program, deadline and 60-90 day scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-11T211233Z-lsr-20261011T211233Z-042.json",
+  "previous_hash": "289d6f92230f4605a7c73edd119f67e7f326f6fa41581656531e1c131abfac31",
+  "result_manifest": [
+    "meta-muse-wonder-agent-model-20261012: CONFIRMED FRESH FRONTIER_AGENT_MODEL; ZERO_CASH_UNPAID_GATEWAY_TEST; FULL_MODEL_SUBSCRIPTION_ONLY",
+    "anthropic-managed-agents-dynamic-workflows-20261009-recovery: CONFIRMED DELAYED_PRIMARY MULTIAGENT_ORCHESTRATION; PAID_BETA; SESSION_BUDGET_OVERSHOOT_RISK",
+    "program-surface-20261012: NO_NEW_BOOTSTRAPPED_ACCESSIBLE_MAGNITUDE_PROGRAM_VERIFIED"
+  ],
+  "omissions_errors": [
+    "Neither Muse Wonder nor Claude dynamic workflows was independently benchmarked.",
+    "AI Gateway account-specific free balance, payment history, card requirement and hard-stop behavior were unobservable.",
+    "Meta benchmark transfer, Active Memory behavior, computer-use reliability, error recovery and data-treatment flags remain unverified.",
+    "Claude workflow quality, cost efficiency, resume fidelity and full event completeness remain workload-dependent and unverified.",
+    "Claude session budgets can overshoot by one already-running model request per active workflow thread.",
+    "Authenticated partner-benefit catalogs remained partially observable.",
+    "A third-party five-figure inference-program claim lacked an official current application and terms surface and was excluded."
+  ],
+  "canonical_sources": [
+    "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/",
+    "https://dev.meta.ai/models/muse-wonder",
+    "https://dev.meta.ai/products/meta-model-api",
+    "https://vercel.com/ai-gateway/models/muse-wonder-1.0",
+    "https://platform.claude.com/docs/en/release-notes/overview",
+    "https://platform.claude.com/docs/en/managed-agents/workflow-runs",
+    "https://platform.claude.com/docs/en/about-claude/pricing",
+    "https://vercel.com/changelog/ling-3-1-flash-is-now-available-on-ai-gateway",
+    "https://developers.cloudflare.com/artifacts/platform/changelog/",
+    "https://developers.cloudflare.com/changelog/post/2026-07-15-kv-legacy-namespace-routes-deprecation/",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31"
+  ],
+  "output_digest": "db453ae6637c213b1f492b4a60cd5acfd0bc58eced5ad358e9e905b3cb3e58f1",
+  "output_digest_scope": "SHA-256 of the exact UTF-8 Markdown dispatch from the title through the final WHY NOW paragraph, including its final LF; receipt block excluded.",
+  "content_hash": "8253e7b4b38a2a3259b9b4177a7caa4b4f4dea07954862ea5ad1c2834753cd35",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF included in hashed bytes.",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested; append-only GitHub file creation requested, not independently signed or verified."
+}
