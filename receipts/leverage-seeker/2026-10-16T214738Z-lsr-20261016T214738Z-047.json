@@ -1,0 +1,48 @@
+{
+  "attestation": "PROVISIONAL — self-attested; GitHub content commit is reported externally; not independently signed or verified.",
+  "canonical_sources": [
+    "https://developers.cloudflare.com/changelog/post/2026-10-16-docs-search/",
+    "https://developers.cloudflare.com/cf/agents/",
+    "https://developers.cloudflare.com/cf/",
+    "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/",
+    "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+    "https://chatgpt.com/rosalind",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+    "https://developers.cloudflare.com/observability/pricing/"
+  ],
+  "content_hash": "026200c9cc12b68b802d03fd820c8f82657b9206e85558f3f669b5e57d397002",
+  "event_id": "lsr-20261016T214738Z-047",
+  "executed_at_utc": "2026-10-16T21:47:38Z",
+  "execution_mode": "recovered",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF.",
+  "omissions_errors": [
+    "Cloudflare CLI documentation search, command selection, schema completeness, and dry-run behavior were not independently exercised.",
+    "The CLI remains beta and generated command names changed to kebab-case.",
+    "Google did not publish an open individual application path, award allocation, or complete terms for the RAISE model-access pledge.",
+    "The current user profile does not satisfy the European-researcher or U.S.-university life-sciences-lab gates.",
+    "No new bootstrapped-accessible Devin-class program survived eligibility verification."
+  ],
+  "output_digest": "acbf22b62644c293fe07034895d15b5fa2b67f2d58b96fc095c8e9bf22960c68",
+  "output_digest_scope": "SHA-256 of the UTF-8 report.md bytes before appending the ICE receipt.",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "policy_input_change": "Added agent-native CLI discovery, documentation search, dry-run control, academic-plan, lab-plan, trusted-access, regional-research, and shared-compute-pool vocabulary.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-15T212103Z-lsr-20261015T212103Z-046.json",
+  "previous_hash": "ecfc7790dead93a68e35b7522665c498940ad7336b63e36f11683f18a40c0515",
+  "result_manifest": [
+    {
+      "signal_id": "cloudflare-cli-docs-agent-discovery-20261016",
+      "verification_class": "CONFIRMED FRESH ZERO-DOLLAR AGENT DISCOVERY / BETA CLI"
+    },
+    {
+      "signal_id": "google-raise-european-science-3m-20261016-recovery",
+      "verification_class": "CONFIRMED MAGNITUDE RESEARCH PROGRAM / EXCLUDED FOR GEOGRAPHY AND RESEARCH GATES"
+    },
+    {
+      "signal_id": "openai-rosalind-academic-plan-20261016-recovery",
+      "verification_class": "CONFIRMED APPLICATION-ONLY ACADEMIC PROGRAM / EXCLUDED FOR LAB AND PI GATES"
+    }
+  ],
+  "signature": "UNSIGNED"
+}
