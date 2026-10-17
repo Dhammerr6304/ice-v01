@@ -1,0 +1,45 @@
+  "attestation": "PROVISIONAL — self-attested; GitHub content commit is reported externally; not independently signed or verified.",
+  "canonical_sources": [
+    "https://yotta.com/rudra/",
+    "https://yotta.com/rudra/eligibility-criteria.html",
+    "https://yotta.com/rudra/program-structure.html",
+    "https://yotta.com/rudra/application-process.html",
+    "https://api-docs.deepseek.com/news/news261017/",
+    "https://vercel.com/changelog/deepseek-v4-1-flash-1017-now-available-on-ai-gateway",
+    "https://developers.cloudflare.com/changelog/post/2026-10-17-local-explorer-cron-triggers/",
+    "https://developers.cloudflare.com/workers/configuration/cron-triggers/"
+  ],
+  "content_hash": "888f7ec39f3c97a74b798e3fede876c5581d07c06a8ac63334c3e9d872dad115",
+  "event_id": "lsr-20261017T211935Z-048",
+  "executed_at_utc": "2026-10-17T21:19:35Z",
+  "execution_mode": "recovered",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF.",
+  "omissions_errors": [
+    "Yotta entity eligibility, approval probability, geography, GPU availability, SKU pricing, card requirement, and hard spending-stop behavior were not independently established.",
+    "Yotta's homepage immediate-credit headline and detailed stage structure are not fully aligned; only a signed award can establish actual value.",
+    "DeepSeek Search and Fetch quality, rate limits, account balance requirements, data handling, and total cashless usability were not independently exercised.",
+    "Cloudflare local Cron testing was not independently compared with production delivery or binding behavior.",
+    "E2E Networks AI Explorer was omitted because a current primary program page and full terms could not be verified."
+  ],
+  "output_digest": "dd0ec23cd0031fb7832acaa6db0b3bb1b688a7472c3e720f41609a00ba361425",
+  "output_digest_scope": "SHA-256 of the UTF-8 report.md bytes before appending the ICE receipt.",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "policy_input_change": "Added live program-structure, stage, tranche, validity, invoice-coverage, master-services-agreement, and application-process vocabulary after Yotta Rudra magnitude recovery.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-16T214738Z-lsr-20261016T214738Z-047.json",
+  "previous_hash": "026200c9cc12b68b802d03fd820c8f82657b9206e85558f3f669b5e57d397002",
+  "result_manifest": [
+    {
+      "signal_id": "yotta-rudra-10k-100k-gpu-credits-20261017-recovery",
+      "verification_class": "CONFIRMED MAGNITUDE PROGRAM / CONDITIONAL ELIGIBILITY / ACTIVE"
+    },
+    {
+      "signal_id": "deepseek-search-fetch-free-through-20261031",
+      "verification_class": "CONFIRMED FRESH TEMPORARY TOOL-CALL SUBSIDY / MODEL COST SEPARATE"
+    },
+    {
+      "signal_id": "cloudflare-local-explorer-cron-testing-20261017",
+      "verification_class": "CONFIRMED FRESH ZERO-DOLLAR LOCAL AUTOMATION TESTING"
+    }
+  ],
+  "signature": "UNSIGNED"
+}
