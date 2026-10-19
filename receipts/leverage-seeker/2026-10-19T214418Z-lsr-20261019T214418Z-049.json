@@ -1,0 +1,63 @@
+{
+  "attestation": "PROVISIONAL — self-attested; GitHub content commit is reported externally; not independently signed or verified.",
+  "canonical_sources": [
+    "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/ai-gateway/models/minimax-m3.1-flash",
+    "https://developers.cloudflare.com/changelog/post/2026-10-19-cloud-workload-security-beta/",
+    "https://developers.cloudflare.com/cloudflare-one/cloud-workload-security/",
+    "https://developers.cloudflare.com/cloudflare-one/cloud-workload-security/platform/",
+    "https://developers.cloudflare.com/cloudflare-one/cloud-workload-security/get-started/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-19-cloudflare-mcp-step-up/",
+    "https://developers.cloudflare.com/agents/model-context-protocol/cloudflare/servers-for-cloudflare/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-19-clairic-workers-ai/",
+    "https://developers.cloudflare.com/workers-ai/models/clairic/",
+    "https://developers.cloudflare.com/workers-ai/platform/pricing/",
+    "https://github.blog/changelog/2026-09-18-upcoming-deprecation-of-selected-github-copilot-models-in-mid-october/",
+    "https://api-docs.deepseek.com/news/news261017/",
+    "https://vercel.com/changelog/laya-decision-model-now-available-on-ai-gateway-free-through-october-31",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-4-argon",
+    "https://developers.cloudflare.com/observability/pricing/"
+  ],
+  "content_hash": "ec56374bc53036c7605efebcd6b18f1fe42b4e4f0d4f77fd206dc88103b5a764",
+  "event_id": "lsr-20261019T214418Z-049",
+  "executed_at_utc": "2026-10-19T21:44:18Z",
+  "execution_mode": "normal",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF.",
+  "omissions_errors": [
+    "MiniMax M3.1 Flash quality, rate limits, privacy behavior, exact promotional cutoff time, and post-promotion standard price were not independently exercised or fully published.",
+    "Cloud Workload Security API-operation coverage, bypass resistance, on-error behavior, and decision-log completeness were not independently tested.",
+    "Cloudflare MCP step-up client interoperability, revocation ergonomics, approval logging, and scope accumulation were not independently tested.",
+    "Clairic extraction accuracy, uncertainty calibration, injection resistance, and multi-pass consistency were not independently benchmarked.",
+    "No new bootstrapped-accessible magnitude program survived primary-source and eligibility verification.",
+    "Authenticated partner-benefit catalogs remained partially observable."
+  ],
+  "output_digest": "064b606c0b2f6a90c40147e70079798e3a1b8c13882240f415046aa6e0675592",
+  "output_digest_scope": "SHA-256 of report.md UTF-8 bytes before appending the ICE receipt.",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "policy_input_change": "Added step-up authorization, pre-execution cloud-policy proxy, typed extraction, provider-only routing, promotion cutoff, and fail-stop free-allocation vocabulary; retained separate program and 60–90-day magnitude scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-17T211935Z-lsr-20261017T211935Z-048.json",
+  "previous_hash": "888f7ec39f3c97a74b798e3fede876c5581d07c06a8ac63334c3e9d872dad115",
+  "result_manifest": [
+    {
+      "signal_id": "vercel-minimax-m3-1-flash-free-through-20261022",
+      "verification_class": "CONFIRMED FRESH TEMPORARY FREE MODEL / PROVIDER PIN REQUIRED"
+    },
+    {
+      "signal_id": "cloudflare-cws-free-beta-20261019",
+      "verification_class": "CONFIRMED FRESH FREE-PLAN PRE-EXECUTION CLOUD POLICY / BETA"
+    },
+    {
+      "signal_id": "cloudflare-mcp-step-up-authorization-20261019",
+      "verification_class": "CONFIRMED FRESH DYNAMIC LEAST-PRIVILEGE AUTHORIZATION / CLIENT SUPPORT REQUIRED"
+    },
+    {
+      "signal_id": "cloudflare-clairic-typed-extraction-20261019",
+      "verification_class": "CONFIRMED FRESH LOW-COST EXTRACTION MODEL / FREE DAILY ALLOCATION"
+    },
+    {
+      "signal_id": "program-surface-20261019",
+      "verification_class": "NO NEW BOOTSTRAPPED-ACCESSIBLE MAGNITUDE PROGRAM VERIFIED"
+    }
+  ],
+  "signature": "UNSIGNED"
+}
