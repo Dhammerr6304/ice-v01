@@ -1,0 +1,62 @@
+{
+  "attestation": "PROVISIONAL — self-attested; GitHub content commit is reported externally; not independently signed or verified.",
+  "canonical_sources": [
+    "https://www.cloudflare.com/startups/",
+    "https://vercel.com/changelog/basetens-mammoth-1-and-elephant-1-now-available-on-ai-gateway-for-free",
+    "https://vercel.com/ai-gateway/models/mammoth-1",
+    "https://vercel.com/ai-gateway/models/elephant-1",
+    "https://vercel.com/docs/ai-gateway/pricing",
+    "https://www.amd.com/en/developer/resources/technical-articles/2026/how-to-claim-amd-cloud-credits.html",
+    "https://vercel.com/changelog/minimax-m3-1-flash-now-available-on-ai-gateway-for-free",
+    "https://amazonappdev2026.devpost.com/",
+    "https://www.anthropic.com/startups",
+    "https://cloud.google.com/blog/products/ai-machine-learning/google-cloud-brings-openai-models-to-customers",
+    "https://developers.cloudflare.com/changelog/post/2026-10-21-createai/",
+    "https://developers.cloudflare.com/changelog/post/2026-10-21-emergency-waf-release-free/"
+  ],
+  "content_hash": "7212b40db347698d382d9a8ce0531cc97aecebad51de9edef3dbbafc1d65add1",
+  "event_id": "lsr-20261021T215407Z-051",
+  "executed_at_utc": "2026-10-21T21:54:07Z",
+  "execution_mode": "recovered",
+  "hash_scope": "Recursively key-sorted compact UTF-8 JSON; content_hash and signature excluded; no trailing LF.",
+  "omissions_errors": [
+    "Cloudflare does not date the current tier revision, and its global eligibility text ambiguously combines a funded-within-12-months condition with an explicitly bootstrapped Tier 3.",
+    "Cloudflare approval probability and the cash-equivalent value of included Enterprise/security benefits were not independently established.",
+    "Vercel/Baseten promotional rate limits, throughput, post-promotion pricing, data-retention behavior, and production accuracy were not independently tested.",
+    "AMD does not publish the direct-GPU credit amount, GPU type, quota, geography, card requirement, or commercial-use restriction on the cited page.",
+    "No guaranteed bootstrapped-accessible Devin-class award beyond Cloudflare's verified $10,000 tier was found today."
+  ],
+  "output_digest": "46e7809bc762e1512961f0b36b49512f02e4ec69543703639b72236beb177fc8",
+  "output_digest_scope": "SHA-256 of report.md UTF-8 bytes before appending the ICE receipt.",
+  "policy_id_version": "leverage-seeker-daily / 2026-09-01.ice-receipt-v0",
+  "policy_input_change": "Added live program-page tier-diff recovery, contradictory-eligibility detection, public-profile and domain-email gates, first-time-only and auto-overage checks, and prize-field dilution checks; retained separate fresh, program, deadline, and 60–90-day magnitude scans.",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-20T220323Z-lsr-20261020T220323Z-050.json",
+  "previous_hash": "a8337e960833fa0a1ec24407500340552a3f5fcd16d928e4c8c8d6bfc43bbe71",
+  "result_manifest": [
+    {
+      "signal_id": "cloudflare-startups-tier3-10k-recovery-20261021",
+      "verification_class": "CONFIRMED ACTIVE MAGNITUDE OFFER / BOOTSTRAPPED FIT / ELIGIBILITY AMBIGUITY"
+    },
+    {
+      "signal_id": "vercel-baseten-decision-models-free-20261021",
+      "verification_class": "CONFIRMED FRESH ZERO-PRICE WINDOW / LIMITS UNPUBLISHED"
+    },
+    {
+      "signal_id": "amd-ai-developer-cloud-credits-recovery-20261021",
+      "verification_class": "CONFIRMED ACTIVE DEVELOPER PROGRAM / DIRECT AWARD AMOUNT UNPUBLISHED"
+    },
+    {
+      "signal_id": "anthropic-startups-cohort-closed-20261021",
+      "verification_class": "CONFIRMED CLOSED / EXCLUDED"
+    },
+    {
+      "signal_id": "google-cloud-openai-private-preview-20261021",
+      "verification_class": "CONFIRMED PRIVATE SELECT-ENTERPRISE PREVIEW / EXCLUDED FOR FIT"
+    },
+    {
+      "signal_id": "amazon-build-ship-shape-deadline-20261023",
+      "verification_class": "CONFIRMED HIGH-DILUTION PRIZE SURFACE / EXCLUDED FOR NEW BUILD"
+    }
+  ],
+  "signature": "UNSIGNED"
+}
