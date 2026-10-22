@@ -1,0 +1,128 @@
+{
+  "schema": "ICE RUN RECEIPT v0",
+  "event_id": "lsr-20261022T215336Z-052",
+  "executed_at_utc": "2026-10-22T21:53:36Z",
+  "policy_id": "LEVERAGE-SEEKER-EDGE-SCOUT/1.0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change. Delta-first run added a primary-source follow-up for yesterday's Gemini 4 Argon preview, a program-surface eligibility audit, and a 60-90-day magnitude recovery pass.",
+  "previous_hash": "7212b40db347698d382d9a8ce0531cc97aecebad51de9edef3dbbafc1d65add1",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-21T215407Z-lsr-20261021T215407Z-051.json",
+  "canonical_sources": [
+    "https://openrouter.ai/inclusionai/ling-3.1-flash:free",
+    "https://openrouter.ai/pricing",
+    "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+    "https://ai.google.dev/gemini-api/docs/models",
+    "https://ai.google.dev/gemini-api/docs/generate-content/latest-model",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+    "https://cloud.google.com/startup/benefits",
+    "https://cloud.google.com/resources/agents-for-impact-2026",
+    "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro"
+  ],
+  "result_manifest": {
+    "signals": [
+      {
+        "id": "LS-052-01",
+        "name": "OpenRouter / InclusionAI Ling 3.1 Flash free endpoint",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 84,
+        "displacement": "TEST"
+      },
+      {
+        "id": "LS-052-02",
+        "name": "Google Gemini 4 Argon stable API and introductory pricing",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 72,
+        "displacement": "TEST"
+      },
+      {
+        "id": "LS-052-03",
+        "name": "GenAI.Works Open Agent Hackathon 2026",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 66,
+        "displacement": "WATCH"
+      }
+    ],
+    "omissions": [
+      "Cloudflare Startup Program, AMD AI Developer Program, and Baseten launch window were not recycled because no material terms changed; Baseten decay was noted.",
+      "Google for Startups Scale tier was excluded for institutional/VC funding gates; Start tier was downgraded for low magnitude and venture-intent requirements.",
+      "Ling 3.1 Flash 1019 was not promoted because public API and weights were still described as coming soon.",
+      "Vercel Pro free-domain expansion was excluded as a paid-plan coupon with automatic renewal rather than operating-capacity leverage."
+    ],
+    "errors": []
+  },
+  "output_digest": {
+    "algorithm": "SHA-256",
+    "value": "f8ccab7ad0e705b333426394e23b8580922774565802057940819d20c07f7c89",
+    "scope": "UTF-8 bytes of report-2026-10-22.md before the ICE receipt block"
+  },
+  "hash_canonicalization": "RFC 8785-style deterministic JSON implemented as jq -S -c; content_hash and signature fields excluded",
+  "content_hash": "17e4fa983f0e068e9f04abb3937bb1b86a823a53149448b457990b6c77c94570",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested, not independently anchored"
+}
+{
+  "schema": "ICE RUN RECEIPT v0",
+  "event_id": "lsr-20261022T215336Z-052",
+  "executed_at_utc": "2026-10-22T21:53:36Z",
+  "policy_id": "LEVERAGE-SEEKER-EDGE-SCOUT/1.0",
+  "execution_mode": "normal",
+  "policy_input_change_summary": "No declared policy change. Delta-first run added a primary-source follow-up for yesterday's Gemini 4 Argon preview, a program-surface eligibility audit, and a 60-90-day magnitude recovery pass.",
+  "previous_hash": "7212b40db347698d382d9a8ce0531cc97aecebad51de9edef3dbbafc1d65add1",
+  "prior_receipt_ref": "receipts/leverage-seeker/2026-10-21T215407Z-lsr-20261021T215407Z-051.json",
+  "canonical_sources": [
+    "https://openrouter.ai/inclusionai/ling-3.1-flash:free",
+    "https://openrouter.ai/pricing",
+    "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+    "https://ai.google.dev/gemini-api/docs/models",
+    "https://ai.google.dev/gemini-api/docs/generate-content/latest-model",
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://ai.google.dev/gemini-api/docs/rate-limits",
+    "https://hackathon.genai.works/event/open-agent-hackathon-2026",
+    "https://cloud.google.com/startup/benefits",
+    "https://cloud.google.com/resources/agents-for-impact-2026",
+    "https://vercel.com/changelog/eight-more-tlds-now-eligible-for-a-free-domain-with-pro"
+  ],
+  "result_manifest": {
+    "signals": [
+      {
+        "id": "LS-052-01",
+        "name": "OpenRouter / InclusionAI Ling 3.1 Flash free endpoint",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 84,
+        "displacement": "TEST"
+      },
+      {
+        "id": "LS-052-02",
+        "name": "Google Gemini 4 Argon stable API and introductory pricing",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 72,
+        "displacement": "TEST"
+      },
+      {
+        "id": "LS-052-03",
+        "name": "GenAI.Works Open Agent Hackathon 2026",
+        "verification_class": "CONFIRMED_FACT",
+        "score": 66,
+        "displacement": "WATCH"
+      }
+    ],
+    "omissions": [
+      "Cloudflare Startup Program, AMD AI Developer Program, and Baseten launch window were not recycled because no material terms changed; Baseten decay was noted.",
+      "Google for Startups Scale tier was excluded for institutional/VC funding gates; Start tier was downgraded for low magnitude and venture-intent requirements.",
+      "Ling 3.1 Flash 1019 was not promoted because public API and weights were still described as coming soon.",
+      "Vercel Pro free-domain expansion was excluded as a paid-plan coupon with automatic renewal rather than operating-capacity leverage."
+    ],
+    "errors": []
+  },
+  "output_digest": {
+    "algorithm": "SHA-256",
+    "value": "f8ccab7ad0e705b333426394e23b8580922774565802057940819d20c07f7c89",
+    "scope": "UTF-8 bytes of report-2026-10-22.md before the ICE receipt block"
+  },
+  "hash_canonicalization": "RFC 8785-style deterministic JSON implemented as jq -S -c; content_hash and signature fields excluded",
+  "content_hash": "17e4fa983f0e068e9f04abb3937bb1b86a823a53149448b457990b6c77c94570",
+  "signature": "UNSIGNED",
+  "attestation": "PROVISIONAL — self-attested, not independently anchored"
+}
